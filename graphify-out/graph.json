@@ -2040,6 +2040,30 @@
       "source_location": "L84"
     },
     {
+      "id": "readme_1_prinsip_utama_zero_documentation_drift",
+      "label": "1. Prinsip Utama: *Zero Documentation Drift*",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. prinsip utama: *zero documentation drift*",
+      "source_file": "README.md",
+      "source_location": "L133"
+    },
+    {
+      "id": "readme_2_alur_4_langkah_menangani_request_enhancement_dari_klien",
+      "label": "2. Alur 4 Langkah Menangani Request Enhancement dari Klien",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. alur 4 langkah menangani request enhancement dari klien",
+      "source_file": "README.md",
+      "source_location": "L141"
+    },
+    {
       "id": "readme_2_berinteraksi_query_graf_dengan_ai",
       "label": "2. Berinteraksi & Query Graf dengan AI",
       "_origin": "ast",
@@ -2050,6 +2074,18 @@
       "norm_label": "2. berinteraksi & query graf dengan ai",
       "source_file": "README.md",
       "source_location": "L96"
+    },
+    {
+      "id": "readme_3_contoh_prompt_cepat_untuk_menjalankan_enhancement_dengan_ai",
+      "label": "3. Contoh Prompt Cepat untuk Menjalankan Enhancement dengan AI",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. contoh prompt cepat untuk menjalankan enhancement dengan ai",
+      "source_file": "README.md",
+      "source_location": "L174"
     },
     {
       "id": "readme_3_memperbarui_graf_setelah_menambah_mengubah_dokumen",
@@ -2074,6 +2110,18 @@
       "norm_label": "4. file output graphify (`graphify-out/`)",
       "source_file": "README.md",
       "source_location": "L124"
+    },
+    {
+      "id": "readme_4_titik_simpan_sesi_kerja_session_checkpoint",
+      "label": "4. Titik Simpan Sesi Kerja (*Session Checkpoint*)",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. titik simpan sesi kerja (*session checkpoint*)",
+      "source_file": "README.md",
+      "source_location": "L188"
     },
     {
       "id": "readme_a_fondasi_identitas_akses",
@@ -5675,6 +5723,50 @@
       "weight": 1.0
     },
     {
+      "source": "readme_panduan_kontribusi_manajemen_perubahan_change_management",
+      "target": "readme_1_prinsip_utama_zero_documentation_drift",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_panduan_kontribusi_manajemen_perubahan_change_management",
+      "target": "readme_2_alur_4_langkah_menangani_request_enhancement_dari_klien",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_panduan_kontribusi_manajemen_perubahan_change_management",
+      "target": "readme_3_contoh_prompt_cepat_untuk_menjalankan_enhancement_dengan_ai",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L174",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_panduan_kontribusi_manajemen_perubahan_change_management",
+      "target": "readme_4_titik_simpan_sesi_kerja_session_checkpoint",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
       "source": "readme_ringkasan_modul_klaster_prd",
       "target": "readme_a_fondasi_identitas_akses",
       "relation": "contains",
@@ -7343,18 +7435,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L133",
-      "weight": 1.0
-    },
-    {
-      "source": "readme",
-      "target": "00_master_prd",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L134",
+      "source_location": "L137",
       "weight": 1.0
     },
     {
@@ -7623,5 +7704,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2d92e6fb84a74277cb540e2e300011326742af3e"
+  "built_at_commit": "93821dd47b5629fa703e9c15cb0ed7dcdb40d755"
 }

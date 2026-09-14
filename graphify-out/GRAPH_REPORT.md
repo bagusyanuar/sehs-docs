@@ -1,17 +1,17 @@
 # Graph Report - sehs-docs  (2026-09-14)
 
 ## Corpus Check
-- 20 files · ~22,463 words
+- 20 files · ~22,811 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 2 file(s) not represented in the graph (top: (none) 2)
 
 ## Summary
-- 310 nodes · 352 edges · 20 communities (18 shown, 2 thin omitted)
+- 314 nodes · 355 edges · 20 communities (18 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2d92e6fb`
+- Built from commit: `93821dd4`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -40,11 +40,11 @@
 ## God Nodes (most connected - your core abstractions)
 1. `Smart Environment Health System (SEHS)` - 11 edges
 2. `Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)` - 9 edges
-3. `Feature PRD: Master Data Organisasi & Shift Kerja` - 9 edges
-4. `Feature PRD: Master Data Fasilitas, Ruangan & Cetak QR Code` - 9 edges
-5. `Feature PRD: Master Data Standar Checklist & Template Audit` - 9 edges
-6. `Feature PRD: Master Data Limbah, TPS & Vendor Transporter` - 9 edges
-7. `Feature PRD: Master Data Baku Mutu Sanitasi Air & Udara` - 9 edges
+3. `Feature PRD: Master Data Fasilitas, Ruangan & Cetak QR Code` - 9 edges
+4. `Feature PRD: Master Data Limbah, TPS & Vendor Transporter` - 9 edges
+5. `Feature PRD: Master Data Baku Mutu Sanitasi Air & Udara` - 9 edges
+6. `Feature PRD: Master Data Organisasi & Shift Kerja` - 9 edges
+7. `Feature PRD: Master Data Standar Checklist & Template Audit` - 9 edges
 8. `Feature PRD: Master Data Kategori Temuan & Standar SLA` - 9 edges
 9. `3. Spesifikasi Skema Database PostgreSQL (DDL)` - 9 edges
 10. `Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA` - 8 edges
@@ -63,8 +63,8 @@ Cohesion: 0.11
 Nodes (19): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 Nilai Bisnis & Manfaat Sistem, 2. Latar Belakang & Masalah Bisnis, 3. Persona Pengguna & Konteks Operasional, 4.1 Alur Masuk Kerja Petugas Lapangan (Mobile PWA), 4.2 Alur Pergantian Shift Kerja (Shift Handover), 4. Alur Pengalaman Pengguna (User Journey) (+11 more)
 
 ### Community 2 - "Smart Environment Health System (SEHS) — Documentation Hub"
-Cohesion: 0.14
-Nodes (14): 1. Membuka Visualisasi Graf Interaktif, 2. Berinteraksi & Query Graf dengan AI, 3. Memperbarui Graf Setelah Menambah/Mengubah Dokumen, 4. File Output Graphify (`graphify-out/`), A. Fondasi Identitas & Akses, B. Fondasi Data Induk (Master Data Clusters), C. Modul Transaksi Operasional & Analitik, D. Spesifikasi Arsitektur Teknis (DRA & TRD) (+6 more)
+Cohesion: 0.11
+Nodes (18): 1. Membuka Visualisasi Graf Interaktif, 1. Prinsip Utama: *Zero Documentation Drift*, 2. Alur 4 Langkah Menangani Request Enhancement dari Klien, 2. Berinteraksi & Query Graf dengan AI, 3. Contoh Prompt Cepat untuk Menjalankan Enhancement dengan AI, 3. Memperbarui Graf Setelah Menambah/Mengubah Dokumen, 4. File Output Graphify (`graphify-out/`), 4. Titik Simpan Sesi Kerja (*Session Checkpoint*) (+10 more)
 
 ### Community 3 - "3. Spesifikasi Skema Database PostgreSQL (DDL)"
 Cohesion: 0.07
@@ -127,24 +127,24 @@ Cohesion: 0.22
 Nodes (8): 1. Periksa Status Berkas & Perubahan Sesi Ini, 2. Perbarui Dokumen Pelacak (`PROGRESS.md`), 3. Sinkronkan Hub Navigasi (`README.md`), 4. Sinkronisasikan Knowledge Graph (Graphify), 5. Buat Titik Simpan Git (Commit), 6. Berikan Laporan Penutup ke Pengguna, Langkah-Langkah Eksekusi Otomatis, Workflow: /save-progress
 
 ## Knowledge Gaps
-- **212 isolated node(s):** `graphify`, `Strictly Prohibited in PRDs:`, `Mandatory Focus in PRDs:`, `Standard Template Structure for Feature PRDs`, `1. The Core Philosophy: "Zero Documentation Drift"` (+207 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 213 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **215 isolated node(s):** `📌 Navigasi Dokumentasi`, `A. Fondasi Identitas & Akses`, `B. Fondasi Data Induk (Master Data Clusters)`, `C. Modul Transaksi Operasional & Analitik`, `D. Spesifikasi Arsitektur Teknis (DRA & TRD)` (+210 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 216 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Technical Requirements Document (TRD): API Autentikasi & Manajemen Sesi` connect `3. Spesifikasi Endpoint REST API` to `PROGRESS.md`?**
-  _High betweenness centrality (0.162) - this node is a cross-community bridge._
-- **Why does `Data Requirements Architecture (DRA): Database Schema & ERD Master Data & Auth` connect `3. Spesifikasi Skema Database PostgreSQL (DDL)` to `PROGRESS.md`?**
   _High betweenness centrality (0.160) - this node is a cross-community bridge._
-- **What connects `graphify`, `Strictly Prohibited in PRDs:`, `Mandatory Focus in PRDs:` to the rest of the system?**
-  _212 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Data Requirements Architecture (DRA): Database Schema & ERD Master Data & Auth` connect `3. Spesifikasi Skema Database PostgreSQL (DDL)` to `PROGRESS.md`?**
+  _High betweenness centrality (0.159) - this node is a cross-community bridge._
+- **What connects `📌 Navigasi Dokumentasi`, `A. Fondasi Identitas & Akses`, `B. Fondasi Data Induk (Master Data Clusters)` to the rest of the system?**
+  _215 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Smart Environment Health System (SEHS)` be split into smaller, more focused modules?**
   _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Smart Environment Health System (SEHS) — Documentation Hub` be split into smaller, more focused modules?**
-  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
 - **Should `3. Spesifikasi Skema Database PostgreSQL (DDL)` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
