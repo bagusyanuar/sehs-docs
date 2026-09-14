@@ -289,5 +289,26 @@ Saat Anda atau developer membuka repositori implementasi kode:
 
 Dengan alur ini, tim koding langsung memiliki **konteks 100% presisi tanpa perlu membaca ulang seluruh dokumentasi dari nol**!
 
+---
+
+### 6. Otomatisasi Lintas Repositori (Cross-Repo Auto-Close via PR)
+
+Ketika Anda membuat Pull Request (PR) atau commit di repositori kode implementasi (misal di repo `sehs-backend`, `sehs-web`, atau `sehs-mobile`), tiket issue di repositori dokumentasi ini bisa **tertutup secara otomatis (*auto-close*)** begitu PR di-merge ke branch `main`.
+
+#### Cara Penulisan di Deskripsi PR atau Commit Repo Kode:
+Gunakan sintaks path repositori lengkap:
+```markdown
+## Summary Pengerjaan
+Implementasi endpoint autentikasi Dual-UX dan hashing Argon2id.
+
+Closes bagusyanuar/sehs-docs#1
+```
+*(Kata kunci resmi yang didukung GitHub: `Closes`, `Fixes`, atau `Resolves`).*
+
+#### Manfaat Otomatisasi Ini:
+1. **Live Cross-Reference:** Begitu PR dibuat di repo backend/frontend, halaman issue di `sehs-docs` otomatis memunculkan tautan timeline yang terhubung ke PR tersebut.
+2. **Auto-Close:** Saat PR di-merge ke `main`, GitHub seketika mengubah status Issue terkait di `sehs-docs` menjadi **`CLOSED (Completed)`** tanpa perlu ditutup manual.
+3. **Multi-Repo Kanban:** Anda dapat menghubungkan repo `sehs-docs`, `sehs-backend`, `sehs-web`, dan `sehs-mobile` ke dalam satu papan **GitHub Projects (Kanban Board)** di akun `bagusyanuar` untuk memantau progres seluruh sistem dari satu layar.
+
 
 

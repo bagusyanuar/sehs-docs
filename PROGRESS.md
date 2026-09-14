@@ -71,6 +71,8 @@ Besok kita akan menyusun **Modul Transaksi Operasional Harian Lapangan** (`featu
 2. **Metadata Ketergantungan Wajib:** Setiap dokumen PRD & TRD harus memiliki baris metadata `Depends On (Prasyarat)` dan `Consumed By (Dampak)`.
 3. **Standar DRA Database:** PostgreSQL 15+, UUID v4, 5 kolom audit universal (`id`, `created_at`, `updated_at`, `created_by`, `deleted_at`), `ON DELETE RESTRICT`, `DECIMAL(10,2)` untuk berat/pengukuran.
 4. **Scoping Pemisahan:** DRA diglobalkan per milestone, TRD di-split modular per klaster domain API.
+5. **Lean Scoping GitHub Issues:** Tiket issue murni memuat checklist tugas dan tautan acuan, DILARANG menduplikasi DDL SQL atau payload JSON (SSOT tetap di DRA/TRD).
+6. **Cross-Repo Auto-Close via PR:** Menutup otomatis isu docs dari repo kode (BE/FE) menggunakan sintaks `Closes bagusyanuar/sehs-docs#<nomor_issue>` di deskripsi PR saat merge ke `main`.
 
 ---
 
