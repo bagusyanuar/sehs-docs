@@ -1,17 +1,17 @@
 # Graph Report - sehs-docs  (2026-09-14)
 
 ## Corpus Check
-- 25 files · ~25,205 words
+- 25 files · ~25,397 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 2 file(s) not represented in the graph (top: (none) 2)
 
 ## Summary
-- 357 nodes · 402 edges · 25 communities (23 shown, 2 thin omitted)
+- 361 nodes · 406 edges · 25 communities (23 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2394fad1`
+- Built from commit: `a01b1c0b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -68,8 +68,8 @@ Cohesion: 0.11
 Nodes (19): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 Nilai Bisnis & Manfaat Sistem, 2. Latar Belakang & Masalah Bisnis, 3. Persona Pengguna & Konteks Operasional, 4.1 Alur Masuk Kerja Petugas Lapangan (Mobile PWA), 4.2 Alur Pergantian Shift Kerja (Shift Handover), 4. Alur Pengalaman Pengguna (User Journey) (+11 more)
 
 ### Community 2 - "Smart Environment Health System (SEHS) — Documentation Hub"
-Cohesion: 0.09
-Nodes (23): 1. Membuka Visualisasi Graf Interaktif, 1. Prinsip Utama: *Zero Documentation Drift*, 1. Tiga Kategori Tiket Resmi, 2. Alur 4 Langkah Menangani Request Enhancement dari Klien, 2. Berinteraksi & Query Graf dengan AI, 2. Cara Menerbitkan Tiket via AI (Otomatis), 3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual, 3. Contoh Prompt Cepat untuk Menjalankan Enhancement dengan AI (+15 more)
+Cohesion: 0.07
+Nodes (27): 1. Membuka Visualisasi Graf Interaktif, 1. Prinsip Utama: *Zero Documentation Drift*, 1. Tiga Kategori Tiket Resmi, 2. Alur 4 Langkah Menangani Request Enhancement dari Klien, 2. Berinteraksi & Query Graf dengan AI, 2. Cara Menerbitkan Tiket via AI (Otomatis), 3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual, 3. Contoh Prompt Cepat untuk Menjalankan Enhancement dengan AI (+19 more)
 
 ### Community 3 - "3. Spesifikasi Skema Database PostgreSQL (DDL)"
 Cohesion: 0.07
@@ -152,24 +152,24 @@ Cohesion: 0.33
 Nodes (5): 🎯 1. Objective & Target Persona, 📚 2. Spesifikasi & Acuan Dokumen (Traceability), 🖥️ 3. Kebutuhan Komponen Antarmuka (UI/UX), 🔌 4. Integrasi REST API & State Management, ✅ 5. Definition of Done (DoD)
 
 ## Knowledge Gaps
-- **248 isolated node(s):** `📌 Navigasi Dokumentasi`, `A. Fondasi Identitas & Akses`, `B. Fondasi Data Induk (Master Data Clusters)`, `C. Modul Transaksi Operasional & Analitik`, `D. Spesifikasi Arsitektur Teknis (DRA & TRD)` (+243 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 249 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **251 isolated node(s):** `📌 Navigasi Dokumentasi`, `A. Fondasi Identitas & Akses`, `B. Fondasi Data Induk (Master Data Clusters)`, `C. Modul Transaksi Operasional & Analitik`, `D. Spesifikasi Arsitektur Teknis (DRA & TRD)` (+246 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 252 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Technical Requirements Document (TRD): API Autentikasi & Manajemen Sesi` connect `3. Spesifikasi Endpoint REST API` to `PROGRESS.md`?**
-  _High betweenness centrality (0.142) - this node is a cross-community bridge._
-- **Why does `Data Requirements Architecture (DRA): Database Schema & ERD Master Data & Auth` connect `3. Spesifikasi Skema Database PostgreSQL (DDL)` to `PROGRESS.md`?**
   _High betweenness centrality (0.141) - this node is a cross-community bridge._
-- **Why does `Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)` connect `Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)` to `PROGRESS.md`?**
-  _High betweenness centrality (0.129) - this node is a cross-community bridge._
+- **Why does `Data Requirements Architecture (DRA): Database Schema & ERD Master Data & Auth` connect `3. Spesifikasi Skema Database PostgreSQL (DDL)` to `PROGRESS.md`?**
+  _High betweenness centrality (0.139) - this node is a cross-community bridge._
+- **Why does `Smart Environment Health System (SEHS) — Documentation Hub` connect `Smart Environment Health System (SEHS) — Documentation Hub` to `PROGRESS.md`?**
+  _High betweenness centrality (0.138) - this node is a cross-community bridge._
 - **What connects `📌 Navigasi Dokumentasi`, `A. Fondasi Identitas & Akses`, `B. Fondasi Data Induk (Master Data Clusters)` to the rest of the system?**
-  _248 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _251 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Smart Environment Health System (SEHS)` be split into smaller, more focused modules?**
   _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Smart Environment Health System (SEHS) — Documentation Hub` be split into smaller, more focused modules?**
-  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._

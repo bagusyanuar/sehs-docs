@@ -2037,7 +2037,7 @@
       "node_kind": "heading",
       "norm_label": "1. membuka visualisasi graf interaktif",
       "source_file": "README.md",
-      "source_location": "L84"
+      "source_location": "L91"
     },
     {
       "id": "readme_1_prinsip_utama_zero_documentation_drift",
@@ -2049,7 +2049,19 @@
       "node_kind": "heading",
       "norm_label": "1. prinsip utama: *zero documentation drift*",
       "source_file": "README.md",
-      "source_location": "L133"
+      "source_location": "L140"
+    },
+    {
+      "id": "readme_1_tiga_kategori_tiket_resmi",
+      "label": "1. Tiga Kategori Tiket Resmi",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. tiga kategori tiket resmi",
+      "source_file": "README.md",
+      "source_location": "L205"
     },
     {
       "id": "readme_2_alur_4_langkah_menangani_request_enhancement_dari_klien",
@@ -2061,7 +2073,7 @@
       "node_kind": "heading",
       "norm_label": "2. alur 4 langkah menangani request enhancement dari klien",
       "source_file": "README.md",
-      "source_location": "L141"
+      "source_location": "L148"
     },
     {
       "id": "readme_2_berinteraksi_query_graf_dengan_ai",
@@ -2073,7 +2085,31 @@
       "node_kind": "heading",
       "norm_label": "2. berinteraksi & query graf dengan ai",
       "source_file": "README.md",
-      "source_location": "L96"
+      "source_location": "L103"
+    },
+    {
+      "id": "readme_2_cara_menerbitkan_tiket_via_ai_otomatis",
+      "label": "2. Cara Menerbitkan Tiket via AI (Otomatis)",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. cara menerbitkan tiket via ai (otomatis)",
+      "source_file": "README.md",
+      "source_location": "L215"
+    },
+    {
+      "id": "readme_3_cara_menerbitkan_tiket_via_github_cli_gh_secara_manual",
+      "label": "3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. cara menerbitkan tiket via github cli (`gh`) secara manual",
+      "source_file": "README.md",
+      "source_location": "L229"
     },
     {
       "id": "readme_3_contoh_prompt_cepat_untuk_menjalankan_enhancement_dengan_ai",
@@ -2085,7 +2121,7 @@
       "node_kind": "heading",
       "norm_label": "3. contoh prompt cepat untuk menjalankan enhancement dengan ai",
       "source_file": "README.md",
-      "source_location": "L174"
+      "source_location": "L181"
     },
     {
       "id": "readme_3_memperbarui_graf_setelah_menambah_mengubah_dokumen",
@@ -2097,7 +2133,19 @@
       "node_kind": "heading",
       "norm_label": "3. memperbarui graf setelah menambah/mengubah dokumen",
       "source_file": "README.md",
-      "source_location": "L112"
+      "source_location": "L119"
+    },
+    {
+      "id": "readme_4_cara_mengonsumsi_tiket_saat_mulai_coding",
+      "label": "4. Cara Mengonsumsi Tiket Saat Mulai Coding",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. cara mengonsumsi tiket saat mulai coding",
+      "source_file": "README.md",
+      "source_location": "L253"
     },
     {
       "id": "readme_4_file_output_graphify_graphify_out",
@@ -2109,7 +2157,7 @@
       "node_kind": "heading",
       "norm_label": "4. file output graphify (`graphify-out/`)",
       "source_file": "README.md",
-      "source_location": "L124"
+      "source_location": "L131"
     },
     {
       "id": "readme_4_titik_simpan_sesi_kerja_session_checkpoint",
@@ -2121,7 +2169,7 @@
       "node_kind": "heading",
       "norm_label": "4. titik simpan sesi kerja (*session checkpoint*)",
       "source_file": "README.md",
-      "source_location": "L188"
+      "source_location": "L195"
     },
     {
       "id": "readme_a_fondasi_identitas_akses",
@@ -2133,7 +2181,7 @@
       "node_kind": "heading",
       "norm_label": "a. fondasi identitas & akses",
       "source_file": "README.md",
-      "source_location": "L45"
+      "source_location": "L52"
     },
     {
       "id": "readme_b_fondasi_data_induk_master_data_clusters",
@@ -2145,7 +2193,7 @@
       "node_kind": "heading",
       "norm_label": "b. fondasi data induk (master data clusters)",
       "source_file": "README.md",
-      "source_location": "L48"
+      "source_location": "L55"
     },
     {
       "id": "readme_c_modul_transaksi_operasional_analitik",
@@ -2157,7 +2205,7 @@
       "node_kind": "heading",
       "norm_label": "c. modul transaksi operasional & analitik",
       "source_file": "README.md",
-      "source_location": "L56"
+      "source_location": "L63"
     },
     {
       "id": "readme_d_spesifikasi_arsitektur_teknis_dra_trd",
@@ -2169,7 +2217,7 @@
       "node_kind": "heading",
       "norm_label": "d. spesifikasi arsitektur teknis (dra & trd)",
       "source_file": "README.md",
-      "source_location": "L63"
+      "source_location": "L70"
     },
     {
       "id": "readme_matriks_peran_pengguna_roles",
@@ -2181,7 +2229,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udc65 matriks peran pengguna (roles)",
       "source_file": "README.md",
-      "source_location": "L71"
+      "source_location": "L78"
     },
     {
       "id": "readme_navigasi_dokumentasi",
@@ -2205,7 +2253,19 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udcd6 panduan kontribusi & manajemen perubahan (change management)",
       "source_file": "README.md",
-      "source_location": "L131"
+      "source_location": "L138"
+    },
+    {
+      "id": "readme_panduan_penerbitan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "label": "\ud83c\udfab Panduan Penerbitan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83c\udfab panduan penerbitan tiket tugas (github issues untuk be, fe-web & fe-mobile)",
+      "source_file": "README.md",
+      "source_location": "L201"
     },
     {
       "id": "readme_ringkasan_modul_klaster_prd",
@@ -2217,7 +2277,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\ude80 ringkasan modul & klaster prd",
       "source_file": "README.md",
-      "source_location": "L43"
+      "source_location": "L50"
     },
     {
       "id": "readme_second_brain_knowledge_graph_graphify",
@@ -2229,7 +2289,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83e\udde0 second brain & knowledge graph (graphify)",
       "source_file": "README.md",
-      "source_location": "L80"
+      "source_location": "L87"
     },
     {
       "id": "readme_smart_environment_health_system_sehs_documentation_hub",
@@ -2241,22 +2301,6 @@
       "node_kind": "heading",
       "norm_label": "smart environment health system (sehs) \u2014 documentation hub",
       "source_file": "README.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_issue_task_scaffolder_skill",
-      "label": "issue-task-scaffolder/SKILL.md",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "Issue Task Scaffolder Skill",
-      "file_type": "document",
-      "frontmatter": {
-        "name": "issue-task-scaffolder",
-        "description": "Framework and guidelines for scaffolding production-ready GitHub Issues for Backend (BE) and Frontend (FE) teams directly from PRD, DRA, and TRD specifications. Enforces zero-ambiguity scope, bidirectional traceability, exact endpoint/table references, and ready-to-run GitHub CLI (gh) commands."
-      },
-      "node_kind": "page",
-      "norm_label": "issue-task-scaffolder/skill.md",
-      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
       "source_location": "L1"
     },
     {
@@ -3702,6 +3746,22 @@
       "node_kind": "page",
       "norm_label": "rules/graphify.md",
       "source_file": ".agents/rules/graphify.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill",
+      "label": "issue-task-scaffolder/SKILL.md",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "issue-task-scaffolder",
+        "description": "Framework and guidelines for scaffolding production-ready GitHub Issues for Backend (BE) and Frontend (FE) teams directly from PRD, DRA, and TRD specifications. Enforces zero-ambiguity scope, bidirectional traceability, exact endpoint/table references, and ready-to-run GitHub CLI (gh) commands."
+      },
+      "node_kind": "page",
+      "norm_label": "issue-task-scaffolder/skill.md",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
       "source_location": "L1"
     },
     {
@@ -6567,7 +6627,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L133",
+      "source_location": "L140",
       "weight": 1.0
     },
     {
@@ -6578,7 +6638,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L141",
+      "source_location": "L148",
       "weight": 1.0
     },
     {
@@ -6589,7 +6649,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L174",
+      "source_location": "L181",
       "weight": 1.0
     },
     {
@@ -6600,7 +6660,51 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L188",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_panduan_penerbitan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "target": "readme_1_tiga_kategori_tiket_resmi",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L205",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_panduan_penerbitan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "target": "readme_2_cara_menerbitkan_tiket_via_ai_otomatis",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L215",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_panduan_penerbitan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "target": "readme_3_cara_menerbitkan_tiket_via_github_cli_gh_secara_manual",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_panduan_penerbitan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "target": "readme_4_cara_mengonsumsi_tiket_saat_mulai_coding",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L253",
       "weight": 1.0
     },
     {
@@ -6611,7 +6715,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L45",
+      "source_location": "L52",
       "weight": 1.0
     },
     {
@@ -6622,7 +6726,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L48",
+      "source_location": "L55",
       "weight": 1.0
     },
     {
@@ -6633,7 +6737,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L56",
+      "source_location": "L63",
       "weight": 1.0
     },
     {
@@ -6644,40 +6748,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L63",
-      "weight": 1.0
-    },
-    {
-      "source": "readme_second_brain_knowledge_graph_graphify",
-      "target": "readme_3_memperbarui_graf_setelah_menambah_mengubah_dokumen",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L112",
-      "weight": 1.0
-    },
-    {
-      "source": "readme_second_brain_knowledge_graph_graphify",
-      "target": "readme_4_file_output_graphify_graphify_out",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L124",
-      "weight": 1.0
-    },
-    {
-      "source": "readme_second_brain_knowledge_graph_graphify",
-      "target": "readme_1_membuka_visualisasi_graf_interaktif",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L84",
+      "source_location": "L70",
       "weight": 1.0
     },
     {
@@ -6688,7 +6759,40 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L96",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_second_brain_knowledge_graph_graphify",
+      "target": "readme_3_memperbarui_graf_setelah_menambah_mengubah_dokumen",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_second_brain_knowledge_graph_graphify",
+      "target": "readme_4_file_output_graphify_graphify_out",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_second_brain_knowledge_graph_graphify",
+      "target": "readme_1_membuka_visualisasi_graf_interaktif",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L91",
       "weight": 1.0
     },
     {
@@ -6699,7 +6803,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L131",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_smart_environment_health_system_sehs_documentation_hub",
+      "target": "readme_panduan_penerbitan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L201",
       "weight": 1.0
     },
     {
@@ -6710,7 +6825,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L43",
+      "source_location": "L50",
       "weight": 1.0
     },
     {
@@ -6732,7 +6847,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L71",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -6743,7 +6858,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L80",
+      "source_location": "L87",
       "weight": 1.0
     },
     {
@@ -8338,7 +8453,51 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L137",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "github_issue_template_backend_task",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L209",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "github_issue_template_frontend_web_task",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L210",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "github_issue_template_frontend_mobile_task",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L211",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "agents_skills_issue_task_scaffolder_skill",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L222",
       "weight": 1.0
     },
     {
@@ -8349,7 +8508,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L46",
+      "source_location": "L53",
       "weight": 1.0
     },
     {
@@ -8360,7 +8519,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L49",
+      "source_location": "L56",
       "weight": 1.0
     },
     {
@@ -8371,7 +8530,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L50",
+      "source_location": "L57",
       "weight": 1.0
     },
     {
@@ -8382,7 +8541,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L51",
+      "source_location": "L58",
       "weight": 1.0
     },
     {
@@ -8393,7 +8552,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L52",
+      "source_location": "L59",
       "weight": 1.0
     },
     {
@@ -8404,7 +8563,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L53",
+      "source_location": "L60",
       "weight": 1.0
     },
     {
@@ -8415,7 +8574,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L54",
+      "source_location": "L61",
       "weight": 1.0
     },
     {
@@ -8426,7 +8585,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L64",
+      "source_location": "L71",
       "weight": 1.0
     },
     {
@@ -8437,7 +8596,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L65",
+      "source_location": "L72",
       "weight": 1.0
     },
     {
@@ -8448,7 +8607,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L66",
+      "source_location": "L73",
       "weight": 1.0
     },
     {
@@ -8459,7 +8618,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L67",
+      "source_location": "L74",
       "weight": 1.0
     },
     {
@@ -8607,5 +8766,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "369f8d120d8a993b601b0f53f3dc8b473238f88b"
+  "built_at_commit": "2394fad114ca54dfa50a474740e4d7bf206e561f"
 }

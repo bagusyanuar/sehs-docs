@@ -2136,14 +2136,14 @@
       "source_location": "L119"
     },
     {
-      "id": "readme_4_cara_mengonsumsi_tiket_saat_mulai_coding",
-      "label": "4. Cara Mengonsumsi Tiket Saat Mulai Coding",
+      "id": "readme_4_cara_meng_update_atau_menambah_lingkup_pada_tiket_yang_sudah_ada",
+      "label": "4. Cara Meng-update atau Menambah Lingkup pada Tiket yang Sudah Ada",
       "_origin": "ast",
       "community": 2,
       "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "4. cara mengonsumsi tiket saat mulai coding",
+      "norm_label": "4. cara meng-update atau menambah lingkup pada tiket yang sudah ada",
       "source_file": "README.md",
       "source_location": "L253"
     },
@@ -2172,6 +2172,18 @@
       "source_location": "L195"
     },
     {
+      "id": "readme_5_cara_mengonsumsi_tiket_saat_mulai_coding",
+      "label": "5. Cara Mengonsumsi Tiket Saat Mulai Coding",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. cara mengonsumsi tiket saat mulai coding",
+      "source_file": "README.md",
+      "source_location": "L282"
+    },
+    {
       "id": "readme_a_fondasi_identitas_akses",
       "label": "A. Fondasi Identitas & Akses",
       "_origin": "ast",
@@ -2184,6 +2196,18 @@
       "source_location": "L52"
     },
     {
+      "id": "readme_a_melalui_perintah_asisten_ai_paling_praktis",
+      "label": "A. Melalui Perintah Asisten AI (Paling Praktis)",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "a. melalui perintah asisten ai (paling praktis)",
+      "source_file": "README.md",
+      "source_location": "L257"
+    },
+    {
       "id": "readme_b_fondasi_data_induk_master_data_clusters",
       "label": "B. Fondasi Data Induk (Master Data Clusters)",
       "_origin": "ast",
@@ -2194,6 +2218,30 @@
       "norm_label": "b. fondasi data induk (master data clusters)",
       "source_file": "README.md",
       "source_location": "L55"
+    },
+    {
+      "id": "readme_b_melalui_terminal_github_cli_gh",
+      "label": "B. Melalui Terminal GitHub CLI (`gh`)",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "b. melalui terminal github cli (`gh`)",
+      "source_file": "README.md",
+      "source_location": "L263"
+    },
+    {
+      "id": "readme_c_melalui_web_browser_github",
+      "label": "C. Melalui Web Browser GitHub",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "c. melalui web browser github",
+      "source_file": "README.md",
+      "source_location": "L275"
     },
     {
       "id": "readme_c_modul_transaksi_operasional_analitik",
@@ -2256,14 +2304,14 @@
       "source_location": "L138"
     },
     {
-      "id": "readme_panduan_penerbitan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
-      "label": "\ud83c\udfab Panduan Penerbitan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "id": "readme_panduan_penerbitan_pembaruan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "label": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "_origin": "ast",
       "community": 2,
       "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\ud83c\udfab panduan penerbitan tiket tugas (github issues untuk be, fe-web & fe-mobile)",
+      "norm_label": "\ud83c\udfab panduan penerbitan & pembaruan tiket tugas (github issues untuk be, fe-web & fe-mobile)",
       "source_file": "README.md",
       "source_location": "L201"
     },
@@ -6620,6 +6668,39 @@
       "weight": 1.0
     },
     {
+      "source": "readme_4_cara_meng_update_atau_menambah_lingkup_pada_tiket_yang_sudah_ada",
+      "target": "readme_a_melalui_perintah_asisten_ai_paling_praktis",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_4_cara_meng_update_atau_menambah_lingkup_pada_tiket_yang_sudah_ada",
+      "target": "readme_b_melalui_terminal_github_cli_gh",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L263",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_4_cara_meng_update_atau_menambah_lingkup_pada_tiket_yang_sudah_ada",
+      "target": "readme_c_melalui_web_browser_github",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L275",
+      "weight": 1.0
+    },
+    {
       "source": "readme_panduan_kontribusi_manajemen_perubahan_change_management",
       "target": "readme_1_prinsip_utama_zero_documentation_drift",
       "relation": "contains",
@@ -6664,7 +6745,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_panduan_penerbitan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "source": "readme_panduan_penerbitan_pembaruan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
       "target": "readme_1_tiga_kategori_tiket_resmi",
       "relation": "contains",
       "_origin": "ast",
@@ -6675,7 +6756,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_panduan_penerbitan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "source": "readme_panduan_penerbitan_pembaruan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
       "target": "readme_2_cara_menerbitkan_tiket_via_ai_otomatis",
       "relation": "contains",
       "_origin": "ast",
@@ -6686,7 +6767,7 @@
       "weight": 1.0
     },
     {
-      "source": "readme_panduan_penerbitan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "source": "readme_panduan_penerbitan_pembaruan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
       "target": "readme_3_cara_menerbitkan_tiket_via_github_cli_gh_secara_manual",
       "relation": "contains",
       "_origin": "ast",
@@ -6697,14 +6778,25 @@
       "weight": 1.0
     },
     {
-      "source": "readme_panduan_penerbitan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
-      "target": "readme_4_cara_mengonsumsi_tiket_saat_mulai_coding",
+      "source": "readme_panduan_penerbitan_pembaruan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "target": "readme_4_cara_meng_update_atau_menambah_lingkup_pada_tiket_yang_sudah_ada",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
       "source_location": "L253",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_panduan_penerbitan_pembaruan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "target": "readme_5_cara_mengonsumsi_tiket_saat_mulai_coding",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L282",
       "weight": 1.0
     },
     {
@@ -6808,7 +6900,7 @@
     },
     {
       "source": "readme_smart_environment_health_system_sehs_documentation_hub",
-      "target": "readme_panduan_penerbitan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "target": "readme_panduan_penerbitan_pembaruan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8766,5 +8858,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2394fad114ca54dfa50a474740e4d7bf206e561f"
+  "built_at_commit": "a01b1c0bbad71d2324d9b436bec376f83a522b66"
 }
