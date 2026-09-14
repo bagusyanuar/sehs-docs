@@ -1688,14 +1688,14 @@
       "source_location": "L1"
     },
     {
-      "id": "progress_1_tata_kelola_aturan_arsitektur_agents",
-      "label": "1. Tata Kelola & Aturan Arsitektur (`.agents/`)",
+      "id": "progress_1_tata_kelola_aturan_arsitektur_agents_github",
+      "label": "1. Tata Kelola & Aturan Arsitektur (`.agents/` & `.github/`)",
       "_origin": "ast",
       "community": 17,
       "community_name": "SEHS Documentation Project \u2014 Progress & Checkpoint Tracker",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1. tata kelola & aturan arsitektur (`.agents/`)",
+      "norm_label": "1. tata kelola & aturan arsitektur (`.agents/` & `.github/`)",
       "source_file": "PROGRESS.md",
       "source_location": "L18"
     },
@@ -1709,7 +1709,7 @@
       "node_kind": "heading",
       "norm_label": "2. dokumen induk & fondasi identitas",
       "source_file": "PROGRESS.md",
-      "source_location": "L25"
+      "source_location": "L30"
     },
     {
       "id": "progress_3_master_data_prd_6_klaster_15_fitur_bisnis_lengkap",
@@ -1721,7 +1721,7 @@
       "node_kind": "heading",
       "norm_label": "3. master data prd (6 klaster / 15 fitur bisnis lengkap)",
       "source_file": "PROGRESS.md",
-      "source_location": "L30"
+      "source_location": "L35"
     },
     {
       "id": "progress_4_arsitektur_teknis_kontrak_api_technical",
@@ -1733,7 +1733,7 @@
       "node_kind": "heading",
       "norm_label": "4. arsitektur teknis & kontrak api (`technical/`)",
       "source_file": "PROGRESS.md",
-      "source_location": "L38"
+      "source_location": "L43"
     },
     {
       "id": "progress_antrean_pengerjaan_besok_next_action_items_fase_2",
@@ -1745,7 +1745,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83c\udfaf antrean pengerjaan besok (next action items: fase 2)",
       "source_file": "PROGRESS.md",
-      "source_location": "L46"
+      "source_location": "L51"
     },
     {
       "id": "progress_aturan_penting_yang_wajib_dipertahankan_invariants",
@@ -1757,7 +1757,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd11 aturan penting yang wajib dipertahankan (invariants)",
       "source_file": "PROGRESS.md",
-      "source_location": "L63"
+      "source_location": "L68"
     },
     {
       "id": "progress_cara_memulai_kembali_sesi_besok_resume_prompt",
@@ -1769,7 +1769,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udca1 cara memulai kembali sesi besok (resume prompt)",
       "source_file": "PROGRESS.md",
-      "source_location": "L72"
+      "source_location": "L77"
     },
     {
       "id": "progress_deliverables_yang_sudah_selesai_completed_100",
@@ -2242,6 +2242,479 @@
       "norm_label": "smart environment health system (sehs) \u2014 documentation hub",
       "source_file": "README.md",
       "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill",
+      "label": "issue-task-scaffolder/SKILL.md",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "issue-task-scaffolder",
+        "description": "Framework and guidelines for scaffolding production-ready GitHub Issues for Backend (BE) and Frontend (FE) teams directly from PRD, DRA, and TRD specifications. Enforces zero-ambiguity scope, bidirectional traceability, exact endpoint/table references, and ready-to-run GitHub CLI (gh) commands."
+      },
+      "node_kind": "page",
+      "norm_label": "issue-task-scaffolder/skill.md",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_1_core_principles_of_issue_scaffolding",
+      "label": "1. Core Principles of Issue Scaffolding",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. core principles of issue scaffolding",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_2_1_backend_issue_format_be",
+      "label": "2.1 Backend Issue Format (`[BE]`)",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.1 backend issue format (`[be]`)",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_2_2_frontend_web_issue_format_fe_web",
+      "label": "2.2 Frontend Web Issue Format (`[FE-WEB]`)",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.2 frontend web issue format (`[fe-web]`)",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_2_3_frontend_mobile_flutter_issue_format_fe_mobile",
+      "label": "2.3 Frontend Mobile Flutter Issue Format (`[FE-MOBILE]`)",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.3 frontend mobile flutter issue format (`[fe-mobile]`)",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_2_standard_issue_structure",
+      "label": "2. Standard Issue Structure",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. standard issue structure",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L26"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_3_github_cli_gh_command_generation",
+      "label": "3. GitHub CLI (`gh`) Command Generation",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. github cli (`gh`) command generation",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_4_verification_gate",
+      "label": "4. Verification Gate",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. verification gate",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L65"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
+      "label": "Issue Task Scaffolder Skill",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "issue task scaffolder skill",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "agents_workflows_publish_issue",
+      "label": "publish-issue.md",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "publish-issue",
+        "description": "Menerbitkan tiket tugas GitHub Issue untuk tim Backend (BE) dan/atau Frontend (FE) secara otomatis berdasarkan spesifikasi PRD, DRA, dan TRD."
+      },
+      "node_kind": "page",
+      "norm_label": "publish-issue.md",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_workflows_publish_issue_1_identifikasi_modul_peran_target",
+      "label": "1. Identifikasi Modul & Peran Target",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. identifikasi modul & peran target",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "agents_workflows_publish_issue_2_kumpulkan_konteks_dokumen",
+      "label": "2. Kumpulkan Konteks Dokumen",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. kumpulkan konteks dokumen",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L23"
+    },
+    {
+      "id": "agents_workflows_publish_issue_3_susun_isi_tiket_sesuai_template",
+      "label": "3. Susun Isi Tiket Sesuai Template",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. susun isi tiket sesuai template",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "agents_workflows_publish_issue_4_terbitkan_tiket_via_github_cli_gh",
+      "label": "4. Terbitkan Tiket via GitHub CLI (`gh`)",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. terbitkan tiket via github cli (`gh`)",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "agents_workflows_publish_issue_5_laporkan_tautan_tiket_ke_pengguna",
+      "label": "5. Laporkan Tautan Tiket ke Pengguna",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. laporkan tautan tiket ke pengguna",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L54"
+    },
+    {
+      "id": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "label": "Langkah-Langkah Eksekusi Otomatis",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "langkah-langkah eksekusi otomatis",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "agents_workflows_publish_issue_workflow_publish_issue",
+      "label": "Workflow: /publish-issue",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "workflow: /publish-issue",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "github_issue_template_backend_task",
+      "label": "backend-task.md",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "Backend Engineering Task",
+        "about": "Template tugas implementasi Backend (Database, REST API, Security, Business Rules)",
+        "title": "[BE] &lt;Nama Modul&gt;: &lt;Tujuan Implementasi&gt;",
+        "labels": "[&quot;backend&quot;]",
+        "assignees": "[]"
+      },
+      "node_kind": "page",
+      "norm_label": "backend-task.md",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "github_issue_template_backend_task_1_objective_scope",
+      "label": "\ud83c\udfaf 1. Objective & Scope",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83c\udfaf 1. objective & scope",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "github_issue_template_backend_task_2_spesifikasi_acuan_dokumen_traceability",
+      "label": "\ud83d\udcda 2. Spesifikasi & Acuan Dokumen (Traceability)",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcda 2. spesifikasi & acuan dokumen (traceability)",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "github_issue_template_backend_task_3_kebutuhan_database_migration",
+      "label": "\ud83d\uddc4\ufe0f 3. Kebutuhan Database & Migration",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\uddc4\ufe0f 3. kebutuhan database & migration",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "github_issue_template_backend_task_4_kontrak_rest_api_endpoint_specs",
+      "label": "\ud83d\udd0c 4. Kontrak REST API & Endpoint Specs",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udd0c 4. kontrak rest api & endpoint specs",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "github_issue_template_backend_task_5_keamanan_validasi_aturan_bisnis",
+      "label": "\ud83d\udee1\ufe0f 5. Keamanan & Validasi Aturan Bisnis",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udee1\ufe0f 5. keamanan & validasi aturan bisnis",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "github_issue_template_backend_task_6_definition_of_done_dod",
+      "label": "\u2705 6. Definition of Done (DoD)",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u2705 6. definition of done (dod)",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "github_issue_template_frontend_mobile_task",
+      "label": "frontend-mobile-task.md",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-mobile-task.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "Frontend Mobile Task (Flutter App)",
+        "about": "Template tugas implementasi Mobile App Flutter (Petugas Cleaning Service, Porter Limbah &amp; Auditor Lapangan)",
+        "title": "[FE-MOBILE] &lt;Nama Modul&gt;: &lt;Tujuan Fitur Mobile Flutter&gt;",
+        "labels": "[&quot;frontend-mobile&quot;]",
+        "assignees": "[]"
+      },
+      "node_kind": "page",
+      "norm_label": "frontend-mobile-task.md",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "github_issue_template_frontend_mobile_task_1_objective_target_persona",
+      "label": "\ud83c\udfaf 1. Objective & Target Persona",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-mobile-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83c\udfaf 1. objective & target persona",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "github_issue_template_frontend_mobile_task_2_spesifikasi_acuan_dokumen_traceability",
+      "label": "\ud83d\udcda 2. Spesifikasi & Acuan Dokumen (Traceability)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-mobile-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcda 2. spesifikasi & acuan dokumen (traceability)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "github_issue_template_frontend_mobile_task_3_kebutuhan_ui_ux_mobile_flutter",
+      "label": "\ud83d\udcf1 3. Kebutuhan UI/UX Mobile (Flutter)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-mobile-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcf1 3. kebutuhan ui/ux mobile (flutter)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "github_issue_template_frontend_mobile_task_4_akses_hardware_sensor_perangkat",
+      "label": "\ud83d\udcf7 4. Akses Hardware & Sensor Perangkat",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-mobile-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcf7 4. akses hardware & sensor perangkat",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L32"
+    },
+    {
+      "id": "github_issue_template_frontend_mobile_task_5_arsitektur_offline_first_penyimpanan_lokal",
+      "label": "\ud83d\udcbe 5. Arsitektur Offline-First & Penyimpanan Lokal",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-mobile-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcbe 5. arsitektur offline-first & penyimpanan lokal",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L39"
+    },
+    {
+      "id": "github_issue_template_frontend_mobile_task_6_definition_of_done_dod",
+      "label": "\u2705 6. Definition of Done (DoD)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-mobile-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u2705 6. definition of done (dod)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task",
+      "label": "frontend-web-task.md",
+      "_origin": "ast",
+      "community": 24,
+      "community_name": "frontend-web-task.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "Frontend Web Task (Admin Dashboard)",
+        "about": "Template tugas implementasi Web Dashboard (React/Vue/Next.js untuk Sanitarian, Kantor, IPSRS &amp; Direksi)",
+        "title": "[FE-WEB] &lt;Nama Modul&gt;: &lt;Tujuan Antarmuka Dashboard&gt;",
+        "labels": "[&quot;frontend-web&quot;]",
+        "assignees": "[]"
+      },
+      "node_kind": "page",
+      "norm_label": "frontend-web-task.md",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_1_objective_target_persona",
+      "label": "\ud83c\udfaf 1. Objective & Target Persona",
+      "_origin": "ast",
+      "community": 24,
+      "community_name": "frontend-web-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83c\udfaf 1. objective & target persona",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_2_spesifikasi_acuan_dokumen_traceability",
+      "label": "\ud83d\udcda 2. Spesifikasi & Acuan Dokumen (Traceability)",
+      "_origin": "ast",
+      "community": 24,
+      "community_name": "frontend-web-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcda 2. spesifikasi & acuan dokumen (traceability)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_3_kebutuhan_komponen_antarmuka_ui_ux",
+      "label": "\ud83d\udda5\ufe0f 3. Kebutuhan Komponen Antarmuka (UI/UX)",
+      "_origin": "ast",
+      "community": 24,
+      "community_name": "frontend-web-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udda5\ufe0f 3. kebutuhan komponen antarmuka (ui/ux)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_4_integrasi_rest_api_state_management",
+      "label": "\ud83d\udd0c 4. Integrasi REST API & State Management",
+      "_origin": "ast",
+      "community": 24,
+      "community_name": "frontend-web-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udd0c 4. integrasi rest api & state management",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L32"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_5_definition_of_done_dod",
+      "label": "\u2705 5. Definition of Done (DoD)",
+      "_origin": "ast",
+      "community": 24,
+      "community_name": "frontend-web-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u2705 5. definition of done (dod)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L39"
     },
     {
       "id": "technical_01_dra_database_erd_master_auth_1_metadata_dokumen",
@@ -2920,7 +3393,7 @@
       "label": "1. Metadata Dokumen",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "1. metadata dokumen",
@@ -2932,19 +3405,19 @@
       "label": "1. Store: `cached_templates`",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "1. store: `cached_templates`",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L142"
+      "source_location": "L156"
     },
     {
       "id": "technical_04_trd_security_qr_offline_2_latar_belakang_masalah_arsitektur",
       "label": "2. Latar Belakang & Masalah Arsitektur",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "2. latar belakang & masalah arsitektur",
@@ -2956,19 +3429,19 @@
       "label": "2. Store: `outbox_queue`",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "2. store: `outbox_queue`",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L148"
+      "source_location": "L162"
     },
     {
       "id": "technical_04_trd_security_qr_offline_3_1_struktur_muatan_token_qr_fisik_ruangan_static_door_qr",
       "label": "3.1 Struktur Muatan Token QR Fisik Ruangan (*Static Door QR*)",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "3.1 struktur muatan token qr fisik ruangan (*static door qr*)",
@@ -2980,7 +3453,7 @@
       "label": "3.2 Rumus Perhitungan HMAC-SHA256 Server",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "3.2 rumus perhitungan hmac-sha256 server",
@@ -2992,7 +3465,7 @@
       "label": "3. Arsitektur Kriptografi & Format QR Code",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "3. arsitektur kriptografi & format qr code",
@@ -3004,19 +3477,19 @@
       "label": "3. Store: `offline_photos`",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "3. store: `offline_photos`",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L171"
+      "source_location": "L185"
     },
     {
       "id": "technical_04_trd_security_qr_offline_4_1_layer_1_blokir_akses_galeri_klien_hardware_camera_enforcement",
       "label": "4.1 Layer 1: Blokir Akses Galeri Klien (*Hardware Camera Enforcement*)",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "4.1 layer 1: blokir akses galeri klien (*hardware camera enforcement*)",
@@ -3028,7 +3501,7 @@
       "label": "4.2 Layer 2: Validasi Geofencing & Koordinat GPS",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "4.2 layer 2: validasi geofencing & koordinat gps",
@@ -3040,7 +3513,7 @@
       "label": "4. Mekanisme Anti-Kloning & Validasi Kehadiran Fisik",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "4. mekanisme anti-kloning & validasi kehadiran fisik",
@@ -3052,34 +3525,46 @@
       "label": "5.1 Skema Penyimpanan Lokal (IndexedDB Object Stores)",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "5.1 skema penyimpanan lokal (indexeddb object stores)",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L138"
+      "source_location": "L152"
+    },
+    {
+      "id": "technical_04_trd_security_qr_offline_5_1_skema_penyimpanan_outbox_lokal_sqlite_isar_indexeddb",
+      "label": "5.1 Skema Penyimpanan Outbox Lokal (SQLite / Isar / IndexedDB)",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5.1 skema penyimpanan outbox lokal (sqlite / isar / indexeddb)",
+      "source_file": "technical/04-trd-security-qr-offline.md",
+      "source_location": "L117"
     },
     {
       "id": "technical_04_trd_security_qr_offline_5_2_strategi_caching_service_worker_cache_storage",
       "label": "5.2 Strategi Caching Service Worker (Cache Storage)",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "5.2 strategi caching service worker (cache storage)",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L175"
+      "source_location": "L189"
     },
     {
-      "id": "technical_04_trd_security_qr_offline_5_arsitektur_offline_first_pwa_sinkronisasi_data",
-      "label": "5. Arsitektur Offline-First PWA & Sinkronisasi Data",
+      "id": "technical_04_trd_security_qr_offline_5_arsitektur_offline_first_sinkronisasi_data_flutter_mobile_pwa",
+      "label": "5. Arsitektur Offline-First & Sinkronisasi Data (Flutter Mobile & PWA)",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "5. arsitektur offline-first pwa & sinkronisasi data",
+      "norm_label": "5. arsitektur offline-first & sinkronisasi data (flutter mobile & pwa)",
       "source_file": "technical/04-trd-security-qr-offline.md",
       "source_location": "L103"
     },
@@ -3088,55 +3573,55 @@
       "label": "6.1 `POST /api/v1/qr/verify`",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "6.1 `post /api/v1/qr/verify`",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L188"
+      "source_location": "L202"
     },
     {
       "id": "technical_04_trd_security_qr_offline_6_2_post_api_v1_sync_batch",
       "label": "6.2 `POST /api/v1/sync/batch`",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "6.2 `post /api/v1/sync/batch`",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L227"
+      "source_location": "L241"
     },
     {
       "id": "technical_04_trd_security_qr_offline_6_spesifikasi_endpoint_sinkronisasi_verifikasi_qr",
       "label": "6. Spesifikasi Endpoint Sinkronisasi & Verifikasi QR",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "6. spesifikasi endpoint sinkronisasi & verifikasi qr",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L186"
+      "source_location": "L200"
     },
     {
       "id": "technical_04_trd_security_qr_offline_7_kebijakan_rekonsiliasi_bentrok_penanganan_waktu_conflict_clock_drift",
       "label": "7. Kebijakan Rekonsiliasi Bentrok & Penanganan Waktu (*Conflict & Clock Drift*)",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "7. kebijakan rekonsiliasi bentrok & penanganan waktu (*conflict & clock drift*)",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L275"
+      "source_location": "L289"
     },
     {
       "id": "technical_04_trd_security_qr_offline_komponen_muatan",
       "label": "Komponen Muatan:",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "komponen muatan:",
@@ -3148,58 +3633,58 @@
       "label": "Request Payload:",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "request payload:",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L192"
+      "source_location": "L206"
     },
     {
-      "id": "technical_04_trd_security_qr_offline_request_payload_232",
+      "id": "technical_04_trd_security_qr_offline_request_payload_246",
       "label": "Request Payload:",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "request payload:",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L232"
+      "source_location": "L246"
     },
     {
       "id": "technical_04_trd_security_qr_offline_response_success_200_ok",
       "label": "Response Success (`200 OK`):",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "response success (`200 ok`):",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L202"
+      "source_location": "L216"
     },
     {
-      "id": "technical_04_trd_security_qr_offline_response_success_200_ok_252",
+      "id": "technical_04_trd_security_qr_offline_response_success_200_ok_266",
       "label": "Response Success (`200 OK`):",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "response success (`200 ok`):",
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L252"
+      "source_location": "L266"
     },
     {
-      "id": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_pwa",
-      "label": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "id": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_flutter_pwa",
+      "label": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "_origin": "ast",
       "community": 5,
-      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+      "community_name": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "technical requirements document (trd): keamanan qr code, anti-kloning & arsitektur offline-first pwa",
+      "norm_label": "technical requirements document (trd): keamanan qr code, anti-kloning & arsitektur offline-first (flutter & pwa)",
       "source_file": "technical/04-trd-security-qr-offline.md",
       "source_location": "L1"
     },
@@ -4238,6 +4723,94 @@
       "weight": 1.0
     },
     {
+      "source": "agents_skills_issue_task_scaffolder_skill",
+      "target": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_2_standard_issue_structure",
+      "target": "agents_skills_issue_task_scaffolder_skill_2_1_backend_issue_format_be",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_2_standard_issue_structure",
+      "target": "agents_skills_issue_task_scaffolder_skill_2_2_frontend_web_issue_format_fe_web",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_2_standard_issue_structure",
+      "target": "agents_skills_issue_task_scaffolder_skill_2_3_frontend_mobile_flutter_issue_format_fe_mobile",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
+      "target": "agents_skills_issue_task_scaffolder_skill_1_core_principles_of_issue_scaffolding",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
+      "target": "agents_skills_issue_task_scaffolder_skill_2_standard_issue_structure",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
+      "target": "agents_skills_issue_task_scaffolder_skill_3_github_cli_gh_command_generation",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
+      "target": "agents_skills_issue_task_scaffolder_skill_4_verification_gate",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
       "source": "agents_skills_trd_dra_scaffolder_skill",
       "target": "agents_skills_trd_dra_scaffolder_skill_trd_dra_scaffolder_skill",
       "relation": "contains",
@@ -4411,6 +4984,83 @@
       "confidence_score": 1.0,
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue",
+      "target": "agents_workflows_publish_issue_workflow_publish_issue",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "target": "agents_workflows_publish_issue_1_identifikasi_modul_peran_target",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "target": "agents_workflows_publish_issue_2_kumpulkan_konteks_dokumen",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "target": "agents_workflows_publish_issue_3_susun_isi_tiket_sesuai_template",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "target": "agents_workflows_publish_issue_4_terbitkan_tiket_via_github_cli_gh",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "target": "agents_workflows_publish_issue_5_laporkan_tautan_tiket_ke_pengguna",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue_workflow_publish_issue",
+      "target": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -5602,6 +6252,193 @@
       "weight": 1.0
     },
     {
+      "source": "github_issue_template_backend_task",
+      "target": "github_issue_template_backend_task_2_spesifikasi_acuan_dokumen_traceability",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_backend_task",
+      "target": "github_issue_template_backend_task_3_kebutuhan_database_migration",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_backend_task",
+      "target": "github_issue_template_backend_task_4_kontrak_rest_api_endpoint_specs",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_backend_task",
+      "target": "github_issue_template_backend_task_5_keamanan_validasi_aturan_bisnis",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_backend_task",
+      "target": "github_issue_template_backend_task_6_definition_of_done_dod",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_backend_task",
+      "target": "github_issue_template_backend_task_1_objective_scope",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_mobile_task",
+      "target": "github_issue_template_frontend_mobile_task_2_spesifikasi_acuan_dokumen_traceability",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_mobile_task",
+      "target": "github_issue_template_frontend_mobile_task_3_kebutuhan_ui_ux_mobile_flutter",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_mobile_task",
+      "target": "github_issue_template_frontend_mobile_task_4_akses_hardware_sensor_perangkat",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_mobile_task",
+      "target": "github_issue_template_frontend_mobile_task_5_arsitektur_offline_first_penyimpanan_lokal",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_mobile_task",
+      "target": "github_issue_template_frontend_mobile_task_6_definition_of_done_dod",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_mobile_task",
+      "target": "github_issue_template_frontend_mobile_task_1_objective_target_persona",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_web_task",
+      "target": "github_issue_template_frontend_web_task_2_spesifikasi_acuan_dokumen_traceability",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_web_task",
+      "target": "github_issue_template_frontend_web_task_3_kebutuhan_komponen_antarmuka_ui_ux",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_web_task",
+      "target": "github_issue_template_frontend_web_task_4_integrasi_rest_api_state_management",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_web_task",
+      "target": "github_issue_template_frontend_web_task_5_definition_of_done_dod",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_web_task",
+      "target": "github_issue_template_frontend_web_task_1_objective_target_persona",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "progress",
       "target": "progress_sehs_documentation_project_progress_checkpoint_tracker",
       "relation": "contains",
@@ -5614,7 +6451,7 @@
     },
     {
       "source": "progress_deliverables_yang_sudah_selesai_completed_100",
-      "target": "progress_1_tata_kelola_aturan_arsitektur_agents",
+      "target": "progress_1_tata_kelola_aturan_arsitektur_agents_github",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5631,7 +6468,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L25",
+      "source_location": "L30",
       "weight": 1.0
     },
     {
@@ -5642,7 +6479,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L30",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -5653,7 +6490,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L38",
+      "source_location": "L43",
       "weight": 1.0
     },
     {
@@ -5675,7 +6512,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L46",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -5686,7 +6523,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L63",
+      "source_location": "L68",
       "weight": 1.0
     },
     {
@@ -5708,7 +6545,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L72",
+      "source_location": "L77",
       "weight": 1.0
     },
     {
@@ -6769,7 +7606,7 @@
     },
     {
       "source": "technical_04_trd_security_qr_offline",
-      "target": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_pwa",
+      "target": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_flutter_pwa",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6841,7 +7678,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L142",
+      "source_location": "L156",
       "weight": 1.0
     },
     {
@@ -6852,7 +7689,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L148",
+      "source_location": "L162",
       "weight": 1.0
     },
     {
@@ -6863,29 +7700,40 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L171",
+      "source_location": "L185",
       "weight": 1.0
     },
     {
-      "source": "technical_04_trd_security_qr_offline_5_arsitektur_offline_first_pwa_sinkronisasi_data",
+      "source": "technical_04_trd_security_qr_offline_5_arsitektur_offline_first_sinkronisasi_data_flutter_mobile_pwa",
+      "target": "technical_04_trd_security_qr_offline_5_1_skema_penyimpanan_outbox_lokal_sqlite_isar_indexeddb",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "technical/04-trd-security-qr-offline.md",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "technical_04_trd_security_qr_offline_5_arsitektur_offline_first_sinkronisasi_data_flutter_mobile_pwa",
       "target": "technical_04_trd_security_qr_offline_5_1_skema_penyimpanan_lokal_indexeddb_object_stores",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L138",
+      "source_location": "L152",
       "weight": 1.0
     },
     {
-      "source": "technical_04_trd_security_qr_offline_5_arsitektur_offline_first_pwa_sinkronisasi_data",
+      "source": "technical_04_trd_security_qr_offline_5_arsitektur_offline_first_sinkronisasi_data_flutter_mobile_pwa",
       "target": "technical_04_trd_security_qr_offline_5_2_strategi_caching_service_worker_cache_storage",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L175",
+      "source_location": "L189",
       "weight": 1.0
     },
     {
@@ -6896,7 +7744,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L192",
+      "source_location": "L206",
       "weight": 1.0
     },
     {
@@ -6907,29 +7755,29 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L202",
+      "source_location": "L216",
       "weight": 1.0
     },
     {
       "source": "technical_04_trd_security_qr_offline_6_2_post_api_v1_sync_batch",
-      "target": "technical_04_trd_security_qr_offline_request_payload_232",
+      "target": "technical_04_trd_security_qr_offline_request_payload_246",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L232",
+      "source_location": "L246",
       "weight": 1.0
     },
     {
       "source": "technical_04_trd_security_qr_offline_6_2_post_api_v1_sync_batch",
-      "target": "technical_04_trd_security_qr_offline_response_success_200_ok_252",
+      "target": "technical_04_trd_security_qr_offline_response_success_200_ok_266",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L252",
+      "source_location": "L266",
       "weight": 1.0
     },
     {
@@ -6940,7 +7788,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L188",
+      "source_location": "L202",
       "weight": 1.0
     },
     {
@@ -6951,12 +7799,12 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L227",
+      "source_location": "L241",
       "weight": 1.0
     },
     {
-      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_pwa",
-      "target": "technical_04_trd_security_qr_offline_5_arsitektur_offline_first_pwa_sinkronisasi_data",
+      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_flutter_pwa",
+      "target": "technical_04_trd_security_qr_offline_5_arsitektur_offline_first_sinkronisasi_data_flutter_mobile_pwa",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6966,18 +7814,18 @@
       "weight": 1.0
     },
     {
-      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_pwa",
+      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_flutter_pwa",
       "target": "technical_04_trd_security_qr_offline_6_spesifikasi_endpoint_sinkronisasi_verifikasi_qr",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L186",
+      "source_location": "L200",
       "weight": 1.0
     },
     {
-      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_pwa",
+      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_flutter_pwa",
       "target": "technical_04_trd_security_qr_offline_2_latar_belakang_masalah_arsitektur",
       "relation": "contains",
       "_origin": "ast",
@@ -6988,18 +7836,18 @@
       "weight": 1.0
     },
     {
-      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_pwa",
+      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_flutter_pwa",
       "target": "technical_04_trd_security_qr_offline_7_kebijakan_rekonsiliasi_bentrok_penanganan_waktu_conflict_clock_drift",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "technical/04-trd-security-qr-offline.md",
-      "source_location": "L275",
+      "source_location": "L289",
       "weight": 1.0
     },
     {
-      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_pwa",
+      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_flutter_pwa",
       "target": "technical_04_trd_security_qr_offline_3_arsitektur_kriptografi_format_qr_code",
       "relation": "contains",
       "_origin": "ast",
@@ -7010,7 +7858,7 @@
       "weight": 1.0
     },
     {
-      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_pwa",
+      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_flutter_pwa",
       "target": "technical_04_trd_security_qr_offline_1_metadata_dokumen",
       "relation": "contains",
       "_origin": "ast",
@@ -7021,7 +7869,7 @@
       "weight": 1.0
     },
     {
-      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_pwa",
+      "source": "technical_04_trd_security_qr_offline_technical_requirements_document_trd_keamanan_qr_code_anti_kloning_arsitektur_offline_first_flutter_pwa",
       "target": "technical_04_trd_security_qr_offline_4_mekanisme_anti_kloning_validasi_kehadiran_fisik",
       "relation": "contains",
       "_origin": "ast",
@@ -7275,7 +8123,7 @@
     },
     {
       "source": "progress",
-      "target": "agents_workflows_save_progress",
+      "target": "agents_skills_issue_task_scaffolder_skill",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7286,7 +8134,29 @@
     },
     {
       "source": "progress",
-      "target": "readme",
+      "target": "agents_workflows_save_progress",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
+      "target": "agents_workflows_publish_issue",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
+      "target": "github_issue_template_backend_task",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7297,7 +8167,7 @@
     },
     {
       "source": "progress",
-      "target": "00_master_prd",
+      "target": "github_issue_template_frontend_web_task",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7308,7 +8178,7 @@
     },
     {
       "source": "progress",
-      "target": "features_01_prd_auth_user",
+      "target": "github_issue_template_frontend_mobile_task",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7319,7 +8189,7 @@
     },
     {
       "source": "progress",
-      "target": "features_master_data_01_md_organisasi_shift",
+      "target": "readme",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7330,7 +8200,7 @@
     },
     {
       "source": "progress",
-      "target": "features_master_data_02_md_fasilitas_ruangan_qr",
+      "target": "00_master_prd",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7341,7 +8211,7 @@
     },
     {
       "source": "progress",
-      "target": "features_master_data_03_md_standar_checklist",
+      "target": "features_01_prd_auth_user",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7352,29 +8222,7 @@
     },
     {
       "source": "progress",
-      "target": "features_master_data_04_md_limbah_tps_vendor",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "PROGRESS.md",
-      "source_location": "L34",
-      "weight": 1.0
-    },
-    {
-      "source": "progress",
-      "target": "features_master_data_05_md_baku_mutu_air_udara",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "PROGRESS.md",
-      "source_location": "L35",
-      "weight": 1.0
-    },
-    {
-      "source": "progress",
-      "target": "features_master_data_06_md_kategori_temuan_sla",
+      "target": "features_master_data_01_md_organisasi_shift",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7385,7 +8233,29 @@
     },
     {
       "source": "progress",
-      "target": "technical_01_dra_database_erd_master_auth",
+      "target": "features_master_data_02_md_fasilitas_ruangan_qr",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
+      "target": "features_master_data_03_md_standar_checklist",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
+      "target": "features_master_data_04_md_limbah_tps_vendor",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7396,7 +8266,7 @@
     },
     {
       "source": "progress",
-      "target": "technical_02_trd_auth_session_api",
+      "target": "features_master_data_05_md_baku_mutu_air_udara",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7407,7 +8277,7 @@
     },
     {
       "source": "progress",
-      "target": "technical_03_trd_master_data_api",
+      "target": "features_master_data_06_md_kategori_temuan_sla",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7418,13 +8288,46 @@
     },
     {
       "source": "progress",
+      "target": "technical_01_dra_database_erd_master_auth",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
+      "target": "technical_02_trd_auth_session_api",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
+      "target": "technical_03_trd_master_data_api",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
       "target": "technical_04_trd_security_qr_offline",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L42",
+      "source_location": "L47",
       "weight": 1.0
     },
     {
@@ -7704,5 +8607,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "93821dd47b5629fa703e9c15cb0ed7dcdb40d755"
+  "built_at_commit": "369f8d120d8a993b601b0f53f3dc8b473238f88b"
 }

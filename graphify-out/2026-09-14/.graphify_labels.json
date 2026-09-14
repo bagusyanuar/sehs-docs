@@ -4,7 +4,7 @@
   "2": "Smart Environment Health System (SEHS) — Documentation Hub",
   "3": "3. Spesifikasi Skema Database PostgreSQL (DDL)",
   "4": "3. Spesifikasi Endpoint REST API",
-  "5": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA",
+  "5": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
   "6": "PROGRESS.md",
   "7": "3. Spesifikasi Endpoint per Klaster Bisnis",
   "8": "workflows/graphify.md",
@@ -18,5 +18,10 @@
   "16": "Feature PRD: Master Data Kategori Temuan & Standar SLA",
   "17": "SEHS Documentation Project — Progress & Checkpoint Tracker",
   "18": "2. Standard 4-Step Cascade Update Workflow",
-  "19": "Langkah-Langkah Eksekusi Otomatis"
+  "19": "Langkah-Langkah Eksekusi Otomatis",
+  "20": "Issue Task Scaffolder Skill",
+  "21": "Langkah-Langkah Eksekusi Otomatis",
+  "22": "backend-task.md",
+  "23": "frontend-mobile-task.md",
+  "24": "frontend-web-task.md"
 }

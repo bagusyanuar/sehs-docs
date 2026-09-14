@@ -1,17 +1,17 @@
 # Graph Report - sehs-docs  (2026-09-14)
 
 ## Corpus Check
-- 24 files · ~24,225 words
+- 25 files · ~25,205 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 2 file(s) not represented in the graph (top: (none) 2)
 
 ## Summary
-- 344 nodes · 385 edges · 24 communities (22 shown, 2 thin omitted)
+- 357 nodes · 402 edges · 25 communities (23 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f3c588e1`
+- Built from commit: `2394fad1`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -21,7 +21,7 @@
 - Smart Environment Health System (SEHS) — Documentation Hub
 - 3. Spesifikasi Skema Database PostgreSQL (DDL)
 - 3. Spesifikasi Endpoint REST API
-- Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA
+- Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)
 - PROGRESS.md
 - 3. Spesifikasi Endpoint per Klaster Bisnis
 - workflows/graphify.md
@@ -39,7 +39,8 @@
 - Issue Task Scaffolder Skill
 - Langkah-Langkah Eksekusi Otomatis
 - backend-task.md
-- frontend-task.md
+- frontend-mobile-task.md
+- frontend-web-task.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `Smart Environment Health System (SEHS)` - 11 edges
@@ -51,12 +52,12 @@
 7. `Feature PRD: Master Data Standar Checklist & Template Audit` - 9 edges
 8. `Feature PRD: Master Data Kategori Temuan & Standar SLA` - 9 edges
 9. `3. Spesifikasi Skema Database PostgreSQL (DDL)` - 9 edges
-10. `Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA` - 8 edges
+10. `Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (24 total, 2 thin omitted)
+## Communities (25 total, 2 thin omitted)
 
 ### Community 0 - "Smart Environment Health System (SEHS)"
 Cohesion: 0.08
@@ -67,8 +68,8 @@ Cohesion: 0.11
 Nodes (19): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 Nilai Bisnis & Manfaat Sistem, 2. Latar Belakang & Masalah Bisnis, 3. Persona Pengguna & Konteks Operasional, 4.1 Alur Masuk Kerja Petugas Lapangan (Mobile PWA), 4.2 Alur Pergantian Shift Kerja (Shift Handover), 4. Alur Pengalaman Pengguna (User Journey) (+11 more)
 
 ### Community 2 - "Smart Environment Health System (SEHS) — Documentation Hub"
-Cohesion: 0.11
-Nodes (18): 1. Membuka Visualisasi Graf Interaktif, 1. Prinsip Utama: *Zero Documentation Drift*, 2. Alur 4 Langkah Menangani Request Enhancement dari Klien, 2. Berinteraksi & Query Graf dengan AI, 3. Contoh Prompt Cepat untuk Menjalankan Enhancement dengan AI, 3. Memperbarui Graf Setelah Menambah/Mengubah Dokumen, 4. File Output Graphify (`graphify-out/`), 4. Titik Simpan Sesi Kerja (*Session Checkpoint*) (+10 more)
+Cohesion: 0.09
+Nodes (23): 1. Membuka Visualisasi Graf Interaktif, 1. Prinsip Utama: *Zero Documentation Drift*, 1. Tiga Kategori Tiket Resmi, 2. Alur 4 Langkah Menangani Request Enhancement dari Klien, 2. Berinteraksi & Query Graf dengan AI, 2. Cara Menerbitkan Tiket via AI (Otomatis), 3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual, 3. Contoh Prompt Cepat untuk Menjalankan Enhancement dengan AI (+15 more)
 
 ### Community 3 - "3. Spesifikasi Skema Database PostgreSQL (DDL)"
 Cohesion: 0.07
@@ -78,9 +79,9 @@ Nodes (28): 1. Metadata Dokumen, 2. Diagram Hubungan Entitas (Entity-Relationshi
 Cohesion: 0.07
 Nodes (28): 1. Metadata Dokumen, 2. Arsitektur Komponen & Diagram Alur Teknis, 3.1 `POST /api/v1/auth/login-field`, 3.2 `POST /api/v1/auth/login-web`, 3.3 `POST /api/v1/auth/refresh`, 3.4 `POST /api/v1/auth/logout`, 3.5 `PUT /api/v1/auth/change-pin`, 3.6 `POST /api/v1/admin/users/:id/reset-pin` (+20 more)
 
-### Community 5 - "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA"
+### Community 5 - "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)"
 Cohesion: 0.08
-Nodes (24): 1. Metadata Dokumen, 1. Store: `cached_templates`, 2. Latar Belakang & Masalah Arsitektur, 2. Store: `outbox_queue`, 3.1 Struktur Muatan Token QR Fisik Ruangan (*Static Door QR*), 3.2 Rumus Perhitungan HMAC-SHA256 Server, 3. Arsitektur Kriptografi & Format QR Code, 3. Store: `offline_photos` (+16 more)
+Nodes (25): 1. Metadata Dokumen, 1. Store: `cached_templates`, 2. Latar Belakang & Masalah Arsitektur, 2. Store: `outbox_queue`, 3.1 Struktur Muatan Token QR Fisik Ruangan (*Static Door QR*), 3.2 Rumus Perhitungan HMAC-SHA256 Server, 3. Arsitektur Kriptografi & Format QR Code, 3. Store: `offline_photos` (+17 more)
 
 ### Community 7 - "3. Spesifikasi Endpoint per Klaster Bisnis"
 Cohesion: 0.09
@@ -132,7 +133,7 @@ Nodes (8): 1. Periksa Status Berkas & Perubahan Sesi Ini, 2. Perbarui Dokumen Pe
 
 ### Community 20 - "Issue Task Scaffolder Skill"
 Cohesion: 0.25
-Nodes (7): 1. Core Principles of Issue Scaffolding, 2.1 Backend Issue Format (`[BE]`), 2.2 Frontend Issue Format (`[FE]`), 2. Standard Issue Structure, 3. GitHub CLI (`gh`) Command Generation, 4. Verification Gate, Issue Task Scaffolder Skill
+Nodes (8): 1. Core Principles of Issue Scaffolding, 2.1 Backend Issue Format (`[BE]`), 2.2 Frontend Web Issue Format (`[FE-WEB]`), 2.3 Frontend Mobile Flutter Issue Format (`[FE-MOBILE]`), 2. Standard Issue Structure, 3. GitHub CLI (`gh`) Command Generation, 4. Verification Gate, Issue Task Scaffolder Skill
 
 ### Community 21 - "Langkah-Langkah Eksekusi Otomatis"
 Cohesion: 0.25
@@ -142,29 +143,33 @@ Nodes (7): 1. Identifikasi Modul & Peran Target, 2. Kumpulkan Konteks Dokumen, 3
 Cohesion: 0.29
 Nodes (6): 🎯 1. Objective & Scope, 📚 2. Spesifikasi & Acuan Dokumen (Traceability), 🗄️ 3. Kebutuhan Database & Migration, 🔌 4. Kontrak REST API & Endpoint Specs, 🛡️ 5. Keamanan & Validasi Aturan Bisnis, ✅ 6. Definition of Done (DoD)
 
-### Community 23 - "frontend-task.md"
+### Community 23 - "frontend-mobile-task.md"
 Cohesion: 0.29
-Nodes (6): 🎯 1. Objective & Target Platform, 📚 2. Spesifikasi & Acuan Dokumen (Traceability), 📱 3. Kebutuhan UI/UX & Interaksi Komponen, 🔌 4. Integrasi REST API & State Management, 📡 5. Kebutuhan Khusus Perangkat & Mode Offline (Jika Relevan), ✅ 6. Definition of Done (DoD)
+Nodes (6): 🎯 1. Objective & Target Persona, 📚 2. Spesifikasi & Acuan Dokumen (Traceability), 📱 3. Kebutuhan UI/UX Mobile (Flutter), 📷 4. Akses Hardware & Sensor Perangkat, 💾 5. Arsitektur Offline-First & Penyimpanan Lokal, ✅ 6. Definition of Done (DoD)
+
+### Community 24 - "frontend-web-task.md"
+Cohesion: 0.33
+Nodes (5): 🎯 1. Objective & Target Persona, 📚 2. Spesifikasi & Acuan Dokumen (Traceability), 🖥️ 3. Kebutuhan Komponen Antarmuka (UI/UX), 🔌 4. Integrasi REST API & State Management, ✅ 5. Definition of Done (DoD)
 
 ## Knowledge Gaps
-- **237 isolated node(s):** `1. Core Principles of Issue Scaffolding`, `2.1 Backend Issue Format (`[BE]`)`, `2.2 Frontend Issue Format (`[FE]`)`, `3. GitHub CLI (`gh`) Command Generation`, `4. Verification Gate` (+232 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 238 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **248 isolated node(s):** `📌 Navigasi Dokumentasi`, `A. Fondasi Identitas & Akses`, `B. Fondasi Data Induk (Master Data Clusters)`, `C. Modul Transaksi Operasional & Analitik`, `D. Spesifikasi Arsitektur Teknis (DRA & TRD)` (+243 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 249 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Technical Requirements Document (TRD): API Autentikasi & Manajemen Sesi` connect `3. Spesifikasi Endpoint REST API` to `PROGRESS.md`?**
-  _High betweenness centrality (0.147) - this node is a cross-community bridge._
+  _High betweenness centrality (0.142) - this node is a cross-community bridge._
 - **Why does `Data Requirements Architecture (DRA): Database Schema & ERD Master Data & Auth` connect `3. Spesifikasi Skema Database PostgreSQL (DDL)` to `PROGRESS.md`?**
-  _High betweenness centrality (0.146) - this node is a cross-community bridge._
-- **What connects `1. Core Principles of Issue Scaffolding`, `2.1 Backend Issue Format (`[BE]`)`, `2.2 Frontend Issue Format (`[FE]`)` to the rest of the system?**
-  _237 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.141) - this node is a cross-community bridge._
+- **Why does `Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)` connect `Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)` to `PROGRESS.md`?**
+  _High betweenness centrality (0.129) - this node is a cross-community bridge._
+- **What connects `📌 Navigasi Dokumentasi`, `A. Fondasi Identitas & Akses`, `B. Fondasi Data Induk (Master Data Clusters)` to the rest of the system?**
+  _248 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Smart Environment Health System (SEHS)` be split into smaller, more focused modules?**
   _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Smart Environment Health System (SEHS) — Documentation Hub` be split into smaller, more focused modules?**
-  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
-- **Should `3. Spesifikasi Skema Database PostgreSQL (DDL)` be split into smaller, more focused modules?**
-  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
