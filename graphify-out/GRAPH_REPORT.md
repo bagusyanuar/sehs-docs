@@ -1,17 +1,17 @@
 # Graph Report - sehs-docs  (2026-09-14)
 
 ## Corpus Check
-- 25 files · ~25,397 words
+- 26 files · ~25,778 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 2 file(s) not represented in the graph (top: (none) 2)
 
 ## Summary
-- 361 nodes · 406 edges · 25 communities (23 shown, 2 thin omitted)
+- 364 nodes · 408 edges · 25 communities (24 shown, 1 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a01b1c0b`
+- Built from commit: `eba5c70a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -38,9 +38,9 @@
 - Langkah-Langkah Eksekusi Otomatis
 - Issue Task Scaffolder Skill
 - Langkah-Langkah Eksekusi Otomatis
-- backend-task.md
+- 🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)
+- Persona: Tika — Lead System Analyst & Technical Project Manager
 - frontend-mobile-task.md
-- frontend-web-task.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `Smart Environment Health System (SEHS)` - 11 edges
@@ -57,7 +57,7 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (25 total, 2 thin omitted)
+## Communities (25 total, 1 thin omitted)
 
 ### Community 0 - "Smart Environment Health System (SEHS)"
 Cohesion: 0.08
@@ -68,8 +68,8 @@ Cohesion: 0.11
 Nodes (19): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 Nilai Bisnis & Manfaat Sistem, 2. Latar Belakang & Masalah Bisnis, 3. Persona Pengguna & Konteks Operasional, 4.1 Alur Masuk Kerja Petugas Lapangan (Mobile PWA), 4.2 Alur Pergantian Shift Kerja (Shift Handover), 4. Alur Pengalaman Pengguna (User Journey) (+11 more)
 
 ### Community 2 - "Smart Environment Health System (SEHS) — Documentation Hub"
-Cohesion: 0.07
-Nodes (27): 1. Membuka Visualisasi Graf Interaktif, 1. Prinsip Utama: *Zero Documentation Drift*, 1. Tiga Kategori Tiket Resmi, 2. Alur 4 Langkah Menangani Request Enhancement dari Klien, 2. Berinteraksi & Query Graf dengan AI, 2. Cara Menerbitkan Tiket via AI (Otomatis), 3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual, 3. Contoh Prompt Cepat untuk Menjalankan Enhancement dengan AI (+19 more)
+Cohesion: 0.11
+Nodes (18): 1. Membuka Visualisasi Graf Interaktif, 1. Prinsip Utama: *Zero Documentation Drift*, 2. Alur 4 Langkah Menangani Request Enhancement dari Klien, 2. Berinteraksi & Query Graf dengan AI, 3. Contoh Prompt Cepat untuk Menjalankan Enhancement dengan AI, 3. Memperbarui Graf Setelah Menambah/Mengubah Dokumen, 4. File Output Graphify (`graphify-out/`), 4. Titik Simpan Sesi Kerja (*Session Checkpoint*) (+10 more)
 
 ### Community 3 - "3. Spesifikasi Skema Database PostgreSQL (DDL)"
 Cohesion: 0.07
@@ -82,6 +82,10 @@ Nodes (28): 1. Metadata Dokumen, 2. Arsitektur Komponen & Diagram Alur Teknis, 3
 ### Community 5 - "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)"
 Cohesion: 0.08
 Nodes (25): 1. Metadata Dokumen, 1. Store: `cached_templates`, 2. Latar Belakang & Masalah Arsitektur, 2. Store: `outbox_queue`, 3.1 Struktur Muatan Token QR Fisik Ruangan (*Static Door QR*), 3.2 Rumus Perhitungan HMAC-SHA256 Server, 3. Arsitektur Kriptografi & Format QR Code, 3. Store: `offline_photos` (+17 more)
+
+### Community 6 - "PROGRESS.md"
+Cohesion: 0.18
+Nodes (10): Master Product Requirements Document (PRD), graphify, 🎯 1. Objective, 📚 2. Dokumen Acuan (Single Source of Truth), 🛠️ 3. Scope of Work (Tugas Teknis), ✅ 4. Definition of Done (DoD), 🎯 1. Objective & Target Persona, 📚 2. Dokumen Acuan (Single Source of Truth) (+2 more)
 
 ### Community 7 - "3. Spesifikasi Endpoint per Klaster Bisnis"
 Cohesion: 0.09
@@ -139,37 +143,37 @@ Nodes (8): 1. Core Principles of Issue Scaffolding, 2.1 Backend Issue Format (`[
 Cohesion: 0.25
 Nodes (7): 1. Identifikasi Modul & Peran Target, 2. Kumpulkan Konteks Dokumen, 3. Susun Isi Tiket Sesuai Template, 4. Terbitkan Tiket via GitHub CLI (`gh`), 5. Laporkan Tautan Tiket ke Pengguna, Langkah-Langkah Eksekusi Otomatis, Workflow: /publish-issue
 
-### Community 22 - "backend-task.md"
-Cohesion: 0.29
-Nodes (6): 🎯 1. Objective & Scope, 📚 2. Spesifikasi & Acuan Dokumen (Traceability), 🗄️ 3. Kebutuhan Database & Migration, 🔌 4. Kontrak REST API & Endpoint Specs, 🛡️ 5. Keamanan & Validasi Aturan Bisnis, ✅ 6. Definition of Done (DoD)
+### Community 22 - "🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)"
+Cohesion: 0.17
+Nodes (12): 1. Tiga Kategori Tiket Resmi, 2. Cara Menerbitkan Tiket via AI (Otomatis), 3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual, 4. Cara Meng-update atau Menambah Lingkup pada Tiket yang Sudah Ada, 5. Cara Mengonsumsi Tiket Saat Mulai Coding, 6. Otomatisasi Lintas Repositori (Cross-Repo Auto-Close via PR), A. Melalui Perintah Asisten AI (Paling Praktis), B. Melalui Terminal GitHub CLI (`gh`) (+4 more)
 
-### Community 23 - "frontend-mobile-task.md"
-Cohesion: 0.29
-Nodes (6): 🎯 1. Objective & Target Persona, 📚 2. Spesifikasi & Acuan Dokumen (Traceability), 📱 3. Kebutuhan UI/UX Mobile (Flutter), 📷 4. Akses Hardware & Sensor Perangkat, 💾 5. Arsitektur Offline-First & Penyimpanan Lokal, ✅ 6. Definition of Done (DoD)
+### Community 23 - "Persona: Tika — Lead System Analyst & Technical Project Manager"
+Cohesion: 0.40
+Nodes (4): 1. Identitas & Profil Utama, 2. Penguasaan Domain & Pengetahuan Sistem (Core Competencies), 3. Tanggung Jawab Harian Tika dalam Tim, Persona: Tika — Lead System Analyst & Technical Project Manager
 
-### Community 24 - "frontend-web-task.md"
-Cohesion: 0.33
-Nodes (5): 🎯 1. Objective & Target Persona, 📚 2. Spesifikasi & Acuan Dokumen (Traceability), 🖥️ 3. Kebutuhan Komponen Antarmuka (UI/UX), 🔌 4. Integrasi REST API & State Management, ✅ 5. Definition of Done (DoD)
+### Community 24 - "frontend-mobile-task.md"
+Cohesion: 0.40
+Nodes (4): 🎯 1. Objective & Target Persona, 📚 2. Dokumen Acuan (Single Source of Truth), 🛠️ 3. Scope of Work (Tugas Teknis), ✅ 4. Definition of Done (DoD)
 
 ## Knowledge Gaps
-- **251 isolated node(s):** `📌 Navigasi Dokumentasi`, `A. Fondasi Identitas & Akses`, `B. Fondasi Data Induk (Master Data Clusters)`, `C. Modul Transaksi Operasional & Analitik`, `D. Spesifikasi Arsitektur Teknis (DRA & TRD)` (+246 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 252 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **251 isolated node(s):** `1. Identitas & Profil Utama`, `2. Penguasaan Domain & Pengetahuan Sistem (Core Competencies)`, `3. Tanggung Jawab Harian Tika dalam Tim`, `10. Indeks Rincian Feature PRD`, `1. Metadata Dokumen` (+246 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 253 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `Smart Environment Health System (SEHS) — Documentation Hub` connect `Smart Environment Health System (SEHS) — Documentation Hub` to `PROGRESS.md`, `🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)`?**
+  _High betweenness centrality (0.149) - this node is a cross-community bridge._
 - **Why does `Technical Requirements Document (TRD): API Autentikasi & Manajemen Sesi` connect `3. Spesifikasi Endpoint REST API` to `PROGRESS.md`?**
-  _High betweenness centrality (0.141) - this node is a cross-community bridge._
-- **Why does `Data Requirements Architecture (DRA): Database Schema & ERD Master Data & Auth` connect `3. Spesifikasi Skema Database PostgreSQL (DDL)` to `PROGRESS.md`?**
-  _High betweenness centrality (0.139) - this node is a cross-community bridge._
-- **Why does `Smart Environment Health System (SEHS) — Documentation Hub` connect `Smart Environment Health System (SEHS) — Documentation Hub` to `PROGRESS.md`?**
   _High betweenness centrality (0.138) - this node is a cross-community bridge._
-- **What connects `📌 Navigasi Dokumentasi`, `A. Fondasi Identitas & Akses`, `B. Fondasi Data Induk (Master Data Clusters)` to the rest of the system?**
+- **Why does `Data Requirements Architecture (DRA): Database Schema & ERD Master Data & Auth` connect `3. Spesifikasi Skema Database PostgreSQL (DDL)` to `PROGRESS.md`?**
+  _High betweenness centrality (0.136) - this node is a cross-community bridge._
+- **What connects `1. Identitas & Profil Utama`, `2. Penguasaan Domain & Pengetahuan Sistem (Core Competencies)`, `3. Tanggung Jawab Harian Tika dalam Tim` to the rest of the system?**
   _251 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Smart Environment Health System (SEHS)` be split into smaller, more focused modules?**
   _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Smart Environment Health System (SEHS) — Documentation Hub` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._

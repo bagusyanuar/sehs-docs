@@ -1769,7 +1769,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udca1 cara memulai kembali sesi besok (resume prompt)",
       "source_file": "PROGRESS.md",
-      "source_location": "L77"
+      "source_location": "L79"
     },
     {
       "id": "progress_deliverables_yang_sudah_selesai_completed_100",
@@ -2052,18 +2052,6 @@
       "source_location": "L140"
     },
     {
-      "id": "readme_1_tiga_kategori_tiket_resmi",
-      "label": "1. Tiga Kategori Tiket Resmi",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. tiga kategori tiket resmi",
-      "source_file": "README.md",
-      "source_location": "L205"
-    },
-    {
       "id": "readme_2_alur_4_langkah_menangani_request_enhancement_dari_klien",
       "label": "2. Alur 4 Langkah Menangani Request Enhancement dari Klien",
       "_origin": "ast",
@@ -2086,30 +2074,6 @@
       "norm_label": "2. berinteraksi & query graf dengan ai",
       "source_file": "README.md",
       "source_location": "L103"
-    },
-    {
-      "id": "readme_2_cara_menerbitkan_tiket_via_ai_otomatis",
-      "label": "2. Cara Menerbitkan Tiket via AI (Otomatis)",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2. cara menerbitkan tiket via ai (otomatis)",
-      "source_file": "README.md",
-      "source_location": "L215"
-    },
-    {
-      "id": "readme_3_cara_menerbitkan_tiket_via_github_cli_gh_secara_manual",
-      "label": "3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. cara menerbitkan tiket via github cli (`gh`) secara manual",
-      "source_file": "README.md",
-      "source_location": "L229"
     },
     {
       "id": "readme_3_contoh_prompt_cepat_untuk_menjalankan_enhancement_dengan_ai",
@@ -2136,18 +2100,6 @@
       "source_location": "L119"
     },
     {
-      "id": "readme_4_cara_meng_update_atau_menambah_lingkup_pada_tiket_yang_sudah_ada",
-      "label": "4. Cara Meng-update atau Menambah Lingkup pada Tiket yang Sudah Ada",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "4. cara meng-update atau menambah lingkup pada tiket yang sudah ada",
-      "source_file": "README.md",
-      "source_location": "L253"
-    },
-    {
       "id": "readme_4_file_output_graphify_graphify_out",
       "label": "4. File Output Graphify (`graphify-out/`)",
       "_origin": "ast",
@@ -2172,18 +2124,6 @@
       "source_location": "L195"
     },
     {
-      "id": "readme_5_cara_mengonsumsi_tiket_saat_mulai_coding",
-      "label": "5. Cara Mengonsumsi Tiket Saat Mulai Coding",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "5. cara mengonsumsi tiket saat mulai coding",
-      "source_file": "README.md",
-      "source_location": "L282"
-    },
-    {
       "id": "readme_a_fondasi_identitas_akses",
       "label": "A. Fondasi Identitas & Akses",
       "_origin": "ast",
@@ -2196,18 +2136,6 @@
       "source_location": "L52"
     },
     {
-      "id": "readme_a_melalui_perintah_asisten_ai_paling_praktis",
-      "label": "A. Melalui Perintah Asisten AI (Paling Praktis)",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "a. melalui perintah asisten ai (paling praktis)",
-      "source_file": "README.md",
-      "source_location": "L257"
-    },
-    {
       "id": "readme_b_fondasi_data_induk_master_data_clusters",
       "label": "B. Fondasi Data Induk (Master Data Clusters)",
       "_origin": "ast",
@@ -2218,30 +2146,6 @@
       "norm_label": "b. fondasi data induk (master data clusters)",
       "source_file": "README.md",
       "source_location": "L55"
-    },
-    {
-      "id": "readme_b_melalui_terminal_github_cli_gh",
-      "label": "B. Melalui Terminal GitHub CLI (`gh`)",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "b. melalui terminal github cli (`gh`)",
-      "source_file": "README.md",
-      "source_location": "L263"
-    },
-    {
-      "id": "readme_c_melalui_web_browser_github",
-      "label": "C. Melalui Web Browser GitHub",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "c. melalui web browser github",
-      "source_file": "README.md",
-      "source_location": "L275"
     },
     {
       "id": "readme_c_modul_transaksi_operasional_analitik",
@@ -2304,18 +2208,6 @@
       "source_location": "L138"
     },
     {
-      "id": "readme_panduan_penerbitan_pembaruan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
-      "label": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83c\udfab panduan penerbitan & pembaruan tiket tugas (github issues untuk be, fe-web & fe-mobile)",
-      "source_file": "README.md",
-      "source_location": "L201"
-    },
-    {
       "id": "readme_ringkasan_modul_klaster_prd",
       "label": "\ud83d\ude80 Ringkasan Modul & Klaster PRD",
       "_origin": "ast",
@@ -2373,7 +2265,7 @@
       "node_kind": "heading",
       "norm_label": "2.1 backend issue format (`[be]`)",
       "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
-      "source_location": "L28"
+      "source_location": "L32"
     },
     {
       "id": "agents_skills_issue_task_scaffolder_skill_2_2_frontend_web_issue_format_fe_web",
@@ -2385,7 +2277,7 @@
       "node_kind": "heading",
       "norm_label": "2.2 frontend web issue format (`[fe-web]`)",
       "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
-      "source_location": "L33"
+      "source_location": "L37"
     },
     {
       "id": "agents_skills_issue_task_scaffolder_skill_2_3_frontend_mobile_flutter_issue_format_fe_mobile",
@@ -2397,7 +2289,7 @@
       "node_kind": "heading",
       "norm_label": "2.3 frontend mobile flutter issue format (`[fe-mobile]`)",
       "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
-      "source_location": "L38"
+      "source_location": "L42"
     },
     {
       "id": "agents_skills_issue_task_scaffolder_skill_2_standard_issue_structure",
@@ -2409,7 +2301,7 @@
       "node_kind": "heading",
       "norm_label": "2. standard issue structure",
       "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
-      "source_location": "L26"
+      "source_location": "L30"
     },
     {
       "id": "agents_skills_issue_task_scaffolder_skill_3_github_cli_gh_command_generation",
@@ -2421,7 +2313,7 @@
       "node_kind": "heading",
       "norm_label": "3. github cli (`gh`) command generation",
       "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
-      "source_location": "L45"
+      "source_location": "L49"
     },
     {
       "id": "agents_skills_issue_task_scaffolder_skill_4_verification_gate",
@@ -2433,7 +2325,7 @@
       "node_kind": "heading",
       "norm_label": "4. verification gate",
       "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
-      "source_location": "L65"
+      "source_location": "L69"
     },
     {
       "id": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
@@ -2548,106 +2440,219 @@
       "source_location": "L6"
     },
     {
-      "id": "github_issue_template_backend_task",
-      "label": "backend-task.md",
+      "id": "readme_1_tiga_kategori_tiket_resmi",
+      "label": "1. Tiga Kategori Tiket Resmi",
       "_origin": "ast",
       "community": 22,
-      "community_name": "backend-task.md",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
-      "frontmatter": {
-        "name": "Backend Engineering Task",
-        "about": "Template tugas implementasi Backend (Database, REST API, Security, Business Rules)",
-        "title": "[BE] &lt;Nama Modul&gt;: &lt;Tujuan Implementasi&gt;",
-        "labels": "[&quot;backend&quot;]",
-        "assignees": "[]"
-      },
+      "node_kind": "heading",
+      "norm_label": "1. tiga kategori tiket resmi",
+      "source_file": "README.md",
+      "source_location": "L205"
+    },
+    {
+      "id": "readme_2_cara_menerbitkan_tiket_via_ai_otomatis",
+      "label": "2. Cara Menerbitkan Tiket via AI (Otomatis)",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. cara menerbitkan tiket via ai (otomatis)",
+      "source_file": "README.md",
+      "source_location": "L215"
+    },
+    {
+      "id": "readme_3_cara_menerbitkan_tiket_via_github_cli_gh_secara_manual",
+      "label": "3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. cara menerbitkan tiket via github cli (`gh`) secara manual",
+      "source_file": "README.md",
+      "source_location": "L229"
+    },
+    {
+      "id": "readme_4_cara_meng_update_atau_menambah_lingkup_pada_tiket_yang_sudah_ada",
+      "label": "4. Cara Meng-update atau Menambah Lingkup pada Tiket yang Sudah Ada",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. cara meng-update atau menambah lingkup pada tiket yang sudah ada",
+      "source_file": "README.md",
+      "source_location": "L253"
+    },
+    {
+      "id": "readme_5_cara_mengonsumsi_tiket_saat_mulai_coding",
+      "label": "5. Cara Mengonsumsi Tiket Saat Mulai Coding",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. cara mengonsumsi tiket saat mulai coding",
+      "source_file": "README.md",
+      "source_location": "L282"
+    },
+    {
+      "id": "readme_6_otomatisasi_lintas_repositori_cross_repo_auto_close_via_pr",
+      "label": "6. Otomatisasi Lintas Repositori (Cross-Repo Auto-Close via PR)",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "6. otomatisasi lintas repositori (cross-repo auto-close via pr)",
+      "source_file": "README.md",
+      "source_location": "L294"
+    },
+    {
+      "id": "readme_a_melalui_perintah_asisten_ai_paling_praktis",
+      "label": "A. Melalui Perintah Asisten AI (Paling Praktis)",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "a. melalui perintah asisten ai (paling praktis)",
+      "source_file": "README.md",
+      "source_location": "L257"
+    },
+    {
+      "id": "readme_b_melalui_terminal_github_cli_gh",
+      "label": "B. Melalui Terminal GitHub CLI (`gh`)",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "b. melalui terminal github cli (`gh`)",
+      "source_file": "README.md",
+      "source_location": "L263"
+    },
+    {
+      "id": "readme_c_melalui_web_browser_github",
+      "label": "C. Melalui Web Browser GitHub",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "c. melalui web browser github",
+      "source_file": "README.md",
+      "source_location": "L275"
+    },
+    {
+      "id": "readme_cara_penulisan_di_deskripsi_pr_atau_commit_repo_kode",
+      "label": "Cara Penulisan di Deskripsi PR atau Commit Repo Kode:",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "cara penulisan di deskripsi pr atau commit repo kode:",
+      "source_file": "README.md",
+      "source_location": "L298"
+    },
+    {
+      "id": "readme_manfaat_otomatisasi_ini",
+      "label": "Manfaat Otomatisasi Ini:",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "manfaat otomatisasi ini:",
+      "source_file": "README.md",
+      "source_location": "L308"
+    },
+    {
+      "id": "readme_panduan_penerbitan_pembaruan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "label": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83c\udfab panduan penerbitan & pembaruan tiket tugas (github issues untuk be, fe-web & fe-mobile)",
+      "source_file": "README.md",
+      "source_location": "L201"
+    },
+    {
+      "id": "agents_rules_persona_tika",
+      "label": "persona-tika.md",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Persona: Tika \u2014 Lead System Analyst & Technical Project Manager",
+      "file_type": "document",
       "node_kind": "page",
-      "norm_label": "backend-task.md",
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "norm_label": "persona-tika.md",
+      "source_file": ".agents/rules/persona-tika.md",
       "source_location": "L1"
     },
     {
-      "id": "github_issue_template_backend_task_1_objective_scope",
-      "label": "\ud83c\udfaf 1. Objective & Scope",
+      "id": "agents_rules_persona_tika_1_identitas_profil_utama",
+      "label": "1. Identitas & Profil Utama",
       "_origin": "ast",
-      "community": 22,
-      "community_name": "backend-task.md",
+      "community": 23,
+      "community_name": "Persona: Tika \u2014 Lead System Analyst & Technical Project Manager",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\ud83c\udfaf 1. objective & scope",
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L9"
+      "norm_label": "1. identitas & profil utama",
+      "source_file": ".agents/rules/persona-tika.md",
+      "source_location": "L3"
     },
     {
-      "id": "github_issue_template_backend_task_2_spesifikasi_acuan_dokumen_traceability",
-      "label": "\ud83d\udcda 2. Spesifikasi & Acuan Dokumen (Traceability)",
+      "id": "agents_rules_persona_tika_2_penguasaan_domain_pengetahuan_sistem_core_competencies",
+      "label": "2. Penguasaan Domain & Pengetahuan Sistem (Core Competencies)",
       "_origin": "ast",
-      "community": 22,
-      "community_name": "backend-task.md",
+      "community": 23,
+      "community_name": "Persona: Tika \u2014 Lead System Analyst & Technical Project Manager",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\ud83d\udcda 2. spesifikasi & acuan dokumen (traceability)",
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L14"
+      "norm_label": "2. penguasaan domain & pengetahuan sistem (core competencies)",
+      "source_file": ".agents/rules/persona-tika.md",
+      "source_location": "L13"
     },
     {
-      "id": "github_issue_template_backend_task_3_kebutuhan_database_migration",
-      "label": "\ud83d\uddc4\ufe0f 3. Kebutuhan Database & Migration",
+      "id": "agents_rules_persona_tika_3_tanggung_jawab_harian_tika_dalam_tim",
+      "label": "3. Tanggung Jawab Harian Tika dalam Tim",
       "_origin": "ast",
-      "community": 22,
-      "community_name": "backend-task.md",
+      "community": 23,
+      "community_name": "Persona: Tika \u2014 Lead System Analyst & Technical Project Manager",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\ud83d\uddc4\ufe0f 3. kebutuhan database & migration",
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L24"
+      "norm_label": "3. tanggung jawab harian tika dalam tim",
+      "source_file": ".agents/rules/persona-tika.md",
+      "source_location": "L32"
     },
     {
-      "id": "github_issue_template_backend_task_4_kontrak_rest_api_endpoint_specs",
-      "label": "\ud83d\udd0c 4. Kontrak REST API & Endpoint Specs",
+      "id": "agents_rules_persona_tika_persona_tika_lead_system_analyst_technical_project_manager",
+      "label": "Persona: Tika \u2014 Lead System Analyst & Technical Project Manager",
       "_origin": "ast",
-      "community": 22,
-      "community_name": "backend-task.md",
+      "community": 23,
+      "community_name": "Persona: Tika \u2014 Lead System Analyst & Technical Project Manager",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\ud83d\udd0c 4. kontrak rest api & endpoint specs",
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L38"
-    },
-    {
-      "id": "github_issue_template_backend_task_5_keamanan_validasi_aturan_bisnis",
-      "label": "\ud83d\udee1\ufe0f 5. Keamanan & Validasi Aturan Bisnis",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "backend-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udee1\ufe0f 5. keamanan & validasi aturan bisnis",
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L53"
-    },
-    {
-      "id": "github_issue_template_backend_task_6_definition_of_done_dod",
-      "label": "\u2705 6. Definition of Done (DoD)",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "backend-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u2705 6. definition of done (dod)",
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L60"
+      "norm_label": "persona: tika \u2014 lead system analyst & technical project manager",
+      "source_file": ".agents/rules/persona-tika.md",
+      "source_location": "L1"
     },
     {
       "id": "github_issue_template_frontend_mobile_task",
       "label": "frontend-mobile-task.md",
       "_origin": "ast",
-      "community": 23,
+      "community": 24,
       "community_name": "frontend-mobile-task.md",
       "file_type": "document",
       "frontmatter": {
         "name": "Frontend Mobile Task (Flutter App)",
-        "about": "Template tugas implementasi Mobile App Flutter (Petugas Cleaning Service, Porter Limbah &amp; Auditor Lapangan)",
+        "about": "Template tugas implementasi Mobile App Flutter (Scope-focused: Petugas Lapangan, QR &amp; Offline)",
         "title": "[FE-MOBILE] &lt;Nama Modul&gt;: &lt;Tujuan Fitur Mobile Flutter&gt;",
         "labels": "[&quot;frontend-mobile&quot;]",
         "assignees": "[]"
@@ -2661,7 +2666,7 @@
       "id": "github_issue_template_frontend_mobile_task_1_objective_target_persona",
       "label": "\ud83c\udfaf 1. Objective & Target Persona",
       "_origin": "ast",
-      "community": 23,
+      "community": 24,
       "community_name": "frontend-mobile-task.md",
       "file_type": "document",
       "node_kind": "heading",
@@ -2670,143 +2675,40 @@
       "source_location": "L9"
     },
     {
-      "id": "github_issue_template_frontend_mobile_task_2_spesifikasi_acuan_dokumen_traceability",
-      "label": "\ud83d\udcda 2. Spesifikasi & Acuan Dokumen (Traceability)",
+      "id": "github_issue_template_frontend_mobile_task_2_dokumen_acuan_single_source_of_truth",
+      "label": "\ud83d\udcda 2. Dokumen Acuan (Single Source of Truth)",
       "_origin": "ast",
-      "community": 23,
+      "community": 24,
       "community_name": "frontend-mobile-task.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\ud83d\udcda 2. spesifikasi & acuan dokumen (traceability)",
+      "norm_label": "\ud83d\udcda 2. dokumen acuan (single source of truth)",
       "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
       "source_location": "L16"
     },
     {
-      "id": "github_issue_template_frontend_mobile_task_3_kebutuhan_ui_ux_mobile_flutter",
-      "label": "\ud83d\udcf1 3. Kebutuhan UI/UX Mobile (Flutter)",
+      "id": "github_issue_template_frontend_mobile_task_3_scope_of_work_tugas_teknis",
+      "label": "\ud83d\udee0\ufe0f 3. Scope of Work (Tugas Teknis)",
       "_origin": "ast",
-      "community": 23,
+      "community": 24,
       "community_name": "frontend-mobile-task.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\ud83d\udcf1 3. kebutuhan ui/ux mobile (flutter)",
+      "norm_label": "\ud83d\udee0\ufe0f 3. scope of work (tugas teknis)",
       "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
       "source_location": "L25"
     },
     {
-      "id": "github_issue_template_frontend_mobile_task_4_akses_hardware_sensor_perangkat",
-      "label": "\ud83d\udcf7 4. Akses Hardware & Sensor Perangkat",
+      "id": "github_issue_template_frontend_mobile_task_4_definition_of_done_dod",
+      "label": "\u2705 4. Definition of Done (DoD)",
       "_origin": "ast",
-      "community": 23,
+      "community": 24,
       "community_name": "frontend-mobile-task.md",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\ud83d\udcf7 4. akses hardware & sensor perangkat",
+      "norm_label": "\u2705 4. definition of done (dod)",
       "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
-      "source_location": "L32"
-    },
-    {
-      "id": "github_issue_template_frontend_mobile_task_5_arsitektur_offline_first_penyimpanan_lokal",
-      "label": "\ud83d\udcbe 5. Arsitektur Offline-First & Penyimpanan Lokal",
-      "_origin": "ast",
-      "community": 23,
-      "community_name": "frontend-mobile-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udcbe 5. arsitektur offline-first & penyimpanan lokal",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
-      "source_location": "L39"
-    },
-    {
-      "id": "github_issue_template_frontend_mobile_task_6_definition_of_done_dod",
-      "label": "\u2705 6. Definition of Done (DoD)",
-      "_origin": "ast",
-      "community": 23,
-      "community_name": "frontend-mobile-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u2705 6. definition of done (dod)",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
-      "source_location": "L49"
-    },
-    {
-      "id": "github_issue_template_frontend_web_task",
-      "label": "frontend-web-task.md",
-      "_origin": "ast",
-      "community": 24,
-      "community_name": "frontend-web-task.md",
-      "file_type": "document",
-      "frontmatter": {
-        "name": "Frontend Web Task (Admin Dashboard)",
-        "about": "Template tugas implementasi Web Dashboard (React/Vue/Next.js untuk Sanitarian, Kantor, IPSRS &amp; Direksi)",
-        "title": "[FE-WEB] &lt;Nama Modul&gt;: &lt;Tujuan Antarmuka Dashboard&gt;",
-        "labels": "[&quot;frontend-web&quot;]",
-        "assignees": "[]"
-      },
-      "node_kind": "page",
-      "norm_label": "frontend-web-task.md",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "github_issue_template_frontend_web_task_1_objective_target_persona",
-      "label": "\ud83c\udfaf 1. Objective & Target Persona",
-      "_origin": "ast",
-      "community": 24,
-      "community_name": "frontend-web-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83c\udfaf 1. objective & target persona",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L9"
-    },
-    {
-      "id": "github_issue_template_frontend_web_task_2_spesifikasi_acuan_dokumen_traceability",
-      "label": "\ud83d\udcda 2. Spesifikasi & Acuan Dokumen (Traceability)",
-      "_origin": "ast",
-      "community": 24,
-      "community_name": "frontend-web-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udcda 2. spesifikasi & acuan dokumen (traceability)",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L16"
-    },
-    {
-      "id": "github_issue_template_frontend_web_task_3_kebutuhan_komponen_antarmuka_ui_ux",
-      "label": "\ud83d\udda5\ufe0f 3. Kebutuhan Komponen Antarmuka (UI/UX)",
-      "_origin": "ast",
-      "community": 24,
-      "community_name": "frontend-web-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udda5\ufe0f 3. kebutuhan komponen antarmuka (ui/ux)",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L24"
-    },
-    {
-      "id": "github_issue_template_frontend_web_task_4_integrasi_rest_api_state_management",
-      "label": "\ud83d\udd0c 4. Integrasi REST API & State Management",
-      "_origin": "ast",
-      "community": 24,
-      "community_name": "frontend-web-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udd0c 4. integrasi rest api & state management",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L32"
-    },
-    {
-      "id": "github_issue_template_frontend_web_task_5_definition_of_done_dod",
-      "label": "\u2705 5. Definition of Done (DoD)",
-      "_origin": "ast",
-      "community": 24,
-      "community_name": "frontend-web-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u2705 5. definition of done (dod)",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L39"
+      "source_location": "L34"
     },
     {
       "id": "technical_01_dra_database_erd_master_auth_1_metadata_dokumen",
@@ -3781,6 +3683,44 @@
       "source_location": "L1"
     },
     {
+      "id": "github_issue_template_backend_task",
+      "label": "backend-task.md",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "Backend Engineering Task",
+        "about": "Template tugas implementasi Backend (Scope-focused: Database, REST API, Security, Business Rules)",
+        "title": "[BE] &lt;Nama Modul&gt;: &lt;Tujuan Lingkup Tugas&gt;",
+        "labels": "[&quot;backend&quot;]",
+        "assignees": "[]"
+      },
+      "node_kind": "page",
+      "norm_label": "backend-task.md",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task",
+      "label": "frontend-web-task.md",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "Frontend Web Task (Admin Dashboard)",
+        "about": "Template tugas implementasi Web Dashboard (Scope-focused: React/Vue/Next.js untuk Admin &amp; Sanitarian)",
+        "title": "[FE-WEB] &lt;Nama Modul&gt;: &lt;Tujuan Antarmuka Dashboard&gt;",
+        "labels": "[&quot;frontend-web&quot;]",
+        "assignees": "[]"
+      },
+      "node_kind": "page",
+      "norm_label": "frontend-web-task.md",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L1"
+    },
+    {
       "id": "agents_rules_graphify",
       "label": "rules/graphify.md",
       "_origin": "ast",
@@ -3947,6 +3887,102 @@
       "norm_label": "06-md-kategori-temuan-sla.md",
       "source_file": "features/master-data/06-md-kategori-temuan-sla.md",
       "source_location": "L1"
+    },
+    {
+      "id": "github_issue_template_backend_task_1_objective",
+      "label": "\ud83c\udfaf 1. Objective",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83c\udfaf 1. objective",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "github_issue_template_backend_task_2_dokumen_acuan_single_source_of_truth",
+      "label": "\ud83d\udcda 2. Dokumen Acuan (Single Source of Truth)",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcda 2. dokumen acuan (single source of truth)",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "github_issue_template_backend_task_3_scope_of_work_tugas_teknis",
+      "label": "\ud83d\udee0\ufe0f 3. Scope of Work (Tugas Teknis)",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udee0\ufe0f 3. scope of work (tugas teknis)",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "github_issue_template_backend_task_4_definition_of_done_dod",
+      "label": "\u2705 4. Definition of Done (DoD)",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u2705 4. definition of done (dod)",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_1_objective_target_persona",
+      "label": "\ud83c\udfaf 1. Objective & Target Persona",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83c\udfaf 1. objective & target persona",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_2_dokumen_acuan_single_source_of_truth",
+      "label": "\ud83d\udcda 2. Dokumen Acuan (Single Source of Truth)",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcda 2. dokumen acuan (single source of truth)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_3_scope_of_work_tugas_teknis",
+      "label": "\ud83d\udee0\ufe0f 3. Scope of Work (Tugas Teknis)",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udee0\ufe0f 3. scope of work (tugas teknis)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_4_definition_of_done_dod",
+      "label": "\u2705 4. Definition of Done (DoD)",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u2705 4. definition of done (dod)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L33"
     },
     {
       "id": "progress",
@@ -4677,6 +4713,50 @@
       "weight": 1.0
     },
     {
+      "source": "agents_rules_persona_tika",
+      "target": "agents_rules_persona_tika_persona_tika_lead_system_analyst_technical_project_manager",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/rules/persona-tika.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_rules_persona_tika_persona_tika_lead_system_analyst_technical_project_manager",
+      "target": "agents_rules_persona_tika_2_penguasaan_domain_pengetahuan_sistem_core_competencies",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/rules/persona-tika.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_rules_persona_tika_persona_tika_lead_system_analyst_technical_project_manager",
+      "target": "agents_rules_persona_tika_1_identitas_profil_utama",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/rules/persona-tika.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_rules_persona_tika_persona_tika_lead_system_analyst_technical_project_manager",
+      "target": "agents_rules_persona_tika_3_tanggung_jawab_harian_tika_dalam_tim",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/rules/persona-tika.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
       "source": "agents_skills_business_prd_scaffolder_skill",
       "target": "agents_skills_business_prd_scaffolder_skill_business_centric_prd_scaffolder_skill",
       "relation": "contains",
@@ -4849,7 +4929,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
-      "source_location": "L28",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -4860,7 +4940,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
-      "source_location": "L33",
+      "source_location": "L37",
       "weight": 1.0
     },
     {
@@ -4871,7 +4951,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
-      "source_location": "L38",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
@@ -4893,7 +4973,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
-      "source_location": "L26",
+      "source_location": "L30",
       "weight": 1.0
     },
     {
@@ -4904,7 +4984,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
-      "source_location": "L45",
+      "source_location": "L49",
       "weight": 1.0
     },
     {
@@ -4915,7 +4995,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
-      "source_location": "L65",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -6361,7 +6441,7 @@
     },
     {
       "source": "github_issue_template_backend_task",
-      "target": "github_issue_template_backend_task_2_spesifikasi_acuan_dokumen_traceability",
+      "target": "github_issue_template_backend_task_2_dokumen_acuan_single_source_of_truth",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6372,7 +6452,7 @@
     },
     {
       "source": "github_issue_template_backend_task",
-      "target": "github_issue_template_backend_task_3_kebutuhan_database_migration",
+      "target": "github_issue_template_backend_task_3_scope_of_work_tugas_teknis",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6383,40 +6463,18 @@
     },
     {
       "source": "github_issue_template_backend_task",
-      "target": "github_issue_template_backend_task_4_kontrak_rest_api_endpoint_specs",
+      "target": "github_issue_template_backend_task_4_definition_of_done_dod",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L38",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
       "source": "github_issue_template_backend_task",
-      "target": "github_issue_template_backend_task_5_keamanan_validasi_aturan_bisnis",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L53",
-      "weight": 1.0
-    },
-    {
-      "source": "github_issue_template_backend_task",
-      "target": "github_issue_template_backend_task_6_definition_of_done_dod",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L60",
-      "weight": 1.0
-    },
-    {
-      "source": "github_issue_template_backend_task",
-      "target": "github_issue_template_backend_task_1_objective_scope",
+      "target": "github_issue_template_backend_task_1_objective",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6427,7 +6485,7 @@
     },
     {
       "source": "github_issue_template_frontend_mobile_task",
-      "target": "github_issue_template_frontend_mobile_task_2_spesifikasi_acuan_dokumen_traceability",
+      "target": "github_issue_template_frontend_mobile_task_2_dokumen_acuan_single_source_of_truth",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6438,7 +6496,7 @@
     },
     {
       "source": "github_issue_template_frontend_mobile_task",
-      "target": "github_issue_template_frontend_mobile_task_3_kebutuhan_ui_ux_mobile_flutter",
+      "target": "github_issue_template_frontend_mobile_task_3_scope_of_work_tugas_teknis",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6449,35 +6507,13 @@
     },
     {
       "source": "github_issue_template_frontend_mobile_task",
-      "target": "github_issue_template_frontend_mobile_task_4_akses_hardware_sensor_perangkat",
+      "target": "github_issue_template_frontend_mobile_task_4_definition_of_done_dod",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
-      "source_location": "L32",
-      "weight": 1.0
-    },
-    {
-      "source": "github_issue_template_frontend_mobile_task",
-      "target": "github_issue_template_frontend_mobile_task_5_arsitektur_offline_first_penyimpanan_lokal",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
-      "source_location": "L39",
-      "weight": 1.0
-    },
-    {
-      "source": "github_issue_template_frontend_mobile_task",
-      "target": "github_issue_template_frontend_mobile_task_6_definition_of_done_dod",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
-      "source_location": "L49",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -6493,7 +6529,7 @@
     },
     {
       "source": "github_issue_template_frontend_web_task",
-      "target": "github_issue_template_frontend_web_task_2_spesifikasi_acuan_dokumen_traceability",
+      "target": "github_issue_template_frontend_web_task_2_dokumen_acuan_single_source_of_truth",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6504,7 +6540,7 @@
     },
     {
       "source": "github_issue_template_frontend_web_task",
-      "target": "github_issue_template_frontend_web_task_3_kebutuhan_komponen_antarmuka_ui_ux",
+      "target": "github_issue_template_frontend_web_task_3_scope_of_work_tugas_teknis",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6515,24 +6551,13 @@
     },
     {
       "source": "github_issue_template_frontend_web_task",
-      "target": "github_issue_template_frontend_web_task_4_integrasi_rest_api_state_management",
+      "target": "github_issue_template_frontend_web_task_4_definition_of_done_dod",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L32",
-      "weight": 1.0
-    },
-    {
-      "source": "github_issue_template_frontend_web_task",
-      "target": "github_issue_template_frontend_web_task_5_definition_of_done_dod",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L39",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -6653,7 +6678,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L77",
+      "source_location": "L79",
       "weight": 1.0
     },
     {
@@ -6698,6 +6723,28 @@
       "confidence_score": 1.0,
       "source_file": "README.md",
       "source_location": "L275",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_6_otomatisasi_lintas_repositori_cross_repo_auto_close_via_pr",
+      "target": "readme_cara_penulisan_di_deskripsi_pr_atau_commit_repo_kode",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L298",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_6_otomatisasi_lintas_repositori_cross_repo_auto_close_via_pr",
+      "target": "readme_manfaat_otomatisasi_ini",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L308",
       "weight": 1.0
     },
     {
@@ -6797,6 +6844,17 @@
       "confidence_score": 1.0,
       "source_file": "README.md",
       "source_location": "L282",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_panduan_penerbitan_pembaruan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "target": "readme_6_otomatisasi_lintas_repositori_cross_repo_auto_close_via_pr",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L294",
       "weight": 1.0
     },
     {
@@ -8858,5 +8916,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a01b1c0bbad71d2324d9b436bec376f83a522b66"
+  "built_at_commit": "eba5c70a8d4de0d7b1ef4ee9b2580b8bc0e1e7bd"
 }
