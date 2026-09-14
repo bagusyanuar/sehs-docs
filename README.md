@@ -198,9 +198,9 @@ Asisten AI akan secara otomatis:
 
 ---
 
-## 🎫 Panduan Penerbitan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)
+## 🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)
 
-Repositori ini mendukung metodologi **Spec-Driven Development / Issue-Driven Development (IDD)**. Seluruh dokumen spesifikasi (PRD, DRA, dan TRD) dapat langsung diterbitkan menjadi tiket **GitHub Issues** yang terstruktur bagi tim Backend, Frontend Web, dan Frontend Mobile.
+Repositori ini mendukung metodologi **Spec-Driven Development / Issue-Driven Development (IDD)**. Seluruh dokumen spesifikasi (PRD, DRA, dan TRD) dapat langsung diterbitkan menjadi tiket **GitHub Issues** yang terstruktur bagi tim Backend, Frontend Web, dan Frontend Mobile, serta dapat diperbarui kapan saja saat terjadi perubahan lingkup pengerjaan.
 
 ### 1. Tiga Kategori Tiket Resmi
 
@@ -250,11 +250,40 @@ gh issue create \
 
 ---
 
-### 4. Cara Mengonsumsi Tiket Saat Mulai Coding
+### 4. Cara Meng-update atau Menambah Lingkup pada Tiket yang Sudah Ada
+
+Jika Anda menemukan ada kebutuhan yang kurang atau ada aturan baru yang ingin disisipkan ke tiket yang sudah terbit:
+
+#### A. Melalui Perintah Asisten AI (Paling Praktis)
+Cukup ketik perintah di chat:
+> *"Bro, tolong update Issue #1: tambahkan checklist pengujian brute-force Redis dan tambahkan label enhancement."*
+
+Asisten AI akan otomatis membaca tiket lama, menyisipkan poin baru, dan mengeksekusi pembaruan via `gh issue edit`.
+
+#### B. Melalui Terminal GitHub CLI (`gh`)
+```bash
+# Mengubah / memperbarui isi teks body issue
+gh issue edit 1 --body "Isi teks baru lengkap..."
+
+# Menambahkan label baru tanpa menghapus label lama
+gh issue edit 1 --add-label "enhancement"
+
+# Menambahkan komentar / catatan tambahan di bawah tiket
+gh issue comment 1 --body "📌 Catatan: Pastikan seeder default user memuat role SANITARIAN dan FIELD_OFFICER."
+```
+
+#### C. Melalui Web Browser GitHub
+1. Buka tautan tiket (misal: `https://github.com/bagusyanuar/sehs-docs/issues/1`).
+2. Klik ikon menu titik tiga `...` di pojok kanan atas deskripsi issue $\rightarrow$ pilih **Edit**.
+3. Sesuaikan teks yang diinginkan $\rightarrow$ klik tombol hijau **Update comment**.
+
+---
+
+### 5. Cara Mengonsumsi Tiket Saat Mulai Coding
 
 Saat Anda atau developer membuka repositori implementasi kode:
 * **Di Repo Backend:** Cukup beri prompt ke AI:  
-  *"Tolong kerjakan GitHub Issue #1 (link issue). Buatkan migration tabel PostgreSQL dan REST API controller sesuai TRD."*
+  *"Tolong kerjakan GitHub Issue #1 (https://github.com/bagusyanuar/sehs-docs/issues/1). Buatkan migration tabel PostgreSQL dan REST API controller sesuai TRD."*
 * **Di Repo Flutter Mobile:** Cukup beri prompt ke AI:  
   *"Tolong kerjakan GitHub Issue #3 (link issue). Buatkan UI keypad NIK+PIN dan integrasikan local storage via SQLite/Hive sesuai TRD-03."*
 
