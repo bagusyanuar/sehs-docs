@@ -129,10 +129,65 @@ graphify export html
 ---
 
 ## 📖 Panduan Kontribusi & Manajemen Perubahan (Change Management)
-- **Filosofi Zero Documentation Drift:** Setiap kali ada perubahan aturan bisnis di suatu PRD, seluruh dokumen hilir yang tertera pada baris `Consumed By (Dampak)` dan dokumen teknis terkait di `technical/` **wajib diselaraskan secara kaskade (*cascade update*)**.
-- **SOP Penyelarasan:** Prosedur lengkap pelacakan dan sinkronisasi perubahan diatur dalam skill: [`.agents/skills/change-impact-synchronizer/SKILL.md`](./.agents/skills/change-impact-synchronizer/SKILL.md).
-- **Semua Perubahan Strategis Global:** Wajib diselaraskan di [`00-MASTER-PRD.md`](./00-MASTER-PRD.md).
-- **Titik Simpan Akhir Sesi (`/save-progress`):** Setiap kali ingin mengakhiri sesi pengerjaan, jalankan slash command `/save-progress` atau perintahkan *"save progress"* agar sistem memperbarui [`PROGRESS.md`](./PROGRESS.md), menyinkronkan graf Graphify, dan membuat checkpoint commit git.
-- **Penyelarasan Knowledge Graph:** Jalankan `graphify update .` ketika hendak melakukan `git push` ke GitHub agar visual graf tetap sinkron dengan versi dokumen terbaru.
+
+### 1. Prinsip Utama: *Zero Documentation Drift*
+Dalam ekosistem dokumentasi multi-tier SEHS (**Master PRD $\rightarrow$ Feature PRD $\rightarrow$ DRA Database $\rightarrow$ TRD API Contracts**):
+- **Tidak ada dokumen yang berdiri sendiri (*No isolated island*).**
+- Setiap perubahan aturan bisnis di tingkat PRD **wajib diselaraskan secara kaskade (*cascade update*)** ke dokumen hilir yang mengonsumsinya serta spesifikasi teknis di folder `technical/`.
+- Prosedur tata kelola lengkap diatur dalam skill: [`.agents/skills/change-impact-synchronizer/SKILL.md`](./.agents/skills/change-impact-synchronizer/SKILL.md).
+
+---
+
+### 2. Alur 4 Langkah Menangani Request Enhancement dari Klien
+
+Jika klien faskes atau manajemen mengajukan perubahan aturan, alur kerja baru, atau penambahan fitur (*enhancement*):
+
+```mermaid
+flowchart TD
+    ClientReq([Permintaan Enhancement Klien]) --> Step1[1. Perbarui PRD Modul Asal & Tambah Kode Aturan BR-*]
+    Step1 --> Step2[2. Lacak Dokumen Terdampak via Consumed By & Graphify]
+    Step2 --> Step3A[3A. Update PRD Hilir Terkait]
+    Step2 --> Step3B[3B. Update Skema DB di DRA]
+    Step2 --> Step3C[3C. Update Payload REST API di TRD]
+    Step3A & Step3B & Step3C --> Step4[4. Jalankan /save-progress & Git Commit]
+```
+
+1. **Langkah 1: Perbarui Dokumen Asal (Hulu)**
+   * Buka PRD modul terkait di `features/`.
+   * Tambahkan klausul aturan bisnis baru dengan ID unik (misal: `BR-MD04-06`, `BR-OP01-12`).
+   * Naikkan nomor versi dokumen (misal: `v1.0.0` $\rightarrow$ `v1.1.0`).
+2. **Langkah 2: Lacak Dokumen yang Terdampak (*Impact Analysis*)**
+   * Periksa baris metadata `Consumed By (Dampak)` di bagian atas PRD asal.
+   * Gunakan AI & Graphify untuk menemukan dependensi tersembunyi:
+     ```bash
+     graphify query "Apa saja alur, tabel DB, dan API yang terdampak oleh perubahan pada [Nama Fitur]?"
+     ```
+3. **Langkah 3: Eksekusi *Cascade Update* ke Dokumen Terkait**
+   * **Di PRD Hilir:** Sesuaikan alur pengguna dan validasi input.
+   * **Di DRA (`technical/01-dra-*.md`):** Tambahkan kolom baru, tipe data, foreign key, atau enum di tabel database dengan komentar referensi aturan bisnis (`-- Implements BR-XX-YY`).
+   * **Di TRD (`technical/02-trd-*.md` s/d `04-trd-*.md`):** Tambahkan field pada request/response DTO JSON dan kode error baru.
+4. **Langkah 4: Simpan Progres & Sinkronkan Knowledge Graph**
+   * Jalankan perintah `/save-progress` untuk memperbarui [`PROGRESS.md`](./PROGRESS.md), menyinkronkan graf Graphify, dan membuat commit git.
+
+---
+
+### 3. Contoh Prompt Cepat untuk Menjalankan Enhancement dengan AI
+
+Anda tidak perlu melakukan penelusuran manual satu per satu. Anda cukup memberikan perintah terarah kepada asisten AI:
+
+> *"Bro, ada request enhancement dari klien: [Sebutkan permintaan fitur/aturan baru]. Tolong lakukan cascade update mulai dari PRD modul asal, dokumen hilir terkait, skema DRA database, hingga kontrak endpoint TRD API."*
+
+Asisten AI akan secara otomatis:
+1. Memicu skill `change-impact-synchronizer`.
+2. Melacak seluruh rantai dependensi dari hulu ke hilir.
+3. Melakukan editing berkas secara presisi tanpa merusak aturan arsitektur lainnya.
+4. Menampilkan laporan daftar berkas yang telah diselaraskan.
+
+---
+
+### 4. Titik Simpan Sesi Kerja (*Session Checkpoint*)
+* **Jalankan Slash Command:** Setiap kali selesai bekerja atau sebelum menutup IDE, ketik `/save-progress` atau perintahkan *"save progress bro"*.
+* **Status Progres Proyek:** Pantau status penyelesaian seluruh modul dan rencana kerja di [`PROGRESS.md`](./PROGRESS.md).
+
 
 
