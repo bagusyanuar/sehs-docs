@@ -15,12 +15,16 @@ Dokumen ini berfungsi sebagai **State Checkpoint & Persistent Memory** untuk mel
 
 ## ✅ Deliverables yang Sudah Selesai (Completed - 100%)
 
-### 1. Tata Kelola & Aturan Arsitektur (`.agents/`)
+### 1. Tata Kelola & Aturan Arsitektur (`.agents/` & `.github/`)
 - [x] [`.agents/rules/graphify.md`](./.agents/rules/graphify.md) — Aturan hemat & efisien pembaruan graf (hanya saat push/checkpoint).
 - [x] [`.agents/skills/business-prd-scaffolder/SKILL.md`](./.agents/skills/business-prd-scaffolder/SKILL.md) — Format PRD murni bisnis ("WHAT & WHY", no engineering leaks, mandatory depends_on/consumed_by).
 - [x] [`.agents/skills/trd-dra-scaffolder/SKILL.md`](./.agents/skills/trd-dra-scaffolder/SKILL.md) — Format DRA PostgreSQL 15+, envelope REST API, matriks scoping global vs split, dan Offline PWA.
 - [x] [`.agents/skills/change-impact-synchronizer/SKILL.md`](./.agents/skills/change-impact-synchronizer/SKILL.md) — SOP 4-langkah Zero Documentation Drift saat terjadi revisi modul.
+- [x] [`.agents/skills/issue-task-scaffolder/SKILL.md`](./.agents/skills/issue-task-scaffolder/SKILL.md) — Framework perakitan tiket tugas GitHub Issue untuk tim BE & FE.
 - [x] [`.agents/workflows/save-progress.md`](./.agents/workflows/save-progress.md) — Workflow checkpoint otomatis akhir sesi (`/save-progress`).
+- [x] [`.agents/workflows/publish-issue.md`](./.agents/workflows/publish-issue.md) — Workflow penerbitan tiket tugas GitHub Issue via `gh` CLI (`/publish-issue`).
+- [x] [`.github/ISSUE_TEMPLATE/backend-task.md`](./.github/ISSUE_TEMPLATE/backend-task.md) — Template GitHub Issue untuk tugas Backend.
+- [x] [`.github/ISSUE_TEMPLATE/frontend-task.md`](./.github/ISSUE_TEMPLATE/frontend-task.md) — Template GitHub Issue untuk tugas Frontend.
 
 ### 2. Dokumen Induk & Fondasi Identitas
 - [x] [`README.md`](./README.md) — Hub dokumentasi, navigasi modul, RBAC matriks, panduan Graphify, dan status pengerjaan.
