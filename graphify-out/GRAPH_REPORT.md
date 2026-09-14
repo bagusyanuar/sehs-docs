@@ -1,74 +1,150 @@
 # Graph Report - sehs-docs  (2026-09-14)
 
 ## Corpus Check
-- Corpus is ~2,750 words - fits in a single context window. You may not need a graph.
+- 20 files · ~22,463 words
+- Verdict: corpus is large enough that graph structure adds value.
+- Unclassified: 2 file(s) not represented in the graph (top: (none) 2)
 
 ## Summary
-- 22 nodes · 25 edges · 5 communities
-- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.95)
-- Token cost: 2,750 input · 1,200 output
+- 310 nodes · 352 edges · 20 communities (18 shown, 2 thin omitted)
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
+- Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `2d92e6fb`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- Sanitasi Lingkungan & Pengelolaan Limbah
-- Arsitektur Inti & Standar Mutu Faskes
-- Dashboard Manajemen & Analitik Eksekutif
-- Operasional Lapangan & Inspeksi QR Mobile
-- Sistem Tiket Temuan & Penanganan Sarana
+- Smart Environment Health System (SEHS)
+- Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)
+- Smart Environment Health System (SEHS) — Documentation Hub
+- 3. Spesifikasi Skema Database PostgreSQL (DDL)
+- 3. Spesifikasi Endpoint REST API
+- Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA
+- PROGRESS.md
+- 3. Spesifikasi Endpoint per Klaster Bisnis
+- workflows/graphify.md
+- Business-Centric PRD Scaffolder Skill
+- 2. Standards for DRA (Database Architecture & ERD)
+- Feature PRD: Master Data Fasilitas, Ruangan & Cetak QR Code
+- Feature PRD: Master Data Limbah, TPS & Vendor Transporter
+- Feature PRD: Master Data Baku Mutu Sanitasi Air & Udara
+- Feature PRD: Master Data Organisasi & Shift Kerja
+- Feature PRD: Master Data Standar Checklist & Template Audit
+- Feature PRD: Master Data Kategori Temuan & Standar SLA
+- SEHS Documentation Project — Progress & Checkpoint Tracker
+- 2. Standard 4-Step Cascade Update Workflow
+- Langkah-Langkah Eksekusi Otomatis
 
 ## God Nodes (most connected - your core abstractions)
-1. `Smart Environment Health System (SEHS)` - 8 edges
-2. `Modul Temuan & Alur Tindak Lanjut (Ticketing)` - 5 edges
-3. `Modul Checklist Kebersihan QR` - 4 edges
-4. `Modul Monitoring Limbah & TPS` - 4 edges
-5. `Modul Sanitasi & Kualitas Lingkungan` - 4 edges
-6. `Modul Dashboard Eksekutif & Laporan` - 4 edges
-7. `Role Sanitarian / Auditor Lingkungan` - 3 edges
-8. `Role Petugas Lapangan (Cleaning Service / Porter)` - 2 edges
-9. `Mobile-First Web / PWA App` - 2 edges
-10. `SEHS Documentation Hub` - 2 edges
+1. `Smart Environment Health System (SEHS)` - 11 edges
+2. `Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)` - 9 edges
+3. `Feature PRD: Master Data Organisasi & Shift Kerja` - 9 edges
+4. `Feature PRD: Master Data Fasilitas, Ruangan & Cetak QR Code` - 9 edges
+5. `Feature PRD: Master Data Standar Checklist & Template Audit` - 9 edges
+6. `Feature PRD: Master Data Limbah, TPS & Vendor Transporter` - 9 edges
+7. `Feature PRD: Master Data Baku Mutu Sanitasi Air & Udara` - 9 edges
+8. `Feature PRD: Master Data Kategori Temuan & Standar SLA` - 9 edges
+9. `3. Spesifikasi Skema Database PostgreSQL (DDL)` - 9 edges
+10. `Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `SEHS Documentation Hub` --references--> `Smart Environment Health System (SEHS)`  [EXTRACTED]
-  README.md → 00-MASTER-PRD.md
+- None detected - all connections are within the same source files.
 
-## Hyperedges (group relationships)
-- **RBAC Stakeholder Personas** — 00_master_prd_role_petugas_lapangan, 00_master_prd_role_sanitarian, 00_master_prd_role_ipsrs, 00_master_prd_role_manajemen [EXTRACTED 1.00]
-- **Five Core Modules of SEHS** — 00_master_prd_modul_checklist_qr, 00_master_prd_modul_limbah, 00_master_prd_modul_sanitasi_kualitas, 00_master_prd_modul_temuan_tindak_lanjut, 00_master_prd_modul_dashboard_laporan [EXTRACTED 1.00]
+## Communities (20 total, 2 thin omitted)
 
-## Communities (5 total, 0 thin omitted)
+### Community 0 - "Smart Environment Health System (SEHS)"
+Cohesion: 0.08
+Nodes (24): 10. Indeks Rincian Feature PRD, 1. Metadata Dokumen, 2.1 Konteks Masalah, 2.2 Visi & Solusi Produk, 2. Latar Belakang & Problem Statement, 3. Matriks Peran Pengguna (Role-Based Access Control / RBAC), 4.1 Modul 1: Checklist Kebersihan Berbasis QR Code, 4.2 Modul 2: Monitoring & Pengelolaan Limbah (Waste Tracking) (+16 more)
 
-### Community 0 - "Sanitasi Lingkungan & Pengelolaan Limbah"
+### Community 1 - "Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)"
+Cohesion: 0.11
+Nodes (19): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 Nilai Bisnis & Manfaat Sistem, 2. Latar Belakang & Masalah Bisnis, 3. Persona Pengguna & Konteks Operasional, 4.1 Alur Masuk Kerja Petugas Lapangan (Mobile PWA), 4.2 Alur Pergantian Shift Kerja (Shift Handover), 4. Alur Pengalaman Pengguna (User Journey) (+11 more)
+
+### Community 2 - "Smart Environment Health System (SEHS) — Documentation Hub"
+Cohesion: 0.14
+Nodes (14): 1. Membuka Visualisasi Graf Interaktif, 2. Berinteraksi & Query Graf dengan AI, 3. Memperbarui Graf Setelah Menambah/Mengubah Dokumen, 4. File Output Graphify (`graphify-out/`), A. Fondasi Identitas & Akses, B. Fondasi Data Induk (Master Data Clusters), C. Modul Transaksi Operasional & Analitik, D. Spesifikasi Arsitektur Teknis (DRA & TRD) (+6 more)
+
+### Community 3 - "3. Spesifikasi Skema Database PostgreSQL (DDL)"
+Cohesion: 0.07
+Nodes (28): 1. Metadata Dokumen, 2. Diagram Hubungan Entitas (Entity-Relationship Diagram / ERD), 3.1 Domain & Enum Global, 3.2 Klaster Fondasi Identitas (Auth & User), 3.3 Klaster 1: Organisasi & Shift Kerja, 3.4 Klaster 2: Fasilitas, Ruangan & QR Code, 3.5 Klaster 3: Standar Checklist & Template Audit, 3.6 Klaster 4: Limbah, TPS & Vendor Transporter (+20 more)
+
+### Community 4 - "3. Spesifikasi Endpoint REST API"
+Cohesion: 0.07
+Nodes (28): 1. Metadata Dokumen, 2. Arsitektur Komponen & Diagram Alur Teknis, 3.1 `POST /api/v1/auth/login-field`, 3.2 `POST /api/v1/auth/login-web`, 3.3 `POST /api/v1/auth/refresh`, 3.4 `POST /api/v1/auth/logout`, 3.5 `PUT /api/v1/auth/change-pin`, 3.6 `POST /api/v1/admin/users/:id/reset-pin` (+20 more)
+
+### Community 5 - "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA"
+Cohesion: 0.08
+Nodes (24): 1. Metadata Dokumen, 1. Store: `cached_templates`, 2. Latar Belakang & Masalah Arsitektur, 2. Store: `outbox_queue`, 3.1 Struktur Muatan Token QR Fisik Ruangan (*Static Door QR*), 3.2 Rumus Perhitungan HMAC-SHA256 Server, 3. Arsitektur Kriptografi & Format QR Code, 3. Store: `offline_photos` (+16 more)
+
+### Community 7 - "3. Spesifikasi Endpoint per Klaster Bisnis"
+Cohesion: 0.09
+Nodes (22): 1. Metadata Dokumen, 2. Standar Global API Master Data, 3.1 Klaster 1: Organisasi & Shift Kerja, 3.2 Klaster 2: Lokasi, Ruangan & Cetak QR Code, 3.3 Klaster 3: Standar Checklist & Template Audit, 3.4 Klaster 4: Limbah, TPS & Vendor Transporter, 3.5 Klaster 5: Baku Mutu Sanitasi Air & Udara, 3.6 Klaster 6: Kategori Temuan & Standar SLA (+14 more)
+
+### Community 9 - "Business-Centric PRD Scaffolder Skill"
 Cohesion: 0.33
-Nodes (6): Monitoring Kualitas Air (pH, TDS, E.coli), Monitoring Kualitas Udara (PM2.5, Suhu, RH, ACH), Modul Monitoring Limbah & TPS, Modul Sanitasi & Kualitas Lingkungan, Role Sanitarian / Auditor Lingkungan, Tempat Penampungan Sementara (TPS) Limbah B3
+Nodes (5): Business-Centric PRD Scaffolder Skill, Core Philosophy: "WHAT & WHY", Not "HOW", Mandatory Focus in PRDs:, Standard Template Structure for Feature PRDs, Strictly Prohibited in PRDs:
 
-### Community 1 - "Arsitektur Inti & Standar Mutu Faskes"
-Cohesion: 0.40
-Nodes (5): Audit Trail & Immutability Data, Pencegahan Infeksi Nosokomial (HAIs), Smart Environment Health System (SEHS), SEHS Documentation Hub, Modular PRD Hierarchy (Master & Feature PRDs)
+### Community 10 - "2. Standards for DRA (Database Architecture & ERD)"
+Cohesion: 0.12
+Nodes (15): 1. Core Principles of Technical Documentation, 2.1 Universal Audit Trail (Wajib di Setiap Tabel), 2.2 Relational Integrity & Deletion Policy, 2.3 Strict Data Type Conventions, 2.4 Indexing Strategy, 2.5 Mermaid ERD Standard, 2. Standards for DRA (Database Architecture & ERD), 3.1 Standard Response Envelope (+7 more)
 
-### Community 2 - "Dashboard Manajemen & Analitik Eksekutif"
-Cohesion: 0.50
-Nodes (4): Desktop Web Admin & Dashboard, KPI Kepatuhan Audit (>= 95%), Modul Dashboard Eksekutif & Laporan, Role Manajemen & Direksi Faskes
+### Community 11 - "Feature PRD: Master Data Fasilitas, Ruangan & Cetak QR Code"
+Cohesion: 0.14
+Nodes (14): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 Nilai Bisnis yang Dihasilkan, 2. Latar Belakang & Masalah Bisnis, 3. Persona Pengguna & Konteks Penggunaan, 4. Alur Kerja Pengelolaan (Core User Journey), 5.1 Fitur 1: Manajemen Gedung & Lantai, 5.2 Fitur 2: Manajemen Ruangan & Klasifikasi Risiko Infeksi (+6 more)
 
-### Community 3 - "Operasional Lapangan & Inspeksi QR Mobile"
-Cohesion: 0.50
-Nodes (4): Modul Checklist Kebersihan QR, Offline-Resilience & Client-Side Caching, Mobile-First Web / PWA App, Role Petugas Lapangan (Cleaning Service / Porter)
+### Community 12 - "Feature PRD: Master Data Limbah, TPS & Vendor Transporter"
+Cohesion: 0.14
+Nodes (14): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 Nilai Bisnis yang Dihasilkan, 2. Latar Belakang & Masalah Bisnis, 3. Persona Pengguna & Konteks Penggunaan, 4. Alur Kerja Pengelolaan (Core User Journey), 5.1 Fitur 1: Manajemen Kategori & Jenis Limbah, 5.2 Fitur 2: Manajemen Tempat Penampungan Sementara (TPS) (+6 more)
 
-### Community 4 - "Sistem Tiket Temuan & Penanganan Sarana"
-Cohesion: 0.67
-Nodes (3): KPI MTTR Insiden High (< 4 jam), Modul Temuan & Alur Tindak Lanjut (Ticketing), Role Teknisi IPSRS / Pemeliharaan Sarana
+### Community 13 - "Feature PRD: Master Data Baku Mutu Sanitasi Air & Udara"
+Cohesion: 0.14
+Nodes (14): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 Nilai Bisnis yang Dihasilkan, 2. Latar Belakang & Masalah Bisnis, 3. Persona Pengguna & Konteks Penggunaan, 4. Alur Kerja Pengelolaan (Core User Journey), 5.1 Fitur 1: Manajemen Baku Mutu Kualitas Air, 5.2 Fitur 2: Manajemen Baku Mutu Kualitas Udara Indoor (+6 more)
+
+### Community 14 - "Feature PRD: Master Data Organisasi & Shift Kerja"
+Cohesion: 0.15
+Nodes (13): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 Nilai Bisnis yang Dihasilkan, 2. Latar Belakang & Masalah Bisnis, 3. Persona Pengguna & Konteks Penggunaan, 4. Alur Kerja Pengelolaan (Core User Journey), 5.1 Fitur 1: Manajemen Master Unit / Instalasi, 5.2 Fitur 2: Manajemen Master Shift Kerja (+5 more)
+
+### Community 15 - "Feature PRD: Master Data Standar Checklist & Template Audit"
+Cohesion: 0.15
+Nodes (13): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 Nilai Bisnis yang Dihasilkan, 2. Latar Belakang & Masalah Bisnis, 3. Persona Pengguna & Konteks Penggunaan, 4. Alur Kerja Pengelolaan (Core User Journey), 5.1 Fitur 1: Pustaka Indikator & Butir Kebersihan, 5.2 Fitur 2: Manajemen Template Formulir per Tipe Ruangan (+5 more)
+
+### Community 16 - "Feature PRD: Master Data Kategori Temuan & Standar SLA"
+Cohesion: 0.15
+Nodes (13): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 Nilai Bisnis yang Dihasilkan, 2. Latar Belakang & Masalah Bisnis, 3. Persona Pengguna & Konteks Penggunaan, 4. Alur Kerja Pengelolaan (Core User Journey), 5.1 Fitur 1: Manajemen Kategori & Sub-Kategori Temuan, 5.2 Fitur 2: Manajemen Tingkat Urgensi & Standar SLA (Service Level Agreement) (+5 more)
+
+### Community 17 - "SEHS Documentation Project — Progress & Checkpoint Tracker"
+Cohesion: 0.20
+Nodes (10): 1. Tata Kelola & Aturan Arsitektur (`.agents/`), 2. Dokumen Induk & Fondasi Identitas, 3. Master Data PRD (6 Klaster / 15 Fitur Bisnis Lengkap), 4. Arsitektur Teknis & Kontrak API (`technical/`), 🎯 Antrean Pengerjaan Besok (Next Action Items: Fase 2), 🔑 Aturan Penting yang Wajib Dipertahankan (Invariants), 💡 Cara Memulai Kembali Sesi Besok (Resume Prompt), ✅ Deliverables yang Sudah Selesai (Completed - 100%) (+2 more)
+
+### Community 18 - "2. Standard 4-Step Cascade Update Workflow"
+Cohesion: 0.22
+Nodes (9): 1. The Core Philosophy: "Zero Documentation Drift", 2. Standard 4-Step Cascade Update Workflow, 3. Aturan Pemetaan Kode Aturan Bisnis (Traceability ID), 4. Checklist Kesiapan Penyelarasan (Verification Gate), Change Impact Synchronizer & Traceability Skill, Langkah 1: Identifikasi & Update Dokumen Asal, Langkah 2: Lacak Dampak (Impact Traceability Analysis), Langkah 3: Eksekusi Cascade Update (Penyelarasan Hilir) (+1 more)
+
+### Community 19 - "Langkah-Langkah Eksekusi Otomatis"
+Cohesion: 0.22
+Nodes (8): 1. Periksa Status Berkas & Perubahan Sesi Ini, 2. Perbarui Dokumen Pelacak (`PROGRESS.md`), 3. Sinkronkan Hub Navigasi (`README.md`), 4. Sinkronisasikan Knowledge Graph (Graphify), 5. Buat Titik Simpan Git (Commit), 6. Berikan Laporan Penutup ke Pengguna, Langkah-Langkah Eksekusi Otomatis, Workflow: /save-progress
 
 ## Knowledge Gaps
-- **9 isolated node(s):** `Pencegahan Infeksi Nosokomial (HAIs)`, `Role Teknisi IPSRS / Pemeliharaan Sarana`, `Role Manajemen & Direksi Faskes`, `Tempat Penampungan Sementara (TPS) Limbah B3`, `Monitoring Kualitas Air (pH, TDS, E.coli)` (+4 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 12 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **212 isolated node(s):** `graphify`, `Strictly Prohibited in PRDs:`, `Mandatory Focus in PRDs:`, `Standard Template Structure for Feature PRDs`, `1. The Core Philosophy: "Zero Documentation Drift"` (+207 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 213 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Smart Environment Health System (SEHS)` connect `Arsitektur Inti & Standar Mutu Faskes` to `Sanitasi Lingkungan & Pengelolaan Limbah`, `Dashboard Manajemen & Analitik Eksekutif`, `Operasional Lapangan & Inspeksi QR Mobile`, `Sistem Tiket Temuan & Penanganan Sarana`?**
-  _High betweenness centrality (0.712) - this node is a cross-community bridge._
-- **Why does `Modul Dashboard Eksekutif & Laporan` connect `Dashboard Manajemen & Analitik Eksekutif` to `Arsitektur Inti & Standar Mutu Faskes`?**
-  _High betweenness centrality (0.271) - this node is a cross-community bridge._
-- **Why does `Modul Checklist Kebersihan QR` connect `Operasional Lapangan & Inspeksi QR Mobile` to `Arsitektur Inti & Standar Mutu Faskes`, `Sistem Tiket Temuan & Penanganan Sarana`?**
-  _High betweenness centrality (0.221) - this node is a cross-community bridge._
-- **What connects `Pencegahan Infeksi Nosokomial (HAIs)`, `Role Teknisi IPSRS / Pemeliharaan Sarana`, `Role Manajemen & Direksi Faskes` to the rest of the system?**
-  _9 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Technical Requirements Document (TRD): API Autentikasi & Manajemen Sesi` connect `3. Spesifikasi Endpoint REST API` to `PROGRESS.md`?**
+  _High betweenness centrality (0.162) - this node is a cross-community bridge._
+- **Why does `Data Requirements Architecture (DRA): Database Schema & ERD Master Data & Auth` connect `3. Spesifikasi Skema Database PostgreSQL (DDL)` to `PROGRESS.md`?**
+  _High betweenness centrality (0.160) - this node is a cross-community bridge._
+- **What connects `graphify`, `Strictly Prohibited in PRDs:`, `Mandatory Focus in PRDs:` to the rest of the system?**
+  _212 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Smart Environment Health System (SEHS)` be split into smaller, more focused modules?**
+  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
+- **Should `Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)` be split into smaller, more focused modules?**
+  _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
+- **Should `Smart Environment Health System (SEHS) — Documentation Hub` be split into smaller, more focused modules?**
+  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+- **Should `3. Spesifikasi Skema Database PostgreSQL (DDL)` be split into smaller, more focused modules?**
+  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._

@@ -1,0 +1,38 @@
+{
+  "00-MASTER-PRD.md": {
+    "mtime": 1789394025.617554,
+    "seen": 1789394393.267359,
+    "ast_hash": "18970df6f3b2bfccb3c239dc8a26deb9",
+    "semantic_hash": "18970df6f3b2bfccb3c239dc8a26deb9"
+  },
+  "README.md": {
+    "mtime": 1789395222.5030448,
+    "seen": 1789395263.795567,
+    "ast_hash": "65fdb4a8983371c574f610656ebb699b",
+    "semantic_hash": ""
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1789394295.825579,
+    "seen": 1789395263.795561,
+    "ast_hash": "f1e53ecc9194573d3c28fc116c743a2e",
+    "semantic_hash": ""
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1789394295.8257961,
+    "seen": 1789395263.795563,
+    "ast_hash": "6d73634a678cf1e1c71930adf80bd1f0",
+    "semantic_hash": ""
+  },
+  "features/01-prd-auth-user.md": {
+    "mtime": 1789395401.0008085,
+    "seen": 1789395427.201687,
+    "ast_hash": "45a285d2bb3c62b84c372750242b89f0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/business-prd-scaffolder/SKILL.md": {
+    "mtime": 1789395382.0433633,
+    "seen": 1789395427.201673,
+    "ast_hash": "d012236c9414e143f030537cf9a62444",
+    "semantic_hash": ""
+  }
+}
