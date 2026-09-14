@@ -24,7 +24,8 @@ Dokumen ini berfungsi sebagai **State Checkpoint & Persistent Memory** untuk mel
 - [x] [`.agents/workflows/save-progress.md`](./.agents/workflows/save-progress.md) — Workflow checkpoint otomatis akhir sesi (`/save-progress`).
 - [x] [`.agents/workflows/publish-issue.md`](./.agents/workflows/publish-issue.md) — Workflow penerbitan tiket tugas GitHub Issue via `gh` CLI (`/publish-issue`).
 - [x] [`.github/ISSUE_TEMPLATE/backend-task.md`](./.github/ISSUE_TEMPLATE/backend-task.md) — Template GitHub Issue untuk tugas Backend.
-- [x] [`.github/ISSUE_TEMPLATE/frontend-task.md`](./.github/ISSUE_TEMPLATE/frontend-task.md) — Template GitHub Issue untuk tugas Frontend.
+- [x] [`.github/ISSUE_TEMPLATE/frontend-web-task.md`](./.github/ISSUE_TEMPLATE/frontend-web-task.md) — Template GitHub Issue untuk Web Admin Dashboard (React/Vue/Next).
+- [x] [`.github/ISSUE_TEMPLATE/frontend-mobile-task.md`](./.github/ISSUE_TEMPLATE/frontend-mobile-task.md) — Template GitHub Issue untuk Mobile App Flutter (Keypad NIK+PIN, SQLite/Hive, Camera Scanner).
 
 ### 2. Dokumen Induk & Fondasi Identitas
 - [x] [`README.md`](./README.md) — Hub dokumentasi, navigasi modul, RBAC matriks, panduan Graphify, dan status pengerjaan.

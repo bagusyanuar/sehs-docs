@@ -1,17 +1,17 @@
 # Graph Report - sehs-docs  (2026-09-14)
 
 ## Corpus Check
-- 20 files · ~22,811 words
+- 24 files · ~24,225 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 2 file(s) not represented in the graph (top: (none) 2)
 
 ## Summary
-- 314 nodes · 355 edges · 20 communities (18 shown, 2 thin omitted)
+- 344 nodes · 385 edges · 24 communities (22 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `93821dd4`
+- Built from commit: `f3c588e1`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -36,6 +36,10 @@
 - SEHS Documentation Project — Progress & Checkpoint Tracker
 - 2. Standard 4-Step Cascade Update Workflow
 - Langkah-Langkah Eksekusi Otomatis
+- Issue Task Scaffolder Skill
+- Langkah-Langkah Eksekusi Otomatis
+- backend-task.md
+- frontend-task.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `Smart Environment Health System (SEHS)` - 11 edges
@@ -52,7 +56,7 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (20 total, 2 thin omitted)
+## Communities (24 total, 2 thin omitted)
 
 ### Community 0 - "Smart Environment Health System (SEHS)"
 Cohesion: 0.08
@@ -116,7 +120,7 @@ Nodes (13): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 N
 
 ### Community 17 - "SEHS Documentation Project — Progress & Checkpoint Tracker"
 Cohesion: 0.20
-Nodes (10): 1. Tata Kelola & Aturan Arsitektur (`.agents/`), 2. Dokumen Induk & Fondasi Identitas, 3. Master Data PRD (6 Klaster / 15 Fitur Bisnis Lengkap), 4. Arsitektur Teknis & Kontrak API (`technical/`), 🎯 Antrean Pengerjaan Besok (Next Action Items: Fase 2), 🔑 Aturan Penting yang Wajib Dipertahankan (Invariants), 💡 Cara Memulai Kembali Sesi Besok (Resume Prompt), ✅ Deliverables yang Sudah Selesai (Completed - 100%) (+2 more)
+Nodes (10): 1. Tata Kelola & Aturan Arsitektur (`.agents/` & `.github/`), 2. Dokumen Induk & Fondasi Identitas, 3. Master Data PRD (6 Klaster / 15 Fitur Bisnis Lengkap), 4. Arsitektur Teknis & Kontrak API (`technical/`), 🎯 Antrean Pengerjaan Besok (Next Action Items: Fase 2), 🔑 Aturan Penting yang Wajib Dipertahankan (Invariants), 💡 Cara Memulai Kembali Sesi Besok (Resume Prompt), ✅ Deliverables yang Sudah Selesai (Completed - 100%) (+2 more)
 
 ### Community 18 - "2. Standard 4-Step Cascade Update Workflow"
 Cohesion: 0.22
@@ -126,20 +130,36 @@ Nodes (9): 1. The Core Philosophy: "Zero Documentation Drift", 2. Standard 4-Ste
 Cohesion: 0.22
 Nodes (8): 1. Periksa Status Berkas & Perubahan Sesi Ini, 2. Perbarui Dokumen Pelacak (`PROGRESS.md`), 3. Sinkronkan Hub Navigasi (`README.md`), 4. Sinkronisasikan Knowledge Graph (Graphify), 5. Buat Titik Simpan Git (Commit), 6. Berikan Laporan Penutup ke Pengguna, Langkah-Langkah Eksekusi Otomatis, Workflow: /save-progress
 
+### Community 20 - "Issue Task Scaffolder Skill"
+Cohesion: 0.25
+Nodes (7): 1. Core Principles of Issue Scaffolding, 2.1 Backend Issue Format (`[BE]`), 2.2 Frontend Issue Format (`[FE]`), 2. Standard Issue Structure, 3. GitHub CLI (`gh`) Command Generation, 4. Verification Gate, Issue Task Scaffolder Skill
+
+### Community 21 - "Langkah-Langkah Eksekusi Otomatis"
+Cohesion: 0.25
+Nodes (7): 1. Identifikasi Modul & Peran Target, 2. Kumpulkan Konteks Dokumen, 3. Susun Isi Tiket Sesuai Template, 4. Terbitkan Tiket via GitHub CLI (`gh`), 5. Laporkan Tautan Tiket ke Pengguna, Langkah-Langkah Eksekusi Otomatis, Workflow: /publish-issue
+
+### Community 22 - "backend-task.md"
+Cohesion: 0.29
+Nodes (6): 🎯 1. Objective & Scope, 📚 2. Spesifikasi & Acuan Dokumen (Traceability), 🗄️ 3. Kebutuhan Database & Migration, 🔌 4. Kontrak REST API & Endpoint Specs, 🛡️ 5. Keamanan & Validasi Aturan Bisnis, ✅ 6. Definition of Done (DoD)
+
+### Community 23 - "frontend-task.md"
+Cohesion: 0.29
+Nodes (6): 🎯 1. Objective & Target Platform, 📚 2. Spesifikasi & Acuan Dokumen (Traceability), 📱 3. Kebutuhan UI/UX & Interaksi Komponen, 🔌 4. Integrasi REST API & State Management, 📡 5. Kebutuhan Khusus Perangkat & Mode Offline (Jika Relevan), ✅ 6. Definition of Done (DoD)
+
 ## Knowledge Gaps
-- **215 isolated node(s):** `📌 Navigasi Dokumentasi`, `A. Fondasi Identitas & Akses`, `B. Fondasi Data Induk (Master Data Clusters)`, `C. Modul Transaksi Operasional & Analitik`, `D. Spesifikasi Arsitektur Teknis (DRA & TRD)` (+210 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 216 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **237 isolated node(s):** `1. Core Principles of Issue Scaffolding`, `2.1 Backend Issue Format (`[BE]`)`, `2.2 Frontend Issue Format (`[FE]`)`, `3. GitHub CLI (`gh`) Command Generation`, `4. Verification Gate` (+232 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 238 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Technical Requirements Document (TRD): API Autentikasi & Manajemen Sesi` connect `3. Spesifikasi Endpoint REST API` to `PROGRESS.md`?**
-  _High betweenness centrality (0.160) - this node is a cross-community bridge._
+  _High betweenness centrality (0.147) - this node is a cross-community bridge._
 - **Why does `Data Requirements Architecture (DRA): Database Schema & ERD Master Data & Auth` connect `3. Spesifikasi Skema Database PostgreSQL (DDL)` to `PROGRESS.md`?**
-  _High betweenness centrality (0.159) - this node is a cross-community bridge._
-- **What connects `📌 Navigasi Dokumentasi`, `A. Fondasi Identitas & Akses`, `B. Fondasi Data Induk (Master Data Clusters)` to the rest of the system?**
-  _215 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.146) - this node is a cross-community bridge._
+- **What connects `1. Core Principles of Issue Scaffolding`, `2.1 Backend Issue Format (`[BE]`)`, `2.2 Frontend Issue Format (`[FE]`)` to the rest of the system?**
+  _237 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Smart Environment Health System (SEHS)` be split into smaller, more focused modules?**
   _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)` be split into smaller, more focused modules?**

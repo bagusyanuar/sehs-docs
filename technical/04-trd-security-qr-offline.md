@@ -1,4 +1,4 @@
-# Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First PWA
+# Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)
 
 ---
 
@@ -7,15 +7,15 @@
 | Properti | Keterangan |
 | :--- | :--- |
 | **Kode Dokumen** | `TRD-SEHS-03` |
-| **Nama Modul** | Spesifikasi Keamanan QR Code, Validasi Anti-Kloning & Arsitektur Sinkronisasi Offline PWA |
-| **Protokol** | HTTPS (TLS 1.3), Web Crypto API, Service Worker Cache API & IndexedDB |
+| **Nama Modul** | Spesifikasi Keamanan QR Code, Validasi Anti-Kloning & Arsitektur Sinkronisasi Offline (Flutter Mobile & PWA) |
+| **Protokol** | HTTPS (TLS 1.3), Web Crypto / Flutter Security, SQLite/Hive/IndexedDB Outbox |
 | **Source PRD (Acuan Bisnis)** | • [`features/01-prd-auth-user.md`](../features/01-prd-auth-user.md)<br>• [`features/master-data/02-md-fasilitas-ruangan-qr.md`](../features/master-data/02-md-fasilitas-ruangan-qr.md)<br>• [`features/operational/01-prd-checklist-kebersihan-qr.md`](../features/operational/01-prd-checklist-kebersihan-qr.md) |
 | **Depends On (Prasyarat)** | • [`technical/01-dra-database-erd-master-auth.md`](./01-dra-database-erd-master-auth.md) (Tabel `rooms`, `users`, `user_sessions`)<br>• [`technical/02-trd-auth-session-api.md`](./02-trd-auth-session-api.md) (JWT Bearer Token & Device Info) |
-| **Consumed By (Dampak)** | Frontend Mobile PWA (Scanner & Storage Engine), Backend QR Service, Audit Log Engine |
-| **Versi** | 1.0.0 |
+| **Consumed By (Dampak)** | Frontend Mobile Flutter App, Frontend Web Admin Dashboard, Backend QR Service, Audit Log Engine |
+| **Versi** | 1.1.0 |
 | **Status** | Approved / Baseline |
 | **Terakhir Diperbarui** | 2026-09-14 |
-| **Target Pembaca** | Mobile PWA Engineer, Backend Security Specialist, DevOps, Sanitarian Auditor |
+| **Target Pembaca** | Mobile Flutter Engineer, Frontend Web Engineer, Backend Security Specialist, Sanitarian Auditor |
 
 ---
 
@@ -100,9 +100,23 @@ flowchart TD
 
 ---
 
-## 5. Arsitektur Offline-First PWA & Sinkronisasi Data
+## 5. Arsitektur Offline-First & Sinkronisasi Data (Flutter Mobile & PWA)
 
-Untuk menjamin petugas dapat terus mencatat kebersihan dan limbah di area tanpa koneksi internet, sistem menggunakan arsitektur **Local-First / Outbox Pattern**:
+Untuk menjamin petugas dapat terus mencatat kebersihan dan limbah di area tanpa koneksi internet (seperti Bunker Radioterapi atau Basement), sistem menggunakan arsitektur **Local-First / Outbox Pattern**:
+
+* **Pada Klien Flutter Mobile (Aplikasi Utama Petugas):**
+  * **Penyimpanan Kredensial:** Disimpan di Android Keystore / iOS Keychain menggunakan `flutter_secure_storage`.
+  * **Database Lokal Offline:** Menggunakan **SQLite (sqflite) / Isar / Hive** untuk menampung tabel `cached_templates` dan `outbox_queue`.
+  * **Hardware Scanning:** Menggunakan plugin `mobile_scanner` (direct camera stream).
+  * **Pendeteksi Jaringan:** Menggunakan `connectivity_plus` dan background retry worker.
+* **Pada Klien Web PWA (Fallback Mobile Web):**
+  * Menggunakan Service Worker Cache Storage & browser IndexedDB.
+
+---
+
+### 5.1 Skema Penyimpanan Outbox Lokal (SQLite / Isar / IndexedDB)
+
+Struktur tabel / *Object Store* antrean transaksi lokal (`outbox_queue`):
 
 ```mermaid
 sequenceDiagram

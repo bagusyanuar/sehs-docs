@@ -1688,14 +1688,14 @@
       "source_location": "L1"
     },
     {
-      "id": "progress_1_tata_kelola_aturan_arsitektur_agents",
-      "label": "1. Tata Kelola & Aturan Arsitektur (`.agents/`)",
+      "id": "progress_1_tata_kelola_aturan_arsitektur_agents_github",
+      "label": "1. Tata Kelola & Aturan Arsitektur (`.agents/` & `.github/`)",
       "_origin": "ast",
       "community": 17,
       "community_name": "SEHS Documentation Project \u2014 Progress & Checkpoint Tracker",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1. tata kelola & aturan arsitektur (`.agents/`)",
+      "norm_label": "1. tata kelola & aturan arsitektur (`.agents/` & `.github/`)",
       "source_file": "PROGRESS.md",
       "source_location": "L18"
     },
@@ -1709,7 +1709,7 @@
       "node_kind": "heading",
       "norm_label": "2. dokumen induk & fondasi identitas",
       "source_file": "PROGRESS.md",
-      "source_location": "L25"
+      "source_location": "L29"
     },
     {
       "id": "progress_3_master_data_prd_6_klaster_15_fitur_bisnis_lengkap",
@@ -1721,7 +1721,7 @@
       "node_kind": "heading",
       "norm_label": "3. master data prd (6 klaster / 15 fitur bisnis lengkap)",
       "source_file": "PROGRESS.md",
-      "source_location": "L30"
+      "source_location": "L34"
     },
     {
       "id": "progress_4_arsitektur_teknis_kontrak_api_technical",
@@ -1733,7 +1733,7 @@
       "node_kind": "heading",
       "norm_label": "4. arsitektur teknis & kontrak api (`technical/`)",
       "source_file": "PROGRESS.md",
-      "source_location": "L38"
+      "source_location": "L42"
     },
     {
       "id": "progress_antrean_pengerjaan_besok_next_action_items_fase_2",
@@ -1745,7 +1745,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83c\udfaf antrean pengerjaan besok (next action items: fase 2)",
       "source_file": "PROGRESS.md",
-      "source_location": "L46"
+      "source_location": "L50"
     },
     {
       "id": "progress_aturan_penting_yang_wajib_dipertahankan_invariants",
@@ -1757,7 +1757,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd11 aturan penting yang wajib dipertahankan (invariants)",
       "source_file": "PROGRESS.md",
-      "source_location": "L63"
+      "source_location": "L67"
     },
     {
       "id": "progress_cara_memulai_kembali_sesi_besok_resume_prompt",
@@ -1769,7 +1769,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udca1 cara memulai kembali sesi besok (resume prompt)",
       "source_file": "PROGRESS.md",
-      "source_location": "L72"
+      "source_location": "L76"
     },
     {
       "id": "progress_deliverables_yang_sudah_selesai_completed_100",
@@ -2242,6 +2242,388 @@
       "norm_label": "smart environment health system (sehs) \u2014 documentation hub",
       "source_file": "README.md",
       "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill",
+      "label": "issue-task-scaffolder/SKILL.md",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "issue-task-scaffolder",
+        "description": "Framework and guidelines for scaffolding production-ready GitHub Issues for Backend (BE) and Frontend (FE) teams directly from PRD, DRA, and TRD specifications. Enforces zero-ambiguity scope, bidirectional traceability, exact endpoint/table references, and ready-to-run GitHub CLI (gh) commands."
+      },
+      "node_kind": "page",
+      "norm_label": "issue-task-scaffolder/skill.md",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_1_core_principles_of_issue_scaffolding",
+      "label": "1. Core Principles of Issue Scaffolding",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. core principles of issue scaffolding",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_2_1_backend_issue_format_be",
+      "label": "2.1 Backend Issue Format (`[BE]`)",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.1 backend issue format (`[be]`)",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_2_2_frontend_issue_format_fe",
+      "label": "2.2 Frontend Issue Format (`[FE]`)",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2.2 frontend issue format (`[fe]`)",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L37"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_2_standard_issue_structure",
+      "label": "2. Standard Issue Structure",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. standard issue structure",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_3_github_cli_gh_command_generation",
+      "label": "3. GitHub CLI (`gh`) Command Generation",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. github cli (`gh`) command generation",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_4_verification_gate",
+      "label": "4. Verification Gate",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. verification gate",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
+      "label": "Issue Task Scaffolder Skill",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Issue Task Scaffolder Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "issue task scaffolder skill",
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "agents_workflows_publish_issue",
+      "label": "publish-issue.md",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "publish-issue",
+        "description": "Menerbitkan tiket tugas GitHub Issue untuk tim Backend (BE) dan/atau Frontend (FE) secara otomatis berdasarkan spesifikasi PRD, DRA, dan TRD."
+      },
+      "node_kind": "page",
+      "norm_label": "publish-issue.md",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_workflows_publish_issue_1_identifikasi_modul_peran_target",
+      "label": "1. Identifikasi Modul & Peran Target",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. identifikasi modul & peran target",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "agents_workflows_publish_issue_2_kumpulkan_konteks_dokumen",
+      "label": "2. Kumpulkan Konteks Dokumen",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. kumpulkan konteks dokumen",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L19"
+    },
+    {
+      "id": "agents_workflows_publish_issue_3_susun_isi_tiket_sesuai_template",
+      "label": "3. Susun Isi Tiket Sesuai Template",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. susun isi tiket sesuai template",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "agents_workflows_publish_issue_4_terbitkan_tiket_via_github_cli_gh",
+      "label": "4. Terbitkan Tiket via GitHub CLI (`gh`)",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. terbitkan tiket via github cli (`gh`)",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "agents_workflows_publish_issue_5_laporkan_tautan_tiket_ke_pengguna",
+      "label": "5. Laporkan Tautan Tiket ke Pengguna",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. laporkan tautan tiket ke pengguna",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L42"
+    },
+    {
+      "id": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "label": "Langkah-Langkah Eksekusi Otomatis",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "langkah-langkah eksekusi otomatis",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "agents_workflows_publish_issue_workflow_publish_issue",
+      "label": "Workflow: /publish-issue",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Langkah-Langkah Eksekusi Otomatis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "workflow: /publish-issue",
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "github_issue_template_backend_task",
+      "label": "backend-task.md",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "Backend Engineering Task",
+        "about": "Template tugas implementasi Backend (Database, REST API, Security, Business Rules)",
+        "title": "[BE] &lt;Nama Modul&gt;: &lt;Tujuan Implementasi&gt;",
+        "labels": "[&quot;backend&quot;]",
+        "assignees": "[]"
+      },
+      "node_kind": "page",
+      "norm_label": "backend-task.md",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "github_issue_template_backend_task_1_objective_scope",
+      "label": "\ud83c\udfaf 1. Objective & Scope",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83c\udfaf 1. objective & scope",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "github_issue_template_backend_task_2_spesifikasi_acuan_dokumen_traceability",
+      "label": "\ud83d\udcda 2. Spesifikasi & Acuan Dokumen (Traceability)",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcda 2. spesifikasi & acuan dokumen (traceability)",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "github_issue_template_backend_task_3_kebutuhan_database_migration",
+      "label": "\ud83d\uddc4\ufe0f 3. Kebutuhan Database & Migration",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\uddc4\ufe0f 3. kebutuhan database & migration",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "github_issue_template_backend_task_4_kontrak_rest_api_endpoint_specs",
+      "label": "\ud83d\udd0c 4. Kontrak REST API & Endpoint Specs",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udd0c 4. kontrak rest api & endpoint specs",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "github_issue_template_backend_task_5_keamanan_validasi_aturan_bisnis",
+      "label": "\ud83d\udee1\ufe0f 5. Keamanan & Validasi Aturan Bisnis",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udee1\ufe0f 5. keamanan & validasi aturan bisnis",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "github_issue_template_backend_task_6_definition_of_done_dod",
+      "label": "\u2705 6. Definition of Done (DoD)",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "backend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u2705 6. definition of done (dod)",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "github_issue_template_frontend_task",
+      "label": "frontend-task.md",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-task.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "Frontend Engineering Task",
+        "about": "Template tugas implementasi Frontend (Mobile PWA, Web Admin Dashboard, UI Components, State &amp; API Integration)",
+        "title": "[FE] &lt;Nama Modul&gt;: &lt;Tujuan Implementasi Antarmuka&gt;",
+        "labels": "[&quot;frontend&quot;]",
+        "assignees": "[]"
+      },
+      "node_kind": "page",
+      "norm_label": "frontend-task.md",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "github_issue_template_frontend_task_1_objective_target_platform",
+      "label": "\ud83c\udfaf 1. Objective & Target Platform",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83c\udfaf 1. objective & target platform",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "github_issue_template_frontend_task_2_spesifikasi_acuan_dokumen_traceability",
+      "label": "\ud83d\udcda 2. Spesifikasi & Acuan Dokumen (Traceability)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcda 2. spesifikasi & acuan dokumen (traceability)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "github_issue_template_frontend_task_3_kebutuhan_ui_ux_interaksi_komponen",
+      "label": "\ud83d\udcf1 3. Kebutuhan UI/UX & Interaksi Komponen",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcf1 3. kebutuhan ui/ux & interaksi komponen",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "github_issue_template_frontend_task_4_integrasi_rest_api_state_management",
+      "label": "\ud83d\udd0c 4. Integrasi REST API & State Management",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udd0c 4. integrasi rest api & state management",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L32"
+    },
+    {
+      "id": "github_issue_template_frontend_task_5_kebutuhan_khusus_perangkat_mode_offline_jika_relevan",
+      "label": "\ud83d\udce1 5. Kebutuhan Khusus Perangkat & Mode Offline (Jika Relevan)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udce1 5. kebutuhan khusus perangkat & mode offline (jika relevan)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L39"
+    },
+    {
+      "id": "github_issue_template_frontend_task_6_definition_of_done_dod",
+      "label": "\u2705 6. Definition of Done (DoD)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "frontend-task.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u2705 6. definition of done (dod)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L46"
     },
     {
       "id": "technical_01_dra_database_erd_master_auth_1_metadata_dokumen",
@@ -4238,6 +4620,83 @@
       "weight": 1.0
     },
     {
+      "source": "agents_skills_issue_task_scaffolder_skill",
+      "target": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_2_standard_issue_structure",
+      "target": "agents_skills_issue_task_scaffolder_skill_2_1_backend_issue_format_be",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_2_standard_issue_structure",
+      "target": "agents_skills_issue_task_scaffolder_skill_2_2_frontend_issue_format_fe",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
+      "target": "agents_skills_issue_task_scaffolder_skill_1_core_principles_of_issue_scaffolding",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
+      "target": "agents_skills_issue_task_scaffolder_skill_2_standard_issue_structure",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
+      "target": "agents_skills_issue_task_scaffolder_skill_3_github_cli_gh_command_generation",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_skills_issue_task_scaffolder_skill_issue_task_scaffolder_skill",
+      "target": "agents_skills_issue_task_scaffolder_skill_4_verification_gate",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/skills/issue-task-scaffolder/SKILL.md",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
       "source": "agents_skills_trd_dra_scaffolder_skill",
       "target": "agents_skills_trd_dra_scaffolder_skill_trd_dra_scaffolder_skill",
       "relation": "contains",
@@ -4411,6 +4870,83 @@
       "confidence_score": 1.0,
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue",
+      "target": "agents_workflows_publish_issue_workflow_publish_issue",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "target": "agents_workflows_publish_issue_1_identifikasi_modul_peran_target",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "target": "agents_workflows_publish_issue_2_kumpulkan_konteks_dokumen",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "target": "agents_workflows_publish_issue_3_susun_isi_tiket_sesuai_template",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "target": "agents_workflows_publish_issue_4_terbitkan_tiket_via_github_cli_gh",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "target": "agents_workflows_publish_issue_5_laporkan_tautan_tiket_ke_pengguna",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_publish_issue_workflow_publish_issue",
+      "target": "agents_workflows_publish_issue_langkah_langkah_eksekusi_otomatis",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/publish-issue.md",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -5602,6 +6138,138 @@
       "weight": 1.0
     },
     {
+      "source": "github_issue_template_backend_task",
+      "target": "github_issue_template_backend_task_2_spesifikasi_acuan_dokumen_traceability",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_backend_task",
+      "target": "github_issue_template_backend_task_3_kebutuhan_database_migration",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_backend_task",
+      "target": "github_issue_template_backend_task_4_kontrak_rest_api_endpoint_specs",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_backend_task",
+      "target": "github_issue_template_backend_task_5_keamanan_validasi_aturan_bisnis",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_backend_task",
+      "target": "github_issue_template_backend_task_6_definition_of_done_dod",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_backend_task",
+      "target": "github_issue_template_backend_task_1_objective_scope",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_task",
+      "target": "github_issue_template_frontend_task_2_spesifikasi_acuan_dokumen_traceability",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_task",
+      "target": "github_issue_template_frontend_task_3_kebutuhan_ui_ux_interaksi_komponen",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_task",
+      "target": "github_issue_template_frontend_task_4_integrasi_rest_api_state_management",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_task",
+      "target": "github_issue_template_frontend_task_5_kebutuhan_khusus_perangkat_mode_offline_jika_relevan",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_task",
+      "target": "github_issue_template_frontend_task_6_definition_of_done_dod",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "github_issue_template_frontend_task",
+      "target": "github_issue_template_frontend_task_1_objective_target_platform",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-task.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "progress",
       "target": "progress_sehs_documentation_project_progress_checkpoint_tracker",
       "relation": "contains",
@@ -5614,7 +6282,7 @@
     },
     {
       "source": "progress_deliverables_yang_sudah_selesai_completed_100",
-      "target": "progress_1_tata_kelola_aturan_arsitektur_agents",
+      "target": "progress_1_tata_kelola_aturan_arsitektur_agents_github",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5631,7 +6299,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L25",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -5642,7 +6310,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L30",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -5653,7 +6321,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L38",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
@@ -5675,7 +6343,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L46",
+      "source_location": "L50",
       "weight": 1.0
     },
     {
@@ -5686,7 +6354,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L63",
+      "source_location": "L67",
       "weight": 1.0
     },
     {
@@ -5708,7 +6376,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L72",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
@@ -7275,7 +7943,7 @@
     },
     {
       "source": "progress",
-      "target": "agents_workflows_save_progress",
+      "target": "agents_skills_issue_task_scaffolder_skill",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7286,7 +7954,29 @@
     },
     {
       "source": "progress",
-      "target": "readme",
+      "target": "agents_workflows_save_progress",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
+      "target": "agents_workflows_publish_issue",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
+      "target": "github_issue_template_backend_task",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7297,7 +7987,7 @@
     },
     {
       "source": "progress",
-      "target": "00_master_prd",
+      "target": "github_issue_template_frontend_task",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7308,18 +7998,18 @@
     },
     {
       "source": "progress",
-      "target": "features_01_prd_auth_user",
+      "target": "readme",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L28",
+      "source_location": "L30",
       "weight": 1.0
     },
     {
       "source": "progress",
-      "target": "features_master_data_01_md_organisasi_shift",
+      "target": "00_master_prd",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7330,7 +8020,7 @@
     },
     {
       "source": "progress",
-      "target": "features_master_data_02_md_fasilitas_ruangan_qr",
+      "target": "features_01_prd_auth_user",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7341,29 +8031,7 @@
     },
     {
       "source": "progress",
-      "target": "features_master_data_03_md_standar_checklist",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "PROGRESS.md",
-      "source_location": "L33",
-      "weight": 1.0
-    },
-    {
-      "source": "progress",
-      "target": "features_master_data_04_md_limbah_tps_vendor",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "PROGRESS.md",
-      "source_location": "L34",
-      "weight": 1.0
-    },
-    {
-      "source": "progress",
-      "target": "features_master_data_05_md_baku_mutu_air_udara",
+      "target": "features_master_data_01_md_organisasi_shift",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7374,7 +8042,7 @@
     },
     {
       "source": "progress",
-      "target": "features_master_data_06_md_kategori_temuan_sla",
+      "target": "features_master_data_02_md_fasilitas_ruangan_qr",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7385,7 +8053,29 @@
     },
     {
       "source": "progress",
-      "target": "technical_01_dra_database_erd_master_auth",
+      "target": "features_master_data_03_md_standar_checklist",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
+      "target": "features_master_data_04_md_limbah_tps_vendor",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
+      "target": "features_master_data_05_md_baku_mutu_air_udara",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7396,7 +8086,7 @@
     },
     {
       "source": "progress",
-      "target": "technical_02_trd_auth_session_api",
+      "target": "features_master_data_06_md_kategori_temuan_sla",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7407,13 +8097,35 @@
     },
     {
       "source": "progress",
+      "target": "technical_01_dra_database_erd_master_auth",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
+      "target": "technical_02_trd_auth_session_api",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROGRESS.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "progress",
       "target": "technical_03_trd_master_data_api",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L41",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
@@ -7424,7 +8136,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L42",
+      "source_location": "L46",
       "weight": 1.0
     },
     {
@@ -7704,5 +8416,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "93821dd47b5629fa703e9c15cb0ed7dcdb40d755"
+  "built_at_commit": "f3c588e1a13615c7a3f96e3165f19d694c323bd7"
 }

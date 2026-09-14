@@ -64,16 +64,16 @@ sehs-docs/
 * 🗄️ [`technical/01-dra-database-erd-master-auth.md`](./technical/01-dra-database-erd-master-auth.md) — [DRA] Skema relasional PostgreSQL 15+ (11 enum, 17 tabel, audit trail universal, soft delete, indexes, dan Mermaid ERD).
 * 🔐 [`technical/02-trd-auth-session-api.md`](./technical/02-trd-auth-session-api.md) — [TRD] REST API Autentikasi NIK+PIN mobile, Web login, Argon2id, JWT RS256, Refresh Token Rotation, dan mitigasi brute-force.
 * 🌐 [`technical/03-trd-master-data-api.md`](./technical/03-trd-master-data-api.md) — [TRD] REST API CRUD untuk 6 klaster Master Data (Unit, Shift, Ruangan, QR Generator, Checklist, Limbah, Standar Mutu, SLA).
-* 🛡️ [`technical/04-trd-security-qr-offline.md`](./technical/04-trd-security-qr-offline.md) — [TRD] Kriptografi token QR (HMAC-SHA256), validasi geofencing anti-kloning, dan arsitektur Offline-First PWA (IndexedDB Outbox Queue + Service Worker Sync).
+* 🛡️ [`technical/04-trd-security-qr-offline.md`](./technical/04-trd-security-qr-offline.md) — [TRD] Kriptografi token QR (HMAC-SHA256), validasi geofencing anti-kloning, dan arsitektur Offline-First (Flutter SQLite/Hive & PWA Outbox Queue).
 
 ---
 
 ## 👥 Matriks Peran Pengguna (Roles)
 
-1. **Petugas Lapangan (Cleaning Service / Waste Porter):** Antarmuka Mobile Web/PWA untuk scan QR ruangan, isi checklist, input timbangan limbah, dan lapor temuan cepat.
-2. **Sanitarian / Auditor Lingkungan:** Antarmuka Web untuk verifikasi hasil audit, input uji lab kualitas air/udara, pengawasan kepatuhan, dan approval tiket temuan.
-3. **Tim Pemeliharaan Sarana / IPSRS:** Antarmuka Web/Mobile untuk menerima disposisi tiket perbaikan sarana ruangan dan memperbarui status progres pengerjaan.
-4. **Manajemen / Direksi Faskes:** Antarmuka Web Dashboard untuk memantau ringkasan kepatuhan fasilitas, status TPS, serta mengunduh dokumen laporan berkala.
+1. **Petugas Lapangan (Cleaning Service / Waste Porter):** Antarmuka **Mobile App (Flutter)** untuk scan QR ruangan instan via kamera, isi form checklist, input timbangan limbah, dan simpan offline di area tanpa sinyal.
+2. **Sanitarian / Auditor Lingkungan:** Antarmuka **Web Admin Dashboard** untuk verifikasi hasil audit, input uji lab kualitas air/udara, pengawasan kepatuhan, dan approval tiket temuan.
+3. **Tim Pemeliharaan Sarana / IPSRS:** Antarmuka **Web Dashboard & Mobile** untuk menerima disposisi tiket perbaikan sarana ruangan dan memperbarui status progres pengerjaan.
+4. **Manajemen / Direksi Faskes:** Antarmuka **Web Dashboard** untuk memantau ringkasan kepatuhan fasilitas, status TPS, serta mengunduh dokumen laporan berkala.
 
 ---
 

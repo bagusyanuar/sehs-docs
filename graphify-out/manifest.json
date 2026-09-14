@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "PROGRESS.md": {
-    "mtime": 1789397616.219941,
-    "seen": 1789397651.91359,
-    "ast_hash": "b35054a76467bd07c6db4fd4f814568e",
+    "mtime": 1789398589.1918845,
+    "seen": 1789398618.917259,
+    "ast_hash": "dde80f63834155a8f4b7b9398999002c",
     "semantic_hash": ""
   },
   "features/master-data/01-md-organisasi-shift.md": {
@@ -117,6 +117,30 @@
     "mtime": 1789397347.0416236,
     "seen": 1789397651.913598,
     "ast_hash": "afeb71ee74527ad1275334985ae147ad",
+    "semantic_hash": ""
+  },
+  ".agents/skills/issue-task-scaffolder/SKILL.md": {
+    "mtime": 1789398571.9128447,
+    "seen": 1789398618.917252,
+    "ast_hash": "7173d309751a80d3485c1e268c6d603e",
+    "semantic_hash": ""
+  },
+  ".agents/workflows/publish-issue.md": {
+    "mtime": 1789398578.788524,
+    "seen": 1789398618.917255,
+    "ast_hash": "9ebdde58b2418766f617d1c3b03dbd0f",
+    "semantic_hash": ""
+  },
+  ".github/ISSUE_TEMPLATE/backend-task.md": {
+    "mtime": 1789398556.323337,
+    "seen": 1789398618.9172559,
+    "ast_hash": "8ab38916b93dc0792b6f77da424ed844",
+    "semantic_hash": ""
+  },
+  ".github/ISSUE_TEMPLATE/frontend-task.md": {
+    "mtime": 1789398564.0855103,
+    "seen": 1789398618.917257,
+    "ast_hash": "d2681717787a90adc352f8200f5e52cb",
     "semantic_hash": ""
   }
 }
