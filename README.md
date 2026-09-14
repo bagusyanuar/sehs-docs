@@ -13,6 +13,13 @@ sehs-docs/
 ├── README.md                                  # Halaman panduan utama (Anda berada di sini)
 ├── 00-MASTER-PRD.md                           # Dokumen Induk (Global Product Requirement Document)
 ├── PROGRESS.md                                # Status pengerjaan, checkpoint sesi & roadmap harian
+│
+├── .github/
+│   └── ISSUE_TEMPLATE/                       # Template Tiket Tugas GitHub Issues
+│       ├── backend-task.md                   # Tugas Backend (Database & REST API)
+│       ├── frontend-web-task.md              # Tugas Frontend Web Dashboard (Admin/Sanitarian)
+│       └── frontend-mobile-task.md           # Tugas Frontend Mobile App (Flutter Lapangan)
+│
 └── features/                                  # Rincian spesifikasi detail per modul (Feature PRD)
     ├── 01-prd-auth-user.md                    # Fondasi Identitas: Autentikasi NIK+PIN / Web Login
     │
@@ -35,7 +42,7 @@ sehs-docs/
     ├── 01-dra-database-erd-master-auth.md     # Skema Database PostgreSQL 15+, Relasi FK & Mermaid ERD
     ├── 02-trd-auth-session-api.md             # Kontrak REST API Autentikasi NIK+PIN, Web Login & Sesi
     ├── 03-trd-master-data-api.md              # Kontrak REST API Master Data Fasilitas & Standar
-    └── 04-trd-security-qr-offline.md          # Keamanan Token QR Anti-Kloning & Offline PWA Sync
+    └── 04-trd-security-qr-offline.md          # Keamanan Token QR Anti-Kloning & Offline Flutter/PWA Sync
 ```
 
 ---
@@ -188,6 +195,70 @@ Asisten AI akan secara otomatis:
 ### 4. Titik Simpan Sesi Kerja (*Session Checkpoint*)
 * **Jalankan Slash Command:** Setiap kali selesai bekerja atau sebelum menutup IDE, ketik `/save-progress` atau perintahkan *"save progress bro"*.
 * **Status Progres Proyek:** Pantau status penyelesaian seluruh modul dan rencana kerja di [`PROGRESS.md`](./PROGRESS.md).
+
+---
+
+## 🎫 Panduan Penerbitan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)
+
+Repositori ini mendukung metodologi **Spec-Driven Development / Issue-Driven Development (IDD)**. Seluruh dokumen spesifikasi (PRD, DRA, dan TRD) dapat langsung diterbitkan menjadi tiket **GitHub Issues** yang terstruktur bagi tim Backend, Frontend Web, dan Frontend Mobile.
+
+### 1. Tiga Kategori Tiket Resmi
+
+| Label | Kategori Tugas | Platform & Tech Stack | Dokumen Rujukan Utama | Template Issue |
+| :--- | :--- | :--- | :--- | :--- |
+| `backend` | **`[BE]` Backend** | NestJS / Go / Laravel + PostgreSQL | • Skema Database [`technical/01-dra-*.md`](./technical/01-dra-database-erd-master-auth.md)<br>• Kontrak API [`technical/02-trd-*.md`](./technical/02-trd-auth-session-api.md) | [`.github/ISSUE_TEMPLATE/backend-task.md`](./.github/ISSUE_TEMPLATE/backend-task.md) |
+| `frontend-web` | **`[FE-WEB]` Web Admin** | React / Vue / Next.js (Desktop) | • PRD Form & Validasi [`features/master-data/*`](./features/master-data/)<br>• Master Data API [`technical/03-trd-*.md`](./technical/03-trd-master-data-api.md) | [`.github/ISSUE_TEMPLATE/frontend-web-task.md`](./.github/ISSUE_TEMPLATE/frontend-web-task.md) |
+| `frontend-mobile` | **`[FE-MOBILE]` Mobile App** | **Flutter (Dart)** (Android & iOS) | • Alur Petugas Lapangan [`features/01-prd-auth-user.md`](./features/01-prd-auth-user.md)<br>• QR & Offline Spec [`technical/04-trd-*.md`](./technical/04-trd-security-qr-offline.md) | [`.github/ISSUE_TEMPLATE/frontend-mobile-task.md`](./.github/ISSUE_TEMPLATE/frontend-mobile-task.md) |
+
+---
+
+### 2. Cara Menerbitkan Tiket via AI (Otomatis)
+
+Gunakan slash command `/publish-issue` atau minta asisten AI:
+
+> *"Bro, tolong terbitkan tiket GitHub Issues untuk modul [Nama Modul] bagi tim BE, FE-WEB, dan FE-MOBILE."*
+
+Asisten AI akan secara otomatis:
+1. Menjalankan skill [`.agents/skills/issue-task-scaffolder/SKILL.md`](./.agents/skills/issue-task-scaffolder/SKILL.md).
+2. Mengekstrak aturan bisnis (`BR-*`), skema tabel, dan endpoint DTO.
+3. Menerbitkan tiket langsung ke repositori GitHub via `gh issue create`.
+4. Memberikan tautan issue yang berhasil dibuat (misal: `https://github.com/bagusyanuar/sehs-docs/issues/1`).
+
+---
+
+### 3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual
+
+```bash
+# 1. Tiket Backend
+gh issue create \
+  --title "[BE] Auth API: Implementasi Dual-UX Login & Manajemen Sesi" \
+  --label "backend,auth" \
+  --body-file ".github/ISSUE_TEMPLATE/backend-task.md"
+
+# 2. Tiket Frontend Web Admin
+gh issue create \
+  --title "[FE-WEB] Master Data: Bangun Antarmuka Manajemen Gedung & Ruangan" \
+  --label "frontend-web,master-data" \
+  --body-file ".github/ISSUE_TEMPLATE/frontend-web-task.md"
+
+# 3. Tiket Frontend Mobile Flutter
+gh issue create \
+  --title "[FE-MOBILE] Auth: Numeric Keypad NIK+PIN & SQLite Local Storage" \
+  --label "frontend-mobile,auth" \
+  --body-file ".github/ISSUE_TEMPLATE/frontend-mobile-task.md"
+```
+
+---
+
+### 4. Cara Mengonsumsi Tiket Saat Mulai Coding
+
+Saat Anda atau developer membuka repositori implementasi kode:
+* **Di Repo Backend:** Cukup beri prompt ke AI:  
+  *"Tolong kerjakan GitHub Issue #1 (link issue). Buatkan migration tabel PostgreSQL dan REST API controller sesuai TRD."*
+* **Di Repo Flutter Mobile:** Cukup beri prompt ke AI:  
+  *"Tolong kerjakan GitHub Issue #3 (link issue). Buatkan UI keypad NIK+PIN dan integrasikan local storage via SQLite/Hive sesuai TRD-03."*
+
+Dengan alur ini, tim koding langsung memiliki **konteks 100% presisi tanpa perlu membaca ulang seluruh dokumentasi dari nol**!
 
 
 
