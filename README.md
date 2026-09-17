@@ -13,6 +13,7 @@ sehs-docs/
 ├── README.md                                  # Halaman panduan utama (Anda berada di sini)
 ├── 00-MASTER-PRD.md                           # Dokumen Induk (Global Product Requirement Document)
 ├── PROGRESS.md                                # Status pengerjaan, checkpoint sesi & roadmap harian
+├── FEATURE-CHECKLIST.md                       # Master Checklist Fitur & Implementasi Teknis (BE & FE)
 │
 ├── .github/
 │   └── ISSUE_TEMPLATE/                       # Template Tiket Tugas GitHub Issues

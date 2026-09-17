@@ -520,6 +520,22 @@
       "source_location": "L1"
     },
     {
+      "id": "agents_skills_trd_dra_scaffolder_skill",
+      "label": "trd-dra-scaffolder/SKILL.md",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2. Standards for DRA (Database Architecture & ERD)",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "trd-dra-scaffolder",
+        "description": "Framework and architectural standards for scaffolding Technical Requirements Documents (TRD) and Data Requirements Architecture (DRA) specifications. Enforces PostgreSQL best practices, strict relational constraints, universal audit trails, precise decimal types, RESTful API envelope standardization, and bidirectional traceability to PRD business rules."
+      },
+      "node_kind": "page",
+      "norm_label": "trd-dra-scaffolder/skill.md",
+      "source_file": ".agents/skills/trd-dra-scaffolder/SKILL.md",
+      "source_location": "L1"
+    },
+    {
       "id": "agents_skills_trd_dra_scaffolder_skill_1_core_principles_of_technical_documentation",
       "label": "1. Core Principles of Technical Documentation",
       "_origin": "ast",
@@ -1705,7 +1721,7 @@
       "node_kind": "heading",
       "norm_label": "3. master data prd (6 klaster / 15 fitur bisnis lengkap)",
       "source_file": "PROGRESS.md",
-      "source_location": "L36"
+      "source_location": "L35"
     },
     {
       "id": "progress_4_arsitektur_teknis_kontrak_api_technical",
@@ -1717,7 +1733,7 @@
       "node_kind": "heading",
       "norm_label": "4. arsitektur teknis & kontrak api (`technical/`)",
       "source_file": "PROGRESS.md",
-      "source_location": "L44"
+      "source_location": "L43"
     },
     {
       "id": "progress_antrean_pengerjaan_besok_next_action_items_fase_2",
@@ -1729,7 +1745,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83c\udfaf antrean pengerjaan besok (next action items: fase 2)",
       "source_file": "PROGRESS.md",
-      "source_location": "L52"
+      "source_location": "L51"
     },
     {
       "id": "progress_aturan_penting_yang_wajib_dipertahankan_invariants",
@@ -1741,7 +1757,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd11 aturan penting yang wajib dipertahankan (invariants)",
       "source_file": "PROGRESS.md",
-      "source_location": "L69"
+      "source_location": "L68"
     },
     {
       "id": "progress_cara_memulai_kembali_sesi_besok_resume_prompt",
@@ -1753,7 +1769,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udca1 cara memulai kembali sesi besok (resume prompt)",
       "source_file": "PROGRESS.md",
-      "source_location": "L80"
+      "source_location": "L79"
     },
     {
       "id": "progress_deliverables_yang_sudah_selesai_completed_100",
@@ -2016,295 +2032,163 @@
       "label": "1. Membuka Visualisasi Graf Interaktif",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "1. membuka visualisasi graf interaktif",
       "source_file": "README.md",
-      "source_location": "L92"
+      "source_location": "L91"
     },
     {
       "id": "readme_1_prinsip_utama_zero_documentation_drift",
       "label": "1. Prinsip Utama: *Zero Documentation Drift*",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "1. prinsip utama: *zero documentation drift*",
       "source_file": "README.md",
-      "source_location": "L141"
-    },
-    {
-      "id": "readme_1_tiga_kategori_tiket_resmi",
-      "label": "1. Tiga Kategori Tiket Resmi",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. tiga kategori tiket resmi",
-      "source_file": "README.md",
-      "source_location": "L206"
+      "source_location": "L140"
     },
     {
       "id": "readme_2_alur_4_langkah_menangani_request_enhancement_dari_klien",
       "label": "2. Alur 4 Langkah Menangani Request Enhancement dari Klien",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "2. alur 4 langkah menangani request enhancement dari klien",
       "source_file": "README.md",
-      "source_location": "L149"
+      "source_location": "L148"
     },
     {
       "id": "readme_2_berinteraksi_query_graf_dengan_ai",
       "label": "2. Berinteraksi & Query Graf dengan AI",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "2. berinteraksi & query graf dengan ai",
       "source_file": "README.md",
-      "source_location": "L104"
-    },
-    {
-      "id": "readme_2_cara_menerbitkan_tiket_via_ai_otomatis",
-      "label": "2. Cara Menerbitkan Tiket via AI (Otomatis)",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2. cara menerbitkan tiket via ai (otomatis)",
-      "source_file": "README.md",
-      "source_location": "L216"
-    },
-    {
-      "id": "readme_3_cara_menerbitkan_tiket_via_github_cli_gh_secara_manual",
-      "label": "3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. cara menerbitkan tiket via github cli (`gh`) secara manual",
-      "source_file": "README.md",
-      "source_location": "L230"
+      "source_location": "L103"
     },
     {
       "id": "readme_3_contoh_prompt_cepat_untuk_menjalankan_enhancement_dengan_ai",
       "label": "3. Contoh Prompt Cepat untuk Menjalankan Enhancement dengan AI",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "3. contoh prompt cepat untuk menjalankan enhancement dengan ai",
       "source_file": "README.md",
-      "source_location": "L182"
+      "source_location": "L181"
     },
     {
       "id": "readme_3_memperbarui_graf_setelah_menambah_mengubah_dokumen",
       "label": "3. Memperbarui Graf Setelah Menambah/Mengubah Dokumen",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "3. memperbarui graf setelah menambah/mengubah dokumen",
       "source_file": "README.md",
-      "source_location": "L120"
-    },
-    {
-      "id": "readme_4_cara_meng_update_atau_menambah_lingkup_pada_tiket_yang_sudah_ada",
-      "label": "4. Cara Meng-update atau Menambah Lingkup pada Tiket yang Sudah Ada",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "4. cara meng-update atau menambah lingkup pada tiket yang sudah ada",
-      "source_file": "README.md",
-      "source_location": "L254"
+      "source_location": "L119"
     },
     {
       "id": "readme_4_file_output_graphify_graphify_out",
       "label": "4. File Output Graphify (`graphify-out/`)",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "4. file output graphify (`graphify-out/`)",
       "source_file": "README.md",
-      "source_location": "L132"
+      "source_location": "L131"
     },
     {
       "id": "readme_4_titik_simpan_sesi_kerja_session_checkpoint",
       "label": "4. Titik Simpan Sesi Kerja (*Session Checkpoint*)",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "4. titik simpan sesi kerja (*session checkpoint*)",
       "source_file": "README.md",
-      "source_location": "L196"
-    },
-    {
-      "id": "readme_5_cara_mengonsumsi_tiket_saat_mulai_coding",
-      "label": "5. Cara Mengonsumsi Tiket Saat Mulai Coding",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "5. cara mengonsumsi tiket saat mulai coding",
-      "source_file": "README.md",
-      "source_location": "L283"
-    },
-    {
-      "id": "readme_6_otomatisasi_lintas_repositori_cross_repo_auto_close_via_pr",
-      "label": "6. Otomatisasi Lintas Repositori (Cross-Repo Auto-Close via PR)",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "6. otomatisasi lintas repositori (cross-repo auto-close via pr)",
-      "source_file": "README.md",
-      "source_location": "L295"
+      "source_location": "L195"
     },
     {
       "id": "readme_a_fondasi_identitas_akses",
       "label": "A. Fondasi Identitas & Akses",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "a. fondasi identitas & akses",
       "source_file": "README.md",
-      "source_location": "L53"
-    },
-    {
-      "id": "readme_a_melalui_perintah_asisten_ai_paling_praktis",
-      "label": "A. Melalui Perintah Asisten AI (Paling Praktis)",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "a. melalui perintah asisten ai (paling praktis)",
-      "source_file": "README.md",
-      "source_location": "L258"
+      "source_location": "L52"
     },
     {
       "id": "readme_b_fondasi_data_induk_master_data_clusters",
       "label": "B. Fondasi Data Induk (Master Data Clusters)",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "b. fondasi data induk (master data clusters)",
       "source_file": "README.md",
-      "source_location": "L56"
-    },
-    {
-      "id": "readme_b_melalui_terminal_github_cli_gh",
-      "label": "B. Melalui Terminal GitHub CLI (`gh`)",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "b. melalui terminal github cli (`gh`)",
-      "source_file": "README.md",
-      "source_location": "L264"
-    },
-    {
-      "id": "readme_c_melalui_web_browser_github",
-      "label": "C. Melalui Web Browser GitHub",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "c. melalui web browser github",
-      "source_file": "README.md",
-      "source_location": "L276"
+      "source_location": "L55"
     },
     {
       "id": "readme_c_modul_transaksi_operasional_analitik",
       "label": "C. Modul Transaksi Operasional & Analitik",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "c. modul transaksi operasional & analitik",
       "source_file": "README.md",
-      "source_location": "L64"
-    },
-    {
-      "id": "readme_cara_penulisan_di_deskripsi_pr_atau_commit_repo_kode",
-      "label": "Cara Penulisan di Deskripsi PR atau Commit Repo Kode:",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "cara penulisan di deskripsi pr atau commit repo kode:",
-      "source_file": "README.md",
-      "source_location": "L299"
+      "source_location": "L63"
     },
     {
       "id": "readme_d_spesifikasi_arsitektur_teknis_dra_trd",
       "label": "D. Spesifikasi Arsitektur Teknis (DRA & TRD)",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "d. spesifikasi arsitektur teknis (dra & trd)",
       "source_file": "README.md",
-      "source_location": "L71"
-    },
-    {
-      "id": "readme_manfaat_otomatisasi_ini",
-      "label": "Manfaat Otomatisasi Ini:",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "manfaat otomatisasi ini:",
-      "source_file": "README.md",
-      "source_location": "L309"
+      "source_location": "L70"
     },
     {
       "id": "readme_matriks_peran_pengguna_roles",
       "label": "\ud83d\udc65 Matriks Peran Pengguna (Roles)",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "\ud83d\udc65 matriks peran pengguna (roles)",
       "source_file": "README.md",
-      "source_location": "L79"
+      "source_location": "L78"
     },
     {
       "id": "readme_navigasi_dokumentasi",
       "label": "\ud83d\udccc Navigasi Dokumentasi",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "\ud83d\udccc navigasi dokumentasi",
@@ -2316,55 +2200,43 @@
       "label": "\ud83d\udcd6 Panduan Kontribusi & Manajemen Perubahan (Change Management)",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "\ud83d\udcd6 panduan kontribusi & manajemen perubahan (change management)",
       "source_file": "README.md",
-      "source_location": "L139"
-    },
-    {
-      "id": "readme_panduan_penerbitan_pembaruan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
-      "label": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83c\udfab panduan penerbitan & pembaruan tiket tugas (github issues untuk be, fe-web & fe-mobile)",
-      "source_file": "README.md",
-      "source_location": "L202"
+      "source_location": "L138"
     },
     {
       "id": "readme_ringkasan_modul_klaster_prd",
       "label": "\ud83d\ude80 Ringkasan Modul & Klaster PRD",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "\ud83d\ude80 ringkasan modul & klaster prd",
       "source_file": "README.md",
-      "source_location": "L51"
+      "source_location": "L50"
     },
     {
       "id": "readme_second_brain_knowledge_graph_graphify",
       "label": "\ud83e\udde0 Second Brain & Knowledge Graph (Graphify)",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "\ud83e\udde0 second brain & knowledge graph (graphify)",
       "source_file": "README.md",
-      "source_location": "L88"
+      "source_location": "L87"
     },
     {
       "id": "readme_smart_environment_health_system_sehs_documentation_hub",
       "label": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+      "community_name": "Smart Environment Health System (SEHS) \u2014 Documentation Hub",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "smart environment health system (sehs) \u2014 documentation hub",
@@ -2568,196 +2440,148 @@
       "source_location": "L6"
     },
     {
-      "id": "feature_checklist_1_modul_01_checklist_kebersihan_ruangan_berbasis_qr",
-      "label": "1. \ud83d\udcf1 Modul 01: Checklist Kebersihan Ruangan Berbasis QR",
+      "id": "readme_1_tiga_kategori_tiket_resmi",
+      "label": "1. Tiga Kategori Tiket Resmi",
       "_origin": "ast",
       "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1. \ud83d\udcf1 modul 01: checklist kebersihan ruangan berbasis qr",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L69"
+      "norm_label": "1. tiga kategori tiket resmi",
+      "source_file": "README.md",
+      "source_location": "L205"
     },
     {
-      "id": "feature_checklist_1_spesifikasi_dokumen_arsitektur",
-      "label": "1. Spesifikasi Dokumen Arsitektur",
+      "id": "readme_2_cara_menerbitkan_tiket_via_ai_otomatis",
+      "label": "2. Cara Menerbitkan Tiket via AI (Otomatis)",
       "_origin": "ast",
       "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1. spesifikasi dokumen arsitektur",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L19"
+      "norm_label": "2. cara menerbitkan tiket via ai (otomatis)",
+      "source_file": "README.md",
+      "source_location": "L215"
     },
     {
-      "id": "feature_checklist_2_implementasi_teknis_fase_1",
-      "label": "2. Implementasi Teknis Fase 1",
+      "id": "readme_3_cara_menerbitkan_tiket_via_github_cli_gh_secara_manual",
+      "label": "3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual",
       "_origin": "ast",
       "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "2. implementasi teknis fase 1",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L38"
+      "norm_label": "3. cara menerbitkan tiket via github cli (`gh`) secara manual",
+      "source_file": "README.md",
+      "source_location": "L229"
     },
     {
-      "id": "feature_checklist_2_modul_02_monitoring_pengelolaan_limbah_waste_tracking",
-      "label": "2. \u2696\ufe0f Modul 02: Monitoring & Pengelolaan Limbah (Waste Tracking)",
+      "id": "readme_4_cara_meng_update_atau_menambah_lingkup_pada_tiket_yang_sudah_ada",
+      "label": "4. Cara Meng-update atau Menambah Lingkup pada Tiket yang Sudah Ada",
       "_origin": "ast",
       "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "2. \u2696\ufe0f modul 02: monitoring & pengelolaan limbah (waste tracking)",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L85"
+      "norm_label": "4. cara meng-update atau menambah lingkup pada tiket yang sudah ada",
+      "source_file": "README.md",
+      "source_location": "L253"
     },
     {
-      "id": "feature_checklist_3_modul_03_sanitasi_kualitas_lingkungan_fisik",
-      "label": "3. \ud83e\uddea Modul 03: Sanitasi & Kualitas Lingkungan Fisik",
+      "id": "readme_5_cara_mengonsumsi_tiket_saat_mulai_coding",
+      "label": "5. Cara Mengonsumsi Tiket Saat Mulai Coding",
       "_origin": "ast",
       "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "3. \ud83e\uddea modul 03: sanitasi & kualitas lingkungan fisik",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L99"
+      "norm_label": "5. cara mengonsumsi tiket saat mulai coding",
+      "source_file": "README.md",
+      "source_location": "L282"
     },
     {
-      "id": "feature_checklist_4_modul_04_temuan_kerusakan_insiden_alur_tiket_tindak_lanjut_capa",
-      "label": "4. \ud83d\udee0\ufe0f Modul 04: Temuan Kerusakan / Insiden & Alur Tiket Tindak Lanjut (CAPA)",
+      "id": "readme_6_otomatisasi_lintas_repositori_cross_repo_auto_close_via_pr",
+      "label": "6. Otomatisasi Lintas Repositori (Cross-Repo Auto-Close via PR)",
       "_origin": "ast",
       "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "4. \ud83d\udee0\ufe0f modul 04: temuan kerusakan / insiden & alur tiket tindak lanjut (capa)",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L112"
+      "norm_label": "6. otomatisasi lintas repositori (cross-repo auto-close via pr)",
+      "source_file": "README.md",
+      "source_location": "L294"
     },
     {
-      "id": "feature_checklist_5_modul_05_jadwal_kegiatan_dashboard_eksekutif",
-      "label": "5. \ud83d\udcca Modul 05: Jadwal Kegiatan & Dashboard Eksekutif",
+      "id": "readme_a_melalui_perintah_asisten_ai_paling_praktis",
+      "label": "A. Melalui Perintah Asisten AI (Paling Praktis)",
       "_origin": "ast",
       "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "5. \ud83d\udcca modul 05: jadwal kegiatan & dashboard eksekutif",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L126"
+      "norm_label": "a. melalui perintah asisten ai (paling praktis)",
+      "source_file": "README.md",
+      "source_location": "L257"
     },
     {
-      "id": "feature_checklist_a_backend_sehs_be",
-      "label": "A. Backend (sehs-be)",
+      "id": "readme_b_melalui_terminal_github_cli_gh",
+      "label": "B. Melalui Terminal GitHub CLI (`gh`)",
       "_origin": "ast",
       "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "a. backend (sehs-be)",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L39"
+      "norm_label": "b. melalui terminal github cli (`gh`)",
+      "source_file": "README.md",
+      "source_location": "L263"
     },
     {
-      "id": "feature_checklist_b_frontend_mobile_sehs_mobile_flutter",
-      "label": "B. Frontend Mobile (sehs-mobile - Flutter)",
+      "id": "readme_c_melalui_web_browser_github",
+      "label": "C. Melalui Web Browser GitHub",
       "_origin": "ast",
       "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "b. frontend mobile (sehs-mobile - flutter)",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L53"
+      "norm_label": "c. melalui web browser github",
+      "source_file": "README.md",
+      "source_location": "L275"
     },
     {
-      "id": "feature_checklist_c_frontend_web_admin_sehs_web_react_next_js",
-      "label": "C. Frontend Web Admin (sehs-web - React / Next.js)",
+      "id": "readme_cara_penulisan_di_deskripsi_pr_atau_commit_repo_kode",
+      "label": "Cara Penulisan di Deskripsi PR atau Commit Repo Kode:",
       "_origin": "ast",
       "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "c. frontend web admin (sehs-web - react / next.js)",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L58"
+      "norm_label": "cara penulisan di deskripsi pr atau commit repo kode:",
+      "source_file": "README.md",
+      "source_location": "L298"
     },
     {
-      "id": "feature_checklist_dokumen_arsitektur_teknis_transaksi_menyusul_pasca_prd_fase_2",
-      "label": "\ud83d\uddc4\ufe0f Dokumen Arsitektur Teknis Transaksi (Menyusul Pasca-PRD Fase 2)",
+      "id": "readme_manfaat_otomatisasi_ini",
+      "label": "Manfaat Otomatisasi Ini:",
       "_origin": "ast",
       "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\ud83d\uddc4\ufe0f dokumen arsitektur teknis transaksi (menyusul pasca-prd fase 2)",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L139"
+      "norm_label": "manfaat otomatisasi ini:",
+      "source_file": "README.md",
+      "source_location": "L308"
     },
     {
-      "id": "feature_checklist_fase_1_fondasi_master_data_autentikasi",
-      "label": "\ud83c\udfe2 FASE 1: Fondasi Master Data & Autentikasi",
+      "id": "readme_panduan_penerbitan_pembaruan_tiket_tugas_github_issues_untuk_be_fe_web_fe_mobile",
+      "label": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "_origin": "ast",
       "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+      "community_name": "\ud83c\udfab Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\ud83c\udfe2 fase 1: fondasi master data & autentikasi",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L17"
-    },
-    {
-      "id": "feature_checklist_fase_2_modul_transaksi_operasional_harian_lapangan_in_queue",
-      "label": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\ude80 fase 2: modul transaksi operasional harian lapangan (in queue)",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L67"
-    },
-    {
-      "id": "feature_checklist_panduan_eksekusi_berikutnya",
-      "label": "\ud83e\udded Panduan Eksekusi Berikutnya",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83e\udded panduan eksekusi berikutnya",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L147"
-    },
-    {
-      "id": "feature_checklist_smart_environment_health_system_sehs_master_feature_implementation_checklist",
-      "label": "Smart Environment Health System (SEHS) \u2014 Master Feature & Implementation Checklist",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "smart environment health system (sehs) \u2014 master feature & implementation checklist",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "feature_checklist_status_ringkas_keseluruhan_high_level_summary",
-      "label": "\ud83d\udcca Status Ringkas Keseluruhan (High-Level Summary)",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "\ud83d\ude80 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udcca status ringkas keseluruhan (high-level summary)",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L7"
+      "norm_label": "\ud83c\udfab panduan penerbitan & pembaruan tiket tugas (github issues untuk be, fe-web & fe-mobile)",
+      "source_file": "README.md",
+      "source_location": "L201"
     },
     {
       "id": "agents_rules_persona_tika",
@@ -2885,140 +2709,6 @@
       "norm_label": "\u2705 4. definition of done (dod)",
       "source_file": ".github/ISSUE_TEMPLATE/frontend-mobile-task.md",
       "source_location": "L34"
-    },
-    {
-      "id": "github_issue_template_backend_task",
-      "label": "backend-task.md",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "backend-task.md",
-      "file_type": "document",
-      "frontmatter": {
-        "name": "Backend Engineering Task",
-        "about": "Template tugas implementasi Backend (Scope-focused: Database, REST API, Security, Business Rules)",
-        "title": "[BE] &lt;Nama Modul&gt;: &lt;Tujuan Lingkup Tugas&gt;",
-        "labels": "[&quot;backend&quot;]",
-        "assignees": "[]"
-      },
-      "node_kind": "page",
-      "norm_label": "backend-task.md",
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "github_issue_template_backend_task_1_objective",
-      "label": "\ud83c\udfaf 1. Objective",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "backend-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83c\udfaf 1. objective",
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L9"
-    },
-    {
-      "id": "github_issue_template_backend_task_2_dokumen_acuan_single_source_of_truth",
-      "label": "\ud83d\udcda 2. Dokumen Acuan (Single Source of Truth)",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "backend-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udcda 2. dokumen acuan (single source of truth)",
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L14"
-    },
-    {
-      "id": "github_issue_template_backend_task_3_scope_of_work_tugas_teknis",
-      "label": "\ud83d\udee0\ufe0f 3. Scope of Work (Tugas Teknis)",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "backend-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udee0\ufe0f 3. scope of work (tugas teknis)",
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L24"
-    },
-    {
-      "id": "github_issue_template_backend_task_4_definition_of_done_dod",
-      "label": "\u2705 4. Definition of Done (DoD)",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "backend-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u2705 4. definition of done (dod)",
-      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
-      "source_location": "L33"
-    },
-    {
-      "id": "github_issue_template_frontend_web_task",
-      "label": "frontend-web-task.md",
-      "_origin": "ast",
-      "community": 26,
-      "community_name": "frontend-web-task.md",
-      "file_type": "document",
-      "frontmatter": {
-        "name": "Frontend Web Task (Admin Dashboard)",
-        "about": "Template tugas implementasi Web Dashboard (Scope-focused: React/Vue/Next.js untuk Admin &amp; Sanitarian)",
-        "title": "[FE-WEB] &lt;Nama Modul&gt;: &lt;Tujuan Antarmuka Dashboard&gt;",
-        "labels": "[&quot;frontend-web&quot;]",
-        "assignees": "[]"
-      },
-      "node_kind": "page",
-      "norm_label": "frontend-web-task.md",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "github_issue_template_frontend_web_task_1_objective_target_persona",
-      "label": "\ud83c\udfaf 1. Objective & Target Persona",
-      "_origin": "ast",
-      "community": 26,
-      "community_name": "frontend-web-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83c\udfaf 1. objective & target persona",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L9"
-    },
-    {
-      "id": "github_issue_template_frontend_web_task_2_dokumen_acuan_single_source_of_truth",
-      "label": "\ud83d\udcda 2. Dokumen Acuan (Single Source of Truth)",
-      "_origin": "ast",
-      "community": 26,
-      "community_name": "frontend-web-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udcda 2. dokumen acuan (single source of truth)",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L16"
-    },
-    {
-      "id": "github_issue_template_frontend_web_task_3_scope_of_work_tugas_teknis",
-      "label": "\ud83d\udee0\ufe0f 3. Scope of Work (Tugas Teknis)",
-      "_origin": "ast",
-      "community": 26,
-      "community_name": "frontend-web-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udee0\ufe0f 3. scope of work (tugas teknis)",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L24"
-    },
-    {
-      "id": "github_issue_template_frontend_web_task_4_definition_of_done_dod",
-      "label": "\u2705 4. Definition of Done (DoD)",
-      "_origin": "ast",
-      "community": 26,
-      "community_name": "frontend-web-task.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u2705 4. definition of done (dod)",
-      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
-      "source_location": "L33"
     },
     {
       "id": "technical_01_dra_database_erd_master_auth_1_metadata_dokumen",
@@ -3993,6 +3683,44 @@
       "source_location": "L1"
     },
     {
+      "id": "github_issue_template_backend_task",
+      "label": "backend-task.md",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "Backend Engineering Task",
+        "about": "Template tugas implementasi Backend (Scope-focused: Database, REST API, Security, Business Rules)",
+        "title": "[BE] &lt;Nama Modul&gt;: &lt;Tujuan Lingkup Tugas&gt;",
+        "labels": "[&quot;backend&quot;]",
+        "assignees": "[]"
+      },
+      "node_kind": "page",
+      "norm_label": "backend-task.md",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task",
+      "label": "frontend-web-task.md",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "Frontend Web Task (Admin Dashboard)",
+        "about": "Template tugas implementasi Web Dashboard (Scope-focused: React/Vue/Next.js untuk Admin &amp; Sanitarian)",
+        "title": "[FE-WEB] &lt;Nama Modul&gt;: &lt;Tujuan Antarmuka Dashboard&gt;",
+        "labels": "[&quot;frontend-web&quot;]",
+        "assignees": "[]"
+      },
+      "node_kind": "page",
+      "norm_label": "frontend-web-task.md",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L1"
+    },
+    {
       "id": "agents_rules_graphify",
       "label": "rules/graphify.md",
       "_origin": "ast",
@@ -4006,38 +3734,6 @@
       "node_kind": "page",
       "norm_label": "rules/graphify.md",
       "source_file": ".agents/rules/graphify.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_trd_dra_scaffolder_skill",
-      "label": "trd-dra-scaffolder/SKILL.md",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "PROGRESS.md",
-      "file_type": "document",
-      "frontmatter": {
-        "name": "trd-dra-scaffolder",
-        "description": "Framework and architectural standards for scaffolding Technical Requirements Documents (TRD) and Data Requirements Architecture (DRA) specifications. Enforces PostgreSQL best practices, strict relational constraints, universal audit trails, precise decimal types, RESTful API envelope standardization, and bidirectional traceability to PRD business rules."
-      },
-      "node_kind": "page",
-      "norm_label": "trd-dra-scaffolder/skill.md",
-      "source_file": ".agents/skills/trd-dra-scaffolder/SKILL.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "agents_skills_business_prd_scaffolder_skill",
-      "label": "business-prd-scaffolder/SKILL.md",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "PROGRESS.md",
-      "file_type": "document",
-      "frontmatter": {
-        "name": "business-prd-scaffolder",
-        "description": "Framework and guidelines for scaffolding Business-Centric Product Requirements Documents (PRDs). Focuses strictly on business logic, user operations, workflows, and domain rules, while preventing low-level technical/engineering leakages (e.g. no JSON schemas, database keys, or API endpoint tables)."
-      },
-      "node_kind": "page",
-      "norm_label": "business-prd-scaffolder/skill.md",
-      "source_file": ".agents/skills/business-prd-scaffolder/SKILL.md",
       "source_location": "L1"
     },
     {
@@ -4107,18 +3803,6 @@
       "norm_label": "graphify",
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6"
-    },
-    {
-      "id": "feature_checklist",
-      "label": "FEATURE-CHECKLIST.md",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "PROGRESS.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "feature-checklist.md",
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L1"
     },
     {
       "id": "features_01_prd_auth_user",
@@ -4203,6 +3887,102 @@
       "norm_label": "06-md-kategori-temuan-sla.md",
       "source_file": "features/master-data/06-md-kategori-temuan-sla.md",
       "source_location": "L1"
+    },
+    {
+      "id": "github_issue_template_backend_task_1_objective",
+      "label": "\ud83c\udfaf 1. Objective",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83c\udfaf 1. objective",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "github_issue_template_backend_task_2_dokumen_acuan_single_source_of_truth",
+      "label": "\ud83d\udcda 2. Dokumen Acuan (Single Source of Truth)",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcda 2. dokumen acuan (single source of truth)",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "github_issue_template_backend_task_3_scope_of_work_tugas_teknis",
+      "label": "\ud83d\udee0\ufe0f 3. Scope of Work (Tugas Teknis)",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udee0\ufe0f 3. scope of work (tugas teknis)",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "github_issue_template_backend_task_4_definition_of_done_dod",
+      "label": "\u2705 4. Definition of Done (DoD)",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u2705 4. definition of done (dod)",
+      "source_file": ".github/ISSUE_TEMPLATE/backend-task.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_1_objective_target_persona",
+      "label": "\ud83c\udfaf 1. Objective & Target Persona",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83c\udfaf 1. objective & target persona",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_2_dokumen_acuan_single_source_of_truth",
+      "label": "\ud83d\udcda 2. Dokumen Acuan (Single Source of Truth)",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcda 2. dokumen acuan (single source of truth)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_3_scope_of_work_tugas_teknis",
+      "label": "\ud83d\udee0\ufe0f 3. Scope of Work (Tugas Teknis)",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udee0\ufe0f 3. scope of work (tugas teknis)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "github_issue_template_frontend_web_task_4_definition_of_done_dod",
+      "label": "\u2705 4. Definition of Done (DoD)",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "PROGRESS.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u2705 4. definition of done (dod)",
+      "source_file": ".github/ISSUE_TEMPLATE/frontend-web-task.md",
+      "source_location": "L33"
     },
     {
       "id": "progress",
@@ -4567,6 +4347,22 @@
       "norm_label": "workflow: graphify",
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6"
+    },
+    {
+      "id": "agents_skills_business_prd_scaffolder_skill",
+      "label": "business-prd-scaffolder/SKILL.md",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Business-Centric PRD Scaffolder Skill",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "business-prd-scaffolder",
+        "description": "Framework and guidelines for scaffolding Business-Centric Product Requirements Documents (PRDs). Focuses strictly on business logic, user operations, workflows, and domain rules, while preventing low-level technical/engineering leakages (e.g. no JSON schemas, database keys, or API endpoint tables)."
+      },
+      "node_kind": "page",
+      "norm_label": "business-prd-scaffolder/skill.md",
+      "source_file": ".agents/skills/business-prd-scaffolder/SKILL.md",
+      "source_location": "L1"
     },
     {
       "id": "agents_skills_business_prd_scaffolder_skill_business_centric_prd_scaffolder_skill",
@@ -5541,182 +5337,6 @@
       "confidence_score": 1.0,
       "source_file": ".agents/workflows/save-progress.md",
       "source_location": "L12",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "feature_checklist_smart_environment_health_system_sehs_master_feature_implementation_checklist",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_2_implementasi_teknis_fase_1",
-      "target": "feature_checklist_a_backend_sehs_be",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L39",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_2_implementasi_teknis_fase_1",
-      "target": "feature_checklist_b_frontend_mobile_sehs_mobile_flutter",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L53",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_2_implementasi_teknis_fase_1",
-      "target": "feature_checklist_c_frontend_web_admin_sehs_web_react_next_js",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L58",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_fase_1_fondasi_master_data_autentikasi",
-      "target": "feature_checklist_1_spesifikasi_dokumen_arsitektur",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_fase_1_fondasi_master_data_autentikasi",
-      "target": "feature_checklist_2_implementasi_teknis_fase_1",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L38",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_fase_2_modul_transaksi_operasional_harian_lapangan_in_queue",
-      "target": "feature_checklist_4_modul_04_temuan_kerusakan_insiden_alur_tiket_tindak_lanjut_capa",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L112",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_fase_2_modul_transaksi_operasional_harian_lapangan_in_queue",
-      "target": "feature_checklist_5_modul_05_jadwal_kegiatan_dashboard_eksekutif",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L126",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_fase_2_modul_transaksi_operasional_harian_lapangan_in_queue",
-      "target": "feature_checklist_1_modul_01_checklist_kebersihan_ruangan_berbasis_qr",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L69",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_fase_2_modul_transaksi_operasional_harian_lapangan_in_queue",
-      "target": "feature_checklist_2_modul_02_monitoring_pengelolaan_limbah_waste_tracking",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L85",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_fase_2_modul_transaksi_operasional_harian_lapangan_in_queue",
-      "target": "feature_checklist_3_modul_03_sanitasi_kualitas_lingkungan_fisik",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L99",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_smart_environment_health_system_sehs_master_feature_implementation_checklist",
-      "target": "feature_checklist_dokumen_arsitektur_teknis_transaksi_menyusul_pasca_prd_fase_2",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L139",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_smart_environment_health_system_sehs_master_feature_implementation_checklist",
-      "target": "feature_checklist_panduan_eksekusi_berikutnya",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L147",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_smart_environment_health_system_sehs_master_feature_implementation_checklist",
-      "target": "feature_checklist_fase_1_fondasi_master_data_autentikasi",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L17",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_smart_environment_health_system_sehs_master_feature_implementation_checklist",
-      "target": "feature_checklist_fase_2_modul_transaksi_operasional_harian_lapangan_in_queue",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L67",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist_smart_environment_health_system_sehs_master_feature_implementation_checklist",
-      "target": "feature_checklist_status_ringkas_keseluruhan_high_level_summary",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -6992,7 +6612,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L36",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -7003,7 +6623,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L44",
+      "source_location": "L43",
       "weight": 1.0
     },
     {
@@ -7025,7 +6645,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L52",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -7036,7 +6656,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L69",
+      "source_location": "L68",
       "weight": 1.0
     },
     {
@@ -7058,7 +6678,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L80",
+      "source_location": "L79",
       "weight": 1.0
     },
     {
@@ -7080,7 +6700,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L258",
+      "source_location": "L257",
       "weight": 1.0
     },
     {
@@ -7091,7 +6711,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L264",
+      "source_location": "L263",
       "weight": 1.0
     },
     {
@@ -7102,7 +6722,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L276",
+      "source_location": "L275",
       "weight": 1.0
     },
     {
@@ -7113,7 +6733,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L299",
+      "source_location": "L298",
       "weight": 1.0
     },
     {
@@ -7124,7 +6744,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L309",
+      "source_location": "L308",
       "weight": 1.0
     },
     {
@@ -7135,7 +6755,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L141",
+      "source_location": "L140",
       "weight": 1.0
     },
     {
@@ -7146,7 +6766,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L149",
+      "source_location": "L148",
       "weight": 1.0
     },
     {
@@ -7157,7 +6777,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L182",
+      "source_location": "L181",
       "weight": 1.0
     },
     {
@@ -7168,7 +6788,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L196",
+      "source_location": "L195",
       "weight": 1.0
     },
     {
@@ -7179,7 +6799,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L206",
+      "source_location": "L205",
       "weight": 1.0
     },
     {
@@ -7190,7 +6810,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L216",
+      "source_location": "L215",
       "weight": 1.0
     },
     {
@@ -7201,7 +6821,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L230",
+      "source_location": "L229",
       "weight": 1.0
     },
     {
@@ -7212,7 +6832,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L254",
+      "source_location": "L253",
       "weight": 1.0
     },
     {
@@ -7223,7 +6843,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L283",
+      "source_location": "L282",
       "weight": 1.0
     },
     {
@@ -7234,7 +6854,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L295",
+      "source_location": "L294",
       "weight": 1.0
     },
     {
@@ -7245,7 +6865,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L53",
+      "source_location": "L52",
       "weight": 1.0
     },
     {
@@ -7256,7 +6876,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L56",
+      "source_location": "L55",
       "weight": 1.0
     },
     {
@@ -7267,7 +6887,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L64",
+      "source_location": "L63",
       "weight": 1.0
     },
     {
@@ -7278,7 +6898,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L71",
+      "source_location": "L70",
       "weight": 1.0
     },
     {
@@ -7289,7 +6909,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L104",
+      "source_location": "L103",
       "weight": 1.0
     },
     {
@@ -7300,7 +6920,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L120",
+      "source_location": "L119",
       "weight": 1.0
     },
     {
@@ -7311,7 +6931,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L132",
+      "source_location": "L131",
       "weight": 1.0
     },
     {
@@ -7322,7 +6942,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L92",
+      "source_location": "L91",
       "weight": 1.0
     },
     {
@@ -7333,7 +6953,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L139",
+      "source_location": "L138",
       "weight": 1.0
     },
     {
@@ -7344,7 +6964,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L202",
+      "source_location": "L201",
       "weight": 1.0
     },
     {
@@ -7355,7 +6975,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L51",
+      "source_location": "L50",
       "weight": 1.0
     },
     {
@@ -7377,7 +6997,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L79",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -7388,7 +7008,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L88",
+      "source_location": "L87",
       "weight": 1.0
     },
     {
@@ -8525,193 +8145,6 @@
       "weight": 1.0
     },
     {
-      "source": "feature_checklist",
-      "target": "agents_rules_graphify",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L20",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "agents_skills_business_prd_scaffolder_skill",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L21",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "agents_skills_trd_dra_scaffolder_skill",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L22",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "agents_skills_change_impact_synchronizer_skill",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L23",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "agents_skills_issue_task_scaffolder_skill",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L24",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "00_master_prd",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L25",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "features_01_prd_auth_user",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L26",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "features_master_data_01_md_organisasi_shift",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L27",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "features_master_data_02_md_fasilitas_ruangan_qr",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L28",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "features_master_data_03_md_standar_checklist",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L29",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "features_master_data_04_md_limbah_tps_vendor",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L30",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "features_master_data_05_md_baku_mutu_air_udara",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L31",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "features_master_data_06_md_kategori_temuan_sla",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L32",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "technical_01_dra_database_erd_master_auth",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L33",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "technical_02_trd_auth_session_api",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L34",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "technical_03_trd_master_data_api",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L35",
-      "weight": 1.0
-    },
-    {
-      "source": "feature_checklist",
-      "target": "technical_04_trd_security_qr_offline",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "FEATURE-CHECKLIST.md",
-      "source_location": "L36",
-      "weight": 1.0
-    },
-    {
       "source": "features_01_prd_auth_user",
       "target": "00_master_prd",
       "relation": "references",
@@ -9043,7 +8476,7 @@
     },
     {
       "source": "progress",
-      "target": "feature_checklist",
+      "target": "features_01_prd_auth_user",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9054,18 +8487,18 @@
     },
     {
       "source": "progress",
-      "target": "features_01_prd_auth_user",
+      "target": "features_master_data_01_md_organisasi_shift",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L34",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
       "source": "progress",
-      "target": "features_master_data_01_md_organisasi_shift",
+      "target": "features_master_data_02_md_fasilitas_ruangan_qr",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9076,7 +8509,7 @@
     },
     {
       "source": "progress",
-      "target": "features_master_data_02_md_fasilitas_ruangan_qr",
+      "target": "features_master_data_03_md_standar_checklist",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9087,7 +8520,7 @@
     },
     {
       "source": "progress",
-      "target": "features_master_data_03_md_standar_checklist",
+      "target": "features_master_data_04_md_limbah_tps_vendor",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9098,7 +8531,7 @@
     },
     {
       "source": "progress",
-      "target": "features_master_data_04_md_limbah_tps_vendor",
+      "target": "features_master_data_05_md_baku_mutu_air_udara",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9109,7 +8542,7 @@
     },
     {
       "source": "progress",
-      "target": "features_master_data_05_md_baku_mutu_air_udara",
+      "target": "features_master_data_06_md_kategori_temuan_sla",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9120,18 +8553,18 @@
     },
     {
       "source": "progress",
-      "target": "features_master_data_06_md_kategori_temuan_sla",
+      "target": "technical_01_dra_database_erd_master_auth",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L42",
+      "source_location": "L44",
       "weight": 1.0
     },
     {
       "source": "progress",
-      "target": "technical_01_dra_database_erd_master_auth",
+      "target": "technical_02_trd_auth_session_api",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9142,7 +8575,7 @@
     },
     {
       "source": "progress",
-      "target": "technical_02_trd_auth_session_api",
+      "target": "technical_03_trd_master_data_api",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9153,24 +8586,13 @@
     },
     {
       "source": "progress",
-      "target": "technical_03_trd_master_data_api",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "PROGRESS.md",
-      "source_location": "L47",
-      "weight": 1.0
-    },
-    {
-      "source": "progress",
       "target": "technical_04_trd_security_qr_offline",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "PROGRESS.md",
-      "source_location": "L48",
+      "source_location": "L47",
       "weight": 1.0
     },
     {
@@ -9181,7 +8603,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L145",
+      "source_location": "L144",
       "weight": 1.0
     },
     {
@@ -9192,7 +8614,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L210",
+      "source_location": "L209",
       "weight": 1.0
     },
     {
@@ -9203,7 +8625,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L211",
+      "source_location": "L210",
       "weight": 1.0
     },
     {
@@ -9214,7 +8636,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L212",
+      "source_location": "L211",
       "weight": 1.0
     },
     {
@@ -9225,7 +8647,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L223",
+      "source_location": "L222",
       "weight": 1.0
     },
     {
@@ -9236,7 +8658,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L54",
+      "source_location": "L53",
       "weight": 1.0
     },
     {
@@ -9247,7 +8669,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L57",
+      "source_location": "L56",
       "weight": 1.0
     },
     {
@@ -9258,7 +8680,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L58",
+      "source_location": "L57",
       "weight": 1.0
     },
     {
@@ -9269,7 +8691,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L59",
+      "source_location": "L58",
       "weight": 1.0
     },
     {
@@ -9280,7 +8702,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L60",
+      "source_location": "L59",
       "weight": 1.0
     },
     {
@@ -9291,7 +8713,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L61",
+      "source_location": "L60",
       "weight": 1.0
     },
     {
@@ -9302,7 +8724,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L62",
+      "source_location": "L61",
       "weight": 1.0
     },
     {
@@ -9313,7 +8735,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L72",
+      "source_location": "L71",
       "weight": 1.0
     },
     {
@@ -9324,7 +8746,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L73",
+      "source_location": "L72",
       "weight": 1.0
     },
     {
@@ -9335,7 +8757,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L74",
+      "source_location": "L73",
       "weight": 1.0
     },
     {
@@ -9346,7 +8768,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L75",
+      "source_location": "L74",
       "weight": 1.0
     },
     {
@@ -9494,5 +8916,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6a2d3d32713fa1b1835eba19fcc1920574184d55"
+  "built_at_commit": "eba5c70a8d4de0d7b1ef4ee9b2580b8bc0e1e7bd"
 }

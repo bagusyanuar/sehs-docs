@@ -6,9 +6,9 @@
     "semantic_hash": "18970df6f3b2bfccb3c239dc8a26deb9"
   },
   "README.md": {
-    "mtime": 1789662893.7905283,
-    "seen": 1789662907.782888,
-    "ast_hash": "f8a5243b25eeda9f89d6d9b02da6dea2",
+    "mtime": 1789400122.5424745,
+    "seen": 1789400143.189876,
+    "ast_hash": "41d0f6a68c62f53098164a3c4a60ea93",
     "semantic_hash": ""
   },
   ".agents/rules/graphify.md": {
@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "PROGRESS.md": {
-    "mtime": 1789662887.0165832,
-    "seen": 1789662907.782888,
-    "ast_hash": "d856184cfc5605da123475be3f59a2d2",
+    "mtime": 1789400132.360264,
+    "seen": 1789400143.189875,
+    "ast_hash": "3635fd61f7ca025999853c0da2c828e0",
     "semantic_hash": ""
   },
   "features/master-data/01-md-organisasi-shift.md": {
@@ -153,12 +153,6 @@
     "mtime": 1789400345.010202,
     "seen": 1789400355.035063,
     "ast_hash": "7de2787536c69d47c85122ffdd6249fb",
-    "semantic_hash": ""
-  },
-  "FEATURE-CHECKLIST.md": {
-    "mtime": 1789656957.716226,
-    "seen": 1789662907.7828858,
-    "ast_hash": "2e7600b74e1066e94d1ea3cc685b093c",
     "semantic_hash": ""
   }
 }

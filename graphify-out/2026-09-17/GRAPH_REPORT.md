@@ -1,24 +1,24 @@
-# Graph Report - sehs-docs  (2026-09-17)
+# Graph Report - sehs-docs  (2026-09-14)
 
 ## Corpus Check
-- 27 files · ~27,738 words
+- 26 files · ~25,778 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 2 file(s) not represented in the graph (top: (none) 2)
 
 ## Summary
-- 381 nodes · 442 edges · 27 communities (25 shown, 2 thin omitted)
+- 364 nodes · 408 edges · 25 communities (24 shown, 1 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6a2d3d32`
+- Built from commit: `eba5c70a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Smart Environment Health System (SEHS)
 - Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)
-- 🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)
+- Smart Environment Health System (SEHS) — Documentation Hub
 - 3. Spesifikasi Skema Database PostgreSQL (DDL)
 - 3. Spesifikasi Endpoint REST API
 - Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)
@@ -38,20 +38,18 @@
 - Langkah-Langkah Eksekusi Otomatis
 - Issue Task Scaffolder Skill
 - Langkah-Langkah Eksekusi Otomatis
-- 🚀 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)
+- 🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)
 - Persona: Tika — Lead System Analyst & Technical Project Manager
 - frontend-mobile-task.md
-- backend-task.md
-- frontend-web-task.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `Smart Environment Health System (SEHS)` - 11 edges
 2. `Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)` - 9 edges
-3. `Feature PRD: Master Data Organisasi & Shift Kerja` - 9 edges
-4. `Feature PRD: Master Data Fasilitas, Ruangan & Cetak QR Code` - 9 edges
-5. `Feature PRD: Master Data Standar Checklist & Template Audit` - 9 edges
-6. `Feature PRD: Master Data Limbah, TPS & Vendor Transporter` - 9 edges
-7. `Feature PRD: Master Data Baku Mutu Sanitasi Air & Udara` - 9 edges
+3. `Feature PRD: Master Data Fasilitas, Ruangan & Cetak QR Code` - 9 edges
+4. `Feature PRD: Master Data Limbah, TPS & Vendor Transporter` - 9 edges
+5. `Feature PRD: Master Data Baku Mutu Sanitasi Air & Udara` - 9 edges
+6. `Feature PRD: Master Data Organisasi & Shift Kerja` - 9 edges
+7. `Feature PRD: Master Data Standar Checklist & Template Audit` - 9 edges
 8. `Feature PRD: Master Data Kategori Temuan & Standar SLA` - 9 edges
 9. `3. Spesifikasi Skema Database PostgreSQL (DDL)` - 9 edges
 10. `Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)` - 8 edges
@@ -59,7 +57,7 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (27 total, 2 thin omitted)
+## Communities (25 total, 1 thin omitted)
 
 ### Community 0 - "Smart Environment Health System (SEHS)"
 Cohesion: 0.08
@@ -69,9 +67,9 @@ Nodes (24): 10. Indeks Rincian Feature PRD, 1. Metadata Dokumen, 2.1 Konteks Mas
 Cohesion: 0.11
 Nodes (19): 1. Metadata Dokumen, 2.1 Masalah Nyata di Fasilitas Kesehatan, 2.2 Nilai Bisnis & Manfaat Sistem, 2. Latar Belakang & Masalah Bisnis, 3. Persona Pengguna & Konteks Operasional, 4.1 Alur Masuk Kerja Petugas Lapangan (Mobile PWA), 4.2 Alur Pergantian Shift Kerja (Shift Handover), 4. Alur Pengalaman Pengguna (User Journey) (+11 more)
 
-### Community 2 - "🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)"
-Cohesion: 0.07
-Nodes (30): 1. Membuka Visualisasi Graf Interaktif, 1. Prinsip Utama: *Zero Documentation Drift*, 1. Tiga Kategori Tiket Resmi, 2. Alur 4 Langkah Menangani Request Enhancement dari Klien, 2. Berinteraksi & Query Graf dengan AI, 2. Cara Menerbitkan Tiket via AI (Otomatis), 3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual, 3. Contoh Prompt Cepat untuk Menjalankan Enhancement dengan AI (+22 more)
+### Community 2 - "Smart Environment Health System (SEHS) — Documentation Hub"
+Cohesion: 0.11
+Nodes (18): 1. Membuka Visualisasi Graf Interaktif, 1. Prinsip Utama: *Zero Documentation Drift*, 2. Alur 4 Langkah Menangani Request Enhancement dari Klien, 2. Berinteraksi & Query Graf dengan AI, 3. Contoh Prompt Cepat untuk Menjalankan Enhancement dengan AI, 3. Memperbarui Graf Setelah Menambah/Mengubah Dokumen, 4. File Output Graphify (`graphify-out/`), 4. Titik Simpan Sesi Kerja (*Session Checkpoint*) (+10 more)
 
 ### Community 3 - "3. Spesifikasi Skema Database PostgreSQL (DDL)"
 Cohesion: 0.07
@@ -85,16 +83,20 @@ Nodes (28): 1. Metadata Dokumen, 2. Arsitektur Komponen & Diagram Alur Teknis, 3
 Cohesion: 0.08
 Nodes (25): 1. Metadata Dokumen, 1. Store: `cached_templates`, 2. Latar Belakang & Masalah Arsitektur, 2. Store: `outbox_queue`, 3.1 Struktur Muatan Token QR Fisik Ruangan (*Static Door QR*), 3.2 Rumus Perhitungan HMAC-SHA256 Server, 3. Arsitektur Kriptografi & Format QR Code, 3. Store: `offline_photos` (+17 more)
 
+### Community 6 - "PROGRESS.md"
+Cohesion: 0.18
+Nodes (10): Master Product Requirements Document (PRD), graphify, 🎯 1. Objective, 📚 2. Dokumen Acuan (Single Source of Truth), 🛠️ 3. Scope of Work (Tugas Teknis), ✅ 4. Definition of Done (DoD), 🎯 1. Objective & Target Persona, 📚 2. Dokumen Acuan (Single Source of Truth) (+2 more)
+
 ### Community 7 - "3. Spesifikasi Endpoint per Klaster Bisnis"
 Cohesion: 0.09
 Nodes (22): 1. Metadata Dokumen, 2. Standar Global API Master Data, 3.1 Klaster 1: Organisasi & Shift Kerja, 3.2 Klaster 2: Lokasi, Ruangan & Cetak QR Code, 3.3 Klaster 3: Standar Checklist & Template Audit, 3.4 Klaster 4: Limbah, TPS & Vendor Transporter, 3.5 Klaster 5: Baku Mutu Sanitasi Air & Udara, 3.6 Klaster 6: Kategori Temuan & Standar SLA (+14 more)
 
 ### Community 9 - "Business-Centric PRD Scaffolder Skill"
-Cohesion: 0.40
+Cohesion: 0.33
 Nodes (5): Business-Centric PRD Scaffolder Skill, Core Philosophy: "WHAT & WHY", Not "HOW", Mandatory Focus in PRDs:, Standard Template Structure for Feature PRDs, Strictly Prohibited in PRDs:
 
 ### Community 10 - "2. Standards for DRA (Database Architecture & ERD)"
-Cohesion: 0.13
+Cohesion: 0.12
 Nodes (15): 1. Core Principles of Technical Documentation, 2.1 Universal Audit Trail (Wajib di Setiap Tabel), 2.2 Relational Integrity & Deletion Policy, 2.3 Strict Data Type Conventions, 2.4 Indexing Strategy, 2.5 Mermaid ERD Standard, 2. Standards for DRA (Database Architecture & ERD), 3.1 Standard Response Envelope (+7 more)
 
 ### Community 11 - "Feature PRD: Master Data Fasilitas, Ruangan & Cetak QR Code"
@@ -141,9 +143,9 @@ Nodes (8): 1. Core Principles of Issue Scaffolding, 2.1 Backend Issue Format (`[
 Cohesion: 0.25
 Nodes (7): 1. Identifikasi Modul & Peran Target, 2. Kumpulkan Konteks Dokumen, 3. Susun Isi Tiket Sesuai Template, 4. Terbitkan Tiket via GitHub CLI (`gh`), 5. Laporkan Tautan Tiket ke Pengguna, Langkah-Langkah Eksekusi Otomatis, Workflow: /publish-issue
 
-### Community 22 - "🚀 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)"
-Cohesion: 0.12
-Nodes (16): 1. 📱 Modul 01: Checklist Kebersihan Ruangan Berbasis QR, 1. Spesifikasi Dokumen Arsitektur, 2. Implementasi Teknis Fase 1, 2. ⚖️ Modul 02: Monitoring & Pengelolaan Limbah (Waste Tracking), 3. 🧪 Modul 03: Sanitasi & Kualitas Lingkungan Fisik, 4. 🛠️ Modul 04: Temuan Kerusakan / Insiden & Alur Tiket Tindak Lanjut (CAPA), 5. 📊 Modul 05: Jadwal Kegiatan & Dashboard Eksekutif, A. Backend (sehs-be) (+8 more)
+### Community 22 - "🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)"
+Cohesion: 0.17
+Nodes (12): 1. Tiga Kategori Tiket Resmi, 2. Cara Menerbitkan Tiket via AI (Otomatis), 3. Cara Menerbitkan Tiket via GitHub CLI (`gh`) Secara Manual, 4. Cara Meng-update atau Menambah Lingkup pada Tiket yang Sudah Ada, 5. Cara Mengonsumsi Tiket Saat Mulai Coding, 6. Otomatisasi Lintas Repositori (Cross-Repo Auto-Close via PR), A. Melalui Perintah Asisten AI (Paling Praktis), B. Melalui Terminal GitHub CLI (`gh`) (+4 more)
 
 ### Community 23 - "Persona: Tika — Lead System Analyst & Technical Project Manager"
 Cohesion: 0.40
@@ -153,33 +155,25 @@ Nodes (4): 1. Identitas & Profil Utama, 2. Penguasaan Domain & Pengetahuan Siste
 Cohesion: 0.40
 Nodes (4): 🎯 1. Objective & Target Persona, 📚 2. Dokumen Acuan (Single Source of Truth), 🛠️ 3. Scope of Work (Tugas Teknis), ✅ 4. Definition of Done (DoD)
 
-### Community 25 - "backend-task.md"
-Cohesion: 0.40
-Nodes (4): 🎯 1. Objective, 📚 2. Dokumen Acuan (Single Source of Truth), 🛠️ 3. Scope of Work (Tugas Teknis), ✅ 4. Definition of Done (DoD)
-
-### Community 26 - "frontend-web-task.md"
-Cohesion: 0.40
-Nodes (4): 🎯 1. Objective & Target Persona, 📚 2. Dokumen Acuan (Single Source of Truth), 🛠️ 3. Scope of Work (Tugas Teknis), ✅ 4. Definition of Done (DoD)
-
 ## Knowledge Gaps
-- **263 isolated node(s):** `graphify`, `1. Identitas & Profil Utama`, `2. Penguasaan Domain & Pengetahuan Sistem (Core Competencies)`, `3. Tanggung Jawab Harian Tika dalam Tim`, `Strictly Prohibited in PRDs:` (+258 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 265 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **251 isolated node(s):** `1. Identitas & Profil Utama`, `2. Penguasaan Domain & Pengetahuan Sistem (Core Competencies)`, `3. Tanggung Jawab Harian Tika dalam Tim`, `10. Indeks Rincian Feature PRD`, `1. Metadata Dokumen` (+246 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 253 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Smart Environment Health System (SEHS) — Documentation Hub` connect `🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)` to `PROGRESS.md`?**
-  _High betweenness centrality (0.143) - this node is a cross-community bridge._
+- **Why does `Smart Environment Health System (SEHS) — Documentation Hub` connect `Smart Environment Health System (SEHS) — Documentation Hub` to `PROGRESS.md`, `🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)`?**
+  _High betweenness centrality (0.149) - this node is a cross-community bridge._
 - **Why does `Technical Requirements Document (TRD): API Autentikasi & Manajemen Sesi` connect `3. Spesifikasi Endpoint REST API` to `PROGRESS.md`?**
-  _High betweenness centrality (0.132) - this node is a cross-community bridge._
+  _High betweenness centrality (0.138) - this node is a cross-community bridge._
 - **Why does `Data Requirements Architecture (DRA): Database Schema & ERD Master Data & Auth` connect `3. Spesifikasi Skema Database PostgreSQL (DDL)` to `PROGRESS.md`?**
-  _High betweenness centrality (0.131) - this node is a cross-community bridge._
-- **What connects `graphify`, `1. Identitas & Profil Utama`, `2. Penguasaan Domain & Pengetahuan Sistem (Core Competencies)` to the rest of the system?**
-  _263 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.136) - this node is a cross-community bridge._
+- **What connects `1. Identitas & Profil Utama`, `2. Penguasaan Domain & Pengetahuan Sistem (Core Competencies)`, `3. Tanggung Jawab Harian Tika dalam Tim` to the rest of the system?**
+  _251 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Smart Environment Health System (SEHS)` be split into smaller, more focused modules?**
   _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
-- **Should `🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)` be split into smaller, more focused modules?**
-  _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
+- **Should `Smart Environment Health System (SEHS) — Documentation Hub` be split into smaller, more focused modules?**
+  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._

@@ -1,7 +1,7 @@
 {
   "0": "Smart Environment Health System (SEHS)",
   "1": "Feature PRD: Autentikasi & Manajemen Pengguna (Auth & User)",
-  "2": "🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
+  "2": "Smart Environment Health System (SEHS) — Documentation Hub",
   "3": "3. Spesifikasi Skema Database PostgreSQL (DDL)",
   "4": "3. Spesifikasi Endpoint REST API",
   "5": "Technical Requirements Document (TRD): Keamanan QR Code, Anti-Kloning & Arsitektur Offline-First (Flutter & PWA)",
@@ -21,9 +21,7 @@
   "19": "Langkah-Langkah Eksekusi Otomatis",
   "20": "Issue Task Scaffolder Skill",
   "21": "Langkah-Langkah Eksekusi Otomatis",
-  "22": "🚀 FASE 2: Modul Transaksi Operasional Harian Lapangan (IN QUEUE)",
+  "22": "🎫 Panduan Penerbitan & Pembaruan Tiket Tugas (GitHub Issues untuk BE, FE-WEB & FE-MOBILE)",
   "23": "Persona: Tika — Lead System Analyst & Technical Project Manager",
-  "24": "frontend-mobile-task.md",
-  "25": "backend-task.md",
-  "26": "frontend-web-task.md"
+  "24": "frontend-mobile-task.md"
 }

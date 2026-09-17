@@ -6,9 +6,9 @@ Dokumen ini berfungsi sebagai **State Checkpoint & Persistent Memory** untuk mel
 
 ## 📌 Status Terkini (Current State Snapshot)
 
-* **Tanggal Pembaruan Terakhir:** 14 September 2026
+* **Tanggal Pembaruan Terakhir:** 17 September 2026
 * **Milestone Aktif Saat Ini:** **Fase 1 (Fondasi Master Data, Autentikasi & Arsitektur Teknis) — SELESAI (100%)**
-* **Milestone Berikutnya:** **Fase 2 (Modul Transaksi Operasional Harian Lapangan) — ANTRIAN BESOK**
+* **Milestone Berikutnya:** **Fase 2 (Modul Transaksi Operasional Harian Lapangan) — ANTRIAN AKTIF**
 * **Integritas Knowledge Graph (Graphify):** Tersinkronisasi
 
 ---
@@ -30,6 +30,7 @@ Dokumen ini berfungsi sebagai **State Checkpoint & Persistent Memory** untuk mel
 ### 2. Dokumen Induk & Fondasi Identitas
 - [x] [`README.md`](./README.md) — Hub dokumentasi, navigasi modul, RBAC matriks, panduan Graphify, dan status pengerjaan.
 - [x] [`00-MASTER-PRD.md`](./00-MASTER-PRD.md) — Master PRD sistem (5 pilar, arsitektur modul, NFR, roadmap).
+- [x] [`FEATURE-CHECKLIST.md`](./FEATURE-CHECKLIST.md) — Master Feature & Implementation Checklist lintas platform (Docs, BE, Mobile, Web).
 - [x] [`features/01-prd-auth-user.md`](./features/01-prd-auth-user.md) — Dual-UX login (Mobile NIK+PIN untuk petugas lapangan & Web Email+Password untuk admin/sanitarian), sesi shift 8 jam terikat jadwal aktif, 11 aturan bisnis.
 
 ### 3. Master Data PRD (6 Klaster / 15 Fitur Bisnis Lengkap)
